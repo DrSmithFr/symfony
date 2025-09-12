@@ -8,8 +8,11 @@ framework:
     #esi: true
     #fragments: true
 
+    ide: 'phpstorm://open?file=%%f&line=%%l'
+
 when@test:
     framework:
+        error_controller: null
         test: true
         session:
             storage_factory_id: session.storage.factory.mock_file

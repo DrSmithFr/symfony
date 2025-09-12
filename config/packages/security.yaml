@@ -1,39 +1,60 @@
 security:
-    # https://symfony.com/doc/current/security.html#registering-the-user-hashing-passwords
     password_hashers:
-        Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface: 'auto'
-    # https://symfony.com/doc/current/security.html#loading-the-user-the-user-provider
+        harsh:
+            algorithm: auto
+            memory_cost: 4092
+            time_cost: 10
     providers:
-        users_in_memory: { memory: null }
+        users:
+            entity:
+                class: App\Entity\User
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
+        refresh:
+            pattern: ^/auth/login/refresh
+            stateless: true
+            refresh_jwt:
+                check_path: /auth/login/refresh
+        login:
+            pattern: ^/auth/login$
+            stateless: true
+            json_login:
+                check_path: /auth/login
+                success_handler: lexik_jwt_authentication.handler.authentication_success
+                failure_handler: lexik_jwt_authentication.handler.authentication_failure
+        admin:
+            pattern: ^/admin
+            form_login:
+                login_path: /admin/login
+                check_path: /admin/login
+                default_target_path: /admin
+                use_referer: true
+            logout:
+                path: /admin/logout
+                target: /admin/login
+        documentation:
+            pattern: ^/documentation$
+            security: false
+        documentation_json:
+            pattern: ^/documentation.json$
+            security: false
+        public:
+            pattern: ^/public/
+            security: false
         main:
-            lazy: true
-            provider: users_in_memory
+            stateless: true
+            entry_point: jwt
+            provider: users
+            jwt: ~
 
-            # activate different ways to authenticate
-            # https://symfony.com/doc/current/security.html#the-firewall
-
-            # https://symfony.com/doc/current/security/impersonating_user.html
-            # switch_user: true
-
-    # Easy way to control access for large sections of your site
-    # Note: Only the *first* access control that matches will be used
     access_control:
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/(auth|public)/, roles: PUBLIC_ACCESS }
+        - { path: ^/admin/login,    roles: PUBLIC_ACCESS }
+        - { path: ^/admin,          roles: [ ROLE_ADMIN ] }
+        - { path: ^/,               roles: [ IS_AUTHENTICATED_FULLY, ROLE_USER ] }
 
-when@test:
-    security:
-        password_hashers:
-            # By default, password hashers are resource intensive and take time. This is
-            # important to generate secure password hashes. In tests however, secure hashes
-            # are not important, waste resources and increase test times. The following
-            # reduces the work factor to the lowest possible values.
-            Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface:
-                algorithm: auto
-                cost: 4 # Lowest possible value for bcrypt
-                time_cost: 3 # Lowest possible value for argon
-                memory_cost: 10 # Lowest possible value for argon
+    role_hierarchy:
+        ROLE_ADMIN: [ ROLE_USER ]
+        ROLE_SUPER_ADMIN: [ ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH ]

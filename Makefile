@@ -5,18 +5,23 @@ install: env hooks dependencies assets nvm start build start database
 reload: kill start
 
 env:
-	sudo apt install php8.4-cli php8.4-fpm php8.4-common php8.4-curl php8.4-pgsql php8.4-xml php8.4-mbstring php8.4-intl php8.4-redis php-xdebug
+	sudo apt install php8.4-cli php8.4-fpm php8.4-common php8.4-curl php8.4-pgsql php8.4-xml php8.4-mbstring php8.4-intl php8.4-redis php-sqlite3 php-xdebug
 	sudo apt install nginx
 
 dependencies:
 	symfony composer self-update --2
 	symfony composer install
 
+nvm:
+	. ${NVM_DIR}/nvm.sh && nvm install $(cat .nvmrc)
+
 assets:
 	symfony console assets:install --symlink
+	. ${NVM_DIR}/nvm.sh && nvm use $(cat .nvmrc) && npm install && npm run build
+
 
 start:
-	docker compose -f docker-compose.yml -f docker-compose.override.yml up -d
+	docker compose -f compose.yaml -f compose.override.yaml up -d
 
 kill:
 	docker compose kill
@@ -43,3 +48,6 @@ hooks:
 	rm -f .git/hooks/pre-push
 	ln -s -f ../../hooks/pre-commit.sh .git/hooks/pre-commit
 	ln -s -f ../../hooks/pre-push.sh .git/hooks/pre-push
+
+jwt:
+	symfony console lexik:jwt:generate-keypair

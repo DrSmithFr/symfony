@@ -1,5 +1,8 @@
 twig:
     file_name_pattern: '*.twig'
+    debug: '%kernel.debug%'
+    globals:
+        front_url: '%env(FRONT_URL)%'
 
 when@test:
     twig:

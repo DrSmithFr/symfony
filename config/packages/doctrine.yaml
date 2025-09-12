@@ -26,12 +26,18 @@ doctrine:
                 alias: App
         controller_resolver:
             auto_mapping: false
+        dql:
+            string_functions:
+                CAST: Oro\ORM\Query\AST\Functions\Cast
 
 when@test:
     doctrine:
         dbal:
-            # "TEST_TOKEN" is typically set by ParaTest
-            dbname_suffix: '_test%env(default::TEST_TOKEN)%'
+            # configure these for your database server
+            driver: 'pdo_sqlite'
+            charset: UTF8
+            url: 'sqlite:///%kernel.project_dir%/var/test.db'
+            schema_filter: ~^(?!(tiger|topology))~
 
 when@prod:
     doctrine:

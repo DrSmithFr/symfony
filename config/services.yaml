@@ -22,3 +22,9 @@ services:
 
     JMS\Serializer\SerializerInterface:
         alias: jms_serializer
+
+    # enable uuid serialization
+    Mhujer\JmsSerializer\Uuid\UuidSerializerHandler:
+        tags:
+            - { name: jms_serializer.subscribing_handler }
+
