@@ -16,7 +16,9 @@ services:
     App\:
         resource: '../src/'
 
-    # add more service definitions when explicit configuration is needed
-    # please note that last definitions always *replace* previous ones
-    Redis: '@snc_redis.default'
+    # Aliases
+    Redis:
+        alias: '@snc_redis.default'
 
+    JMS\Serializer\SerializerInterface:
+        alias: jms_serializer
