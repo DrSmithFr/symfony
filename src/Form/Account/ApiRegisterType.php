@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Form\User;
+namespace App\Form\Account;
 
 use App\Model\User\RegisterModel;
 use Symfony\Component\Form\AbstractType;
@@ -11,7 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class RegisterType extends AbstractType
+class ApiRegisterType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {

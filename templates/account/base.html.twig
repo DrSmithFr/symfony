@@ -1,0 +1,23 @@
+{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Provider\AdminContextProvider #}
+{% set ea = ea() %}
+{% extends null != ea ? ea.templatePath('layout') : '@EasyAdmin/page/login_minimal.html.twig' %}
+{% trans_default_domain null != ea ? ea.i18n.translationDomain : (translation_domain is defined ? translation_domain ?? 'messages') %}
+
+{% block body_class 'page-login' %}
+{% block page_title %}{{ page_title is defined ? page_title|raw : (null != ea ? ea.dashboardTitle|raw : '') }}{% endblock %}
+
+{% block head_favicon %}
+    {% if favicon_path|default(false) %}
+        <link rel="shortcut icon" href="{{ favicon_path }}">
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}
+
+{% block head_stylesheets %}
+    {{ encore_entry_link_tags('login') }}
+{% endblock %}
+
+{% block wrapper_wrapper %}
+
+{% endblock %}

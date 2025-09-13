@@ -1,6 +1,6 @@
-# MS - Encryptor
+# Skeleton
 
- Document encrypted storage API
+ Symfony Starter Pack
 
 ## Installation 
 

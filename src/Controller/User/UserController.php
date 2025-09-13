@@ -7,7 +7,7 @@ namespace App\Controller\User;
 use App\Controller\AbstractApiController;
 use App\Entity\User;
 use App\Entity\User\Identity;
-use App\Form\User\IdentityType;
+use App\Form\Account\IdentityType;
 use App\Form\Password\PasswordUpdateType;
 use App\Model\Password\PasswordUpdateModel;
 use App\Service\UserService;

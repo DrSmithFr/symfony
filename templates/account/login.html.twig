@@ -1,22 +1,4 @@
-{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Provider\AdminContextProvider #}
-{% set ea = ea() %}
-{% extends null != ea ? ea.templatePath('layout') : '@EasyAdmin/page/login_minimal.html.twig' %}
-{% trans_default_domain null != ea ? ea.i18n.translationDomain : (translation_domain is defined ? translation_domain ?? 'messages') %}
-
-{% block body_class 'page-login' %}
-{% block page_title %}{{ page_title is defined ? page_title|raw : (null != ea ? ea.dashboardTitle|raw : '') }}{% endblock %}
-
-{% block head_favicon %}
-    {% if favicon_path|default(false) %}
-        <link rel="shortcut icon" href="{{ favicon_path }}">
-    {% else %}
-        {{ parent() }}
-    {% endif %}
-{% endblock %}
-
-{% block head_stylesheets %}
-    {{ encore_entry_link_tags('login') }}
-{% endblock %}
+{% extends 'account/base.html.twig' %}
 
 {% block wrapper_wrapper %}
     {% set page_title = block('page_title') %}
@@ -33,7 +15,7 @@
         <div class="form-cell">
 
             <div class="sign-in-form active">
-                <h1>Welcome to {{ page_title|capitalize }}</h1>
+                <h1>{{ page_title|capitalize }}</h1>
                 <div class="social-buttons">
                     <a href="javascript:;" title="Sign in via Google">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -96,7 +78,7 @@
 
                             {% if forgot_password_enabled|default(false) %}
                                 <div class="forgot">
-                                    <a href="{{ forgot_password_path|default('#') }}" class="forgot-pass-link">{{ _forgot_password_label }}</a>
+                                    <a href="{{ url('app_account_recover') }}" class="forgot-pass-link">{{ _forgot_password_label }}</a>
                                 </div>
                             {% endif %}
 
@@ -105,7 +87,7 @@
                             <button type="submit">{{ _sign_in_label }}</button>
                         </div>
                         <div class="create-aacount">
-                            Not registered yet? <a href="{{ url('account_register') }}" class="text-underline sign-up-form-btn"> Create an Account</a>
+                            Not registered yet? <a href="{{ url('app_account_register') }}" class="text-underline sign-up-form-btn"> Create an Account</a>
                         </div>
                     </form>
                 {% endblock %}

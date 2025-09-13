@@ -45,7 +45,7 @@ class ResetPasswordController extends AbstractApiController
      * @throws NonUniqueResultException
      * @throws TransportExceptionInterface
      */
-    #[Route(path: '/api/auth/reset_password', name: 'reset_password_request', methods: ['post'])]
+    #[Route(path: '/api/auth/recover', name: 'reset_password_recover', methods: ['post'])]
     public function passwordResetRequestAction(
         Request $request,
         UserRepository $userRepository,

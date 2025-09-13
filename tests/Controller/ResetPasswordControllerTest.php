@@ -15,7 +15,7 @@ class ResetPasswordControllerTest extends ApiTestCase
     public function testRequestPasswordResetWithUnknownUser(): void
     {
         $this->apiPost(
-            '/api/auth/reset_password',
+            '/api/auth/recover',
             [
                 'username' => 'unknown@mail.com'
             ]
@@ -28,7 +28,7 @@ class ResetPasswordControllerTest extends ApiTestCase
     public function testRequestPasswordResetWithNewPasswordTooShort(): void
     {
         $this->apiPost(
-            '/api/auth/reset_password',
+            '/api/auth/recover',
             [
                 'username' => 'user@mail.com'
             ]
@@ -60,7 +60,7 @@ class ResetPasswordControllerTest extends ApiTestCase
     public function testRequestPasswordResetWithBadToken(): void
     {
         $this->apiPost(
-            '/api/auth/reset_password',
+            '/api/auth/recover',
             [
                 'username' => 'user@mail.com'
             ]
@@ -92,7 +92,7 @@ class ResetPasswordControllerTest extends ApiTestCase
     public function testRequestPasswordResetWithExpireToken(): void
     {
         $this->apiPost(
-            '/api/auth/reset_password',
+            '/api/auth/recover',
             [
                 'username' => 'user@mail.com'
             ]
@@ -127,7 +127,7 @@ class ResetPasswordControllerTest extends ApiTestCase
     public function testRequestPasswordResetValid(): void
     {
         $this->apiPost(
-            '/api/auth/reset_password',
+            '/api/auth/recover',
             [
                 'username' => 'user@mail.com'
             ]
@@ -203,7 +203,7 @@ class ResetPasswordControllerTest extends ApiTestCase
     public function testIsPasswordResetTokenValid(): void
     {
         $this->apiPost(
-            '/api/auth/reset_password',
+            '/api/auth/recover',
             [
                 'username' => 'user@mail.com'
             ]

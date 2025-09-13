@@ -150,7 +150,7 @@ input {
     background-color: var(--color-light-gray);
     color: var(--color-dark);
     padding: 0.5rem;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     width: 100%;
     border-radius: 6px;
     font-size: 1rem;
@@ -161,11 +161,10 @@ input {
         background-color: var(--color-white);
         border-color: var(--color-p);
         outline: 0;
-        border: 2px solid var(--color-p);
     }
 
     &.error {
-        border: 1.5px solid var(--color-red);
+        border-color: var(--color-red);
     }
 }
 
@@ -219,6 +218,17 @@ input {
 
 .error-text {
     color: var(--color-red);
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .remember-forgot {

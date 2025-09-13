@@ -7,7 +7,7 @@ namespace App\Controller\Authentication;
 use App\Controller\AbstractApiController;
 use App\Entity\User;
 use App\Enum\RoleEnum;
-use App\Form\User\RegisterType;
+use App\Form\Account\ApiRegisterType;
 use App\Model\Form\FormErrorModel;
 use App\Model\User\RegisterModel;
 use App\Repository\UserRepository;
@@ -82,7 +82,7 @@ class RegisterController extends AbstractApiController
 
         $form = $this->handleJsonFormRequest(
             $request,
-            RegisterType::class,
+            ApiRegisterType::class,
             $data
         );
 
