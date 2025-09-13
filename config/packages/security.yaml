@@ -10,50 +10,53 @@ security:
                 class: App\Entity\User
     firewalls:
         dev:
-            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            pattern:
+                - ^/_profiler/
+                - ^/_wdt/
+                - ^/css/
+                - ^/images/
+                - ^/js/
+                - ^/documentation/
+                - ^/documentation.json/
             security: false
-        refresh:
-            pattern: ^/auth/login/refresh
-            stateless: true
-            refresh_jwt:
-                check_path: /auth/login/refresh
         login:
-            pattern: ^/auth/login$
+            pattern: ^/api/auth/login$
             stateless: true
             json_login:
-                check_path: /auth/login
+                check_path: /api/auth/login
                 success_handler: lexik_jwt_authentication.handler.authentication_success
                 failure_handler: lexik_jwt_authentication.handler.authentication_failure
-        admin:
-            pattern: ^/admin
-            form_login:
-                login_path: /admin/login
-                check_path: /admin/login
-                default_target_path: /admin
-                use_referer: true
-            logout:
-                path: /admin/logout
-                target: /admin/login
-        documentation:
-            pattern: ^/documentation$
+        refresh:
+            pattern: ^/api/auth/refresh
+            stateless: true
+            refresh_jwt:
+                check_path: /api/auth/refresh
+        auth:
+            pattern:
+                - ^/api/auth/register
+                - ^/api/auth/reset_password
             security: false
-        documentation_json:
-            pattern: ^/documentation.json$
-            security: false
-        public:
-            pattern: ^/public/
-            security: false
-        main:
+        api:
+            pattern: ^/api/
             stateless: true
             entry_point: jwt
             provider: users
             jwt: ~
+        main:
+            provider: users
+            form_login:
+                login_path: /account/login
+                check_path: /account/login
+                default_target_path: /admin
+                use_referer: true
+            logout:
+                path: /admin/logout
+                target: /
 
     access_control:
-        - { path: ^/(auth|public)/, roles: PUBLIC_ACCESS }
-        - { path: ^/admin/login,    roles: PUBLIC_ACCESS }
-        - { path: ^/admin,          roles: [ ROLE_ADMIN ] }
-        - { path: ^/,               roles: [ IS_AUTHENTICATED_FULLY, ROLE_USER ] }
+        - { path: ^/admin,                  roles: [ ROLE_ADMIN ] }
+        - { path: ^/api,                    roles: [ IS_AUTHENTICATED_FULLY, ROLE_USER ] }
+        - { path: ^/,                       roles: PUBLIC_ACCESS }
 
     role_hierarchy:
         ROLE_ADMIN: [ ROLE_USER ]

@@ -6,16 +6,16 @@ namespace App\Controller\Authentication;
 
 use App\Controller\AbstractApiController;
 use App\Model\LoginModel;
-use Nelmio\ApiDocBundle\Attribute\Security;
+use Nelmio\ApiDocBundle\Annotation\Model;
+use Nelmio\ApiDocBundle\Annotation\Security;
 use OpenApi\Annotations as OA;
-use OpenApi\Attributes\Tag;
 use RuntimeException;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[
-    Tag(name:'Authentification'),
-    Security(name: null)
-]
+/**
+ * @OA\Tag(name="Authentification")
+ */
+#[Security(name: null)]
 class LoginController extends AbstractApiController
 {
     /**
@@ -31,7 +31,7 @@ class LoginController extends AbstractApiController
      * )
      * @OA\Response(response="401", description="Cannot connect user")
      */
-    #[Route(path: '/auth/login', name: 'app_login', methods: ['post'])]
+    #[Route(path: '/api/auth/login', name: 'app_login', methods: ['post'])]
     final public function login(): never
     {
         throw new RuntimeException(
@@ -57,11 +57,11 @@ class LoginController extends AbstractApiController
      * )
      * @OA\Response(response="401", description="Cannot connect user")
      */
-//    #[Route(path: '/auth/login/refresh', name: 'app_login_refresh', methods: ['post'])]
-//    final public function loginRefresh(): never
-//    {
-//        throw new RuntimeException(
-//            'You may have screwed the firewall configuration, this function should not have been called.'
-//        );
-//    }
+    #[Route(path: '/api/auth/refresh', name: 'app_login_refresh', methods: ['post'])]
+    final public function loginRefresh(): never
+    {
+        throw new RuntimeException(
+            'You may have screwed the firewall configuration, this function should not have been called.'
+        );
+    }
 }

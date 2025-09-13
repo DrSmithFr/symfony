@@ -12,7 +12,7 @@ class UserControllerTest extends ApiTestCase
     public function testPasswordUpdateUnconnected(): void
     {
         $this->apiPatch(
-            '/user/password_update',
+            '/api/user/password_update',
             [
                 'currentPassword' => 'password',
                 'newPassword'     => 'new-password',
@@ -36,7 +36,7 @@ class UserControllerTest extends ApiTestCase
         $this->loginApiUser($user);
 
         $this->apiPatch(
-            '/user/password_update',
+            '/api/user/password_update',
             [
                 'currentPassword' => 'bad-current-password',
                 'newPassword'     => 'new-password',
@@ -53,7 +53,7 @@ class UserControllerTest extends ApiTestCase
     public function testPasswordUpdateWithTooSmallNewPassword(): void
     {
         $this->apiPost(
-            '/auth/register',
+            '/api/auth/register',
             [
                 'username' => 'password-update-too-short@mail.com',
                 'password' => 'password',
@@ -74,7 +74,7 @@ class UserControllerTest extends ApiTestCase
         $this->loginApiUser($user);
 
         $this->apiPatch(
-            '/user/password_update',
+            '/api/user/password_update',
             [
                 'currentPassword' => 'password',
                 'newPassword'     => '...',
@@ -91,7 +91,7 @@ class UserControllerTest extends ApiTestCase
     public function testPasswordUpdateValid(): void
     {
         $this->apiPost(
-            '/auth/register',
+            '/api/auth/register',
             [
                 'username' => 'update-password-valid@mail.com',
                 'password' => 'password',
@@ -112,7 +112,7 @@ class UserControllerTest extends ApiTestCase
         $this->loginApiUser($user);
 
         $this->apiPatch(
-            '/user/password_update',
+            '/api/user/password_update',
             [
                 'currentPassword' => 'password',
                 'newPassword'     => 'new-password',
@@ -149,7 +149,7 @@ class UserControllerTest extends ApiTestCase
         $this->loginApiUser($user);
 
         $this->apiPut(
-            '/user/identity',
+            '/api/user/identity',
             $data = [
                 "anniversary" => "1992-10-06",
                 "firstName"   => "bob",

@@ -22,7 +22,10 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @OA\Tag(name="Users Management")
  */
-#[Security(name: null)]
+#[
+    Route('api/user', name: 'api_user'),
+    Security(name: null)
+]
 class UserController extends AbstractApiController
 {
     /**
@@ -33,7 +36,7 @@ class UserController extends AbstractApiController
      * )
      * @OA\Response(response="403", description="No user connected")
      */
-    #[Route(path: '/user/information', name: 'app_user_information', methods: ['get'])]
+    #[Route(path: '/information', name: '_information', methods: ['get'])]
     public function currentUser(): JsonResponse
     {
         $user = $this->getUser();
@@ -52,7 +55,7 @@ class UserController extends AbstractApiController
      * @OA\Response(response=400, description="New password not valid")
      * @OA\Response(response=403, description="Current password not valid")
      */
-    #[Route(path: '/user/password_update', name: 'app_user_password_update', methods: ['patch'])]
+    #[Route(path: '/password_update', name: '_password_update', methods: ['patch'])]
     public function passwordResetAction(
         Request $request,
         UserService $userService,
@@ -96,7 +99,7 @@ class UserController extends AbstractApiController
      * @OA\Response(response=202, description="Update User Identity")
      * @OA\Response(response=400, description="Identity not valid")
      */
-    #[Route(path: '/user/identity', name: 'app_user_identity_update', methods: ['put'])]
+    #[Route(path: '/identity', name: '_identity_update', methods: ['put'])]
     public function updateIdentityAction(
         Request $request,
         EntityManagerInterface $entityManager

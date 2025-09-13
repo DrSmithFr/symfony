@@ -23,7 +23,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 #[
     Security(name: null),
-    Tag(name: 'Authentification')
+    Tag(name: 'Authentification'),
 ]
 class RegisterController extends AbstractApiController
 {
@@ -39,8 +39,8 @@ class RegisterController extends AbstractApiController
      * @OA\Response(response="406", description="Email already used")
      */
     #[Route(
-        path: '/auth/register/available',
-        name: 'app_register_available',
+        path: '/api/auth/register/available',
+        name: 'api_register_available',
         methods: ['post']
     )]
     final public function registerAvailable(
@@ -68,8 +68,8 @@ class RegisterController extends AbstractApiController
      * )
      */
     #[Route(
-        path: '/auth/register',
-        name: 'app_register_user',
+        path: '/api/auth/register',
+        name: 'api_register_user',
         methods: ['post']
     )]
     final public function registerUser(
