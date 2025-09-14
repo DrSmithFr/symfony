@@ -10,6 +10,7 @@ use App\Entity\User\Identity;
 use App\Enum\RoleEnum;
 use App\Repository\UserRepository;
 use DateTime;
+use Deprecated;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\Embedded;
@@ -104,6 +105,7 @@ class User implements
      * This is important if, at any given point, sensitive information like
      * the plain-text password is stored on this object.
      */
+    #[Deprecated('This method is no longer needed. The logic was moved or is empty.', since: '7.3')]
     public function eraseCredentials(): void
     {
         $this->setPlainPassword(null);
@@ -259,6 +261,7 @@ class User implements
     public function setIdentity(Identity $identity): self
     {
         $this->identity = $identity;
+
         return $this;
     }
 

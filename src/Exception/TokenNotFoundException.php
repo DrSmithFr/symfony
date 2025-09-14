@@ -7,7 +7,7 @@ use Throwable;
 
 class TokenNotFoundException extends Exception
 {
-    public function __construct(string $tokenName = "", Throwable $previous = null)
+    public function __construct(string $tokenName = "", ?Throwable $previous = null)
     {
         $message = 'token validated';
 
