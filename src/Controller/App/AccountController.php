@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controller\App;
 
 use App\Controller\Admin\AdminPageController;
 use App\Enum\RoleEnum;
-use App\Form\Account\FormPasswordResetType;
-use App\Form\Account\FormRegisterType;
-use App\Form\Account\RecoverAccountType;
+use App\Form\Account\AppPasswordResetType;
+use App\Form\Account\AppRegisterType;
+use App\Form\Account\AppRecoverAccountType;
 use App\Model\Password\PasswordResetModel;
 use App\Model\User\RecoverAccountModel;
 use App\Model\User\RegisterModel;
@@ -62,7 +62,7 @@ class AccountController extends AdminPageController
             $data->setUsername($username);
         }
 
-        $form = $this->createForm(FormRegisterType::class, $data);
+        $form = $this->createForm(AppRegisterType::class, $data);
 
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
@@ -104,7 +104,7 @@ class AccountController extends AdminPageController
             $data->setUsername($username);
         }
 
-        $form = $this->createForm(RecoverAccountType::class, $data);
+        $form = $this->createForm(AppRecoverAccountType::class, $data);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
@@ -150,7 +150,7 @@ class AccountController extends AdminPageController
             $data->setToken($token);
         }
 
-        $form = $this->createForm(FormPasswordResetType::class, $data);
+        $form = $this->createForm(AppPasswordResetType::class, $data);
 
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {

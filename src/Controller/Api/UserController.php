@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace App\Controller\User;
+namespace App\Controller\Api;
 
-use App\Controller\AbstractApiController;
 use App\Entity\User;
 use App\Entity\User\Identity;
 use App\Form\Account\IdentityType;
@@ -13,30 +12,31 @@ use App\Model\Password\PasswordUpdateModel;
 use App\Service\UserService;
 use Doctrine\ORM\EntityManagerInterface;
 use Nelmio\ApiDocBundle\Attribute\Security;
-use OpenApi\Annotations as OA;
+use Nelmio\ApiDocBundle\Attribute\Model;
+use OpenApi\Attributes as OA;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-/**
- * @OA\Tag(name="Users Management")
- */
-#[
-    Route('api/user', name: 'api_user'),
-    Security(name: null)
-]
+#[Route('/user', name: 'api_user')]
+#[OA\Tag(name: 'Users Management')]
+#[Security(name: null)]
 class UserController extends AbstractApiController
 {
     /**
-     * @OA\Response(
-     *     response=201,
-     *     description="User created",
-     *     @Model(type=User::class)
-     * )
-     * @OA\Response(response="403", description="No user connected")
+     * Récupère l'utilisateur actuellement connecté.
      */
-    #[Route(path: '/information', name: '_information', methods: ['get'])]
+    #[Route(path: '/information', name: '_information', methods: ['GET'])]
+    #[OA\Response(
+        response: Response::HTTP_OK,
+        description: 'User created',
+        attachables: [new Model(type: User::class)]
+    )]
+    #[OA\Response(
+        response: Response::HTTP_FORBIDDEN,
+        description: 'No user connected'
+    )]
     public function currentUser(): JsonResponse
     {
         $user = $this->getUser();
@@ -49,13 +49,24 @@ class UserController extends AbstractApiController
     }
 
     /**
-     * Update the current user password.
-     * @OA\RequestBody(@Model(type=PasswordUpdateModel::class))
-     * @OA\Response(response=202, description="Update User password")
-     * @OA\Response(response=400, description="New password not valid")
-     * @OA\Response(response=403, description="Current password not valid")
+     * Met à jour le mot de passe de l'utilisateur connecté.
      */
-    #[Route(path: '/password_update', name: '_password_update', methods: ['patch'])]
+    #[Route(path: '/password_update', name: '_password_update', methods: ['PATCH'])]
+    #[OA\RequestBody(
+        attachables: [new Model(type: PasswordUpdateModel::class)]
+    )]
+    #[OA\Response(
+        response: Response::HTTP_ACCEPTED,
+        description: 'Update User password'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_BAD_REQUEST,
+        description: 'New password not valid'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_FORBIDDEN,
+        description: 'Current password not valid'
+    )]
     public function passwordResetAction(
         Request $request,
         UserService $userService,
@@ -83,9 +94,7 @@ class UserController extends AbstractApiController
             return $this->formErrorResponse($form, Response::HTTP_BAD_REQUEST);
         }
 
-        $user->setPlainPassword(
-            $data->getNewPassword()
-        );
+        $user->setPlainPassword($data->getNewPassword());
 
         $userService->updatePassword($user);
         $entityManager->flush();
@@ -94,12 +103,20 @@ class UserController extends AbstractApiController
     }
 
     /**
-     * Update the current user identity.
-     * @OA\RequestBody(@Model(type=Identity::class))
-     * @OA\Response(response=202, description="Update User Identity")
-     * @OA\Response(response=400, description="Identity not valid")
+     * Met à jour les informations d'identité de l'utilisateur.
      */
-    #[Route(path: '/identity', name: '_identity_update', methods: ['put'])]
+    #[Route(path: '/identity', name: '_identity_update', methods: ['PUT'])]
+    #[OA\RequestBody(
+        attachables: [new Model(type: Identity::class)]
+    )]
+    #[OA\Response(
+        response: Response::HTTP_ACCEPTED,
+        description: 'Update User Identity'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_BAD_REQUEST,
+        description: 'Identity not valid'
+    )]
     public function updateIdentityAction(
         Request $request,
         EntityManagerInterface $entityManager

@@ -1,5 +1,19 @@
-controllers:
+admin_controllers:
     resource:
-        path: ../src/Controller/
-        namespace: App\Controller
+        path: ../src/Controller/Admin
+        namespace: App\Controller\Admin
+    type: attribute
+    prefix: /admin
+
+api_controllers:
+    resource:
+        path: ../src/Controller/Api
+        namespace: App\Controller\Api
+    type: attribute
+    prefix: /api
+
+app_controllers:
+    resource:
+        path: ../src/Controller/App
+        namespace: App\Controller\App
     type: attribute

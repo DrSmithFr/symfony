@@ -1,10 +1,8 @@
 <?php
-
 declare(strict_types=1);
 
-namespace App\Controller\Authentication;
+namespace App\Controller\Api;
 
-use App\Controller\AbstractApiController;
 use App\Entity\User;
 use App\Form\Password\PasswordResetType;
 use App\Model\Password\PasswordResetModel;
@@ -13,8 +11,7 @@ use App\Service\MailerService;
 use App\Service\UserService;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\NonUniqueResultException;
-use Nelmio\ApiDocBundle\Attribute\Security;
-use OpenApi\Annotations as OA;
+use OpenApi\Attributes as OA;
 use OpenApi\Attributes\Tag;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -22,30 +19,33 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[
-    Security(name: null),
-    Tag(name: 'Authentification')
-]
-class ResetPasswordController extends AbstractApiController
+#[Tag(name: 'Authentification')]
+class PasswordController extends AbstractApiController
 {
     /**
      * Request a password reset token (by mail).
-     * @OA\RequestBody(
-     *     @OA\MediaType(
-     *      mediaType="application/json",
-     *      @OA\Schema(
-     *         type="object",
-     *         example={"username": "user@mail.com"}
-     *      )
-     *    )
-     * )
-     * @OA\Response(response=202, description="Mail with reset token sent")
-     * @OA\Response(response=404, description="User not found")
      *
      * @throws NonUniqueResultException
      * @throws TransportExceptionInterface
      */
-    #[Route(path: '/api/auth/recover', name: 'reset_password_recover', methods: ['post'])]
+    #[Route(path: '/auth/recover', name: 'reset_password_recover', methods: ['post'])]
+    #[OA\RequestBody(
+        content: new OA\MediaType(
+            mediaType: 'application/json',
+            schema: new OA\Schema(
+                type: 'object',
+                example: ['username' => 'user@mail.com']
+            )
+        )
+    )]
+    #[OA\Response(
+        response: Response::HTTP_ACCEPTED,
+        description: 'Mail with reset token sent'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_NOT_FOUND,
+        description: 'User not found'
+    )]
     public function passwordResetRequestAction(
         Request $request,
         UserRepository $userRepository,
@@ -62,7 +62,6 @@ class ResetPasswordController extends AbstractApiController
 
         $userService->generateResetToken($user);
         $mailerService->sendResetPasswordMail($user);
-
         $entityManager->flush();
 
         return $this->messageResponse('mail sent', Response::HTTP_ACCEPTED);
@@ -70,13 +69,30 @@ class ResetPasswordController extends AbstractApiController
 
     /**
      * Reset password with token.
-     * @OA\RequestBody(@Model(type=PasswordResetModel::class))
-     * @OA\Response(response=202, description="User password updated")
-     * @OA\Response(response=400, description="New password not valid")
-     * @OA\Response(response=404, description="Token not found")
-     * @OA\Response(response=406, description="Token expired")
      */
-    #[Route(path: '/api/auth/reset_password', name: 'api_reset_password', methods: ['patch'])]
+    #[Route(path: '/auth/reset_password', name: 'api_reset_password', methods: ['patch'])]
+    #[OA\RequestBody(content: new OA\JsonContent(
+        properties: [
+            new OA\Property(property: 'token', type: 'string'),
+            new OA\Property(property: 'password', type: 'string'),
+        ]
+    ))]
+    #[OA\Response(
+        response: Response::HTTP_ACCEPTED,
+        description: 'User password updated'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_BAD_REQUEST,
+        description: 'New password not valid'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_NOT_FOUND,
+        description: 'Token not found'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_NOT_ACCEPTABLE,
+        description: 'Token expired'
+    )]
     public function passwordResetAction(
         Request $request,
         UserRepository $userRepository,
@@ -84,7 +100,6 @@ class ResetPasswordController extends AbstractApiController
         EntityManagerInterface $entityManager
     ): JsonResponse {
         $data = new PasswordResetModel();
-
         $form = $this->handleJsonFormRequest(
             $request,
             PasswordResetType::class,
@@ -107,10 +122,8 @@ class ResetPasswordController extends AbstractApiController
         }
 
         $user->setPlainPassword($data->getPassword());
-
         $userService->updatePassword($user);
         $userService->clearPasswordResetToken($user);
-
         $entityManager->flush();
 
         return $this->messageResponse('Password changed', Response::HTTP_ACCEPTED);
@@ -118,16 +131,25 @@ class ResetPasswordController extends AbstractApiController
 
     /**
      * Check if reset password token is valid.
-     * @OA\RequestBody(
-     *   @OA\MediaType(
-     *     mediaType="application/json",
-     *     @OA\Schema(type="object", example={"token": "9E4PrHk1sHLCs4ruM3k7v-mgGNWdecm9yhi1RLZ491k"})
-     *   )
-     * )
-     * @OA\Response(response=202, description="Reset password token still valid")
-     * @OA\Response(response=404, description="Reset password token outdated or invalid")
      */
-    #[Route(path: '/api/auth/reset_password/validity', name: 'api_reset_password_token_validity', methods: ['post'])]
+    #[Route(path: '/auth/reset_password/validity', name: 'api_reset_password_token_validity', methods: ['post'])]
+    #[OA\RequestBody(
+        content: new OA\MediaType(
+            mediaType: 'application/json',
+            schema: new OA\Schema(
+                type: 'object',
+                example: ['token' => '9E4PrHk1sHLCs4ruM3k7v-mgGNWdecm9yhi1RLZ491k']
+            )
+        )
+    )]
+    #[OA\Response(
+        response: Response::HTTP_ACCEPTED,
+        description: 'Reset password token still valid'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_NOT_FOUND,
+        description: 'Reset password token outdated or invalid'
+    )]
     public function isPasswordResetTokenValidAction(
         Request $request,
         UserRepository $userRepository

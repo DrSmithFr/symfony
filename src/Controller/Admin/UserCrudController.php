@@ -1,11 +1,9 @@
 <?php
 
-namespace App\Controller\Admin\User;
+namespace App\Controller\Admin;
 
-use App\Controller\Admin\AdminCrudController;
 use App\Entity\User;
 use App\Enum\RoleEnum;
-use App\Exception\InvalidEnumValueException;
 use App\Service\UserService;
 use DateTime;
 use Doctrine\ORM\EntityManagerInterface;

@@ -4,35 +4,35 @@ declare(strict_types=1);
 
 namespace App\Form\Account;
 
-use App\Model\User\RegisterModel;
+use App\Model\Password\PasswordResetModel;
 use App\Repository\UserRepository;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormError;
 use Symfony\Component\Form\FormEvent;
 use Symfony\Component\Form\FormEvents;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Validator\Constraints\Length;
+use Symfony\Component\Validator\Constraints\NotBlank;
 
-class FormRegisterType extends AbstractType
+class AppPasswordResetType extends AbstractType
 {
-    private UserRepository $userRepository;
-
-    public function __construct(UserRepository $userRepository)
-    {
-        $this->userRepository = $userRepository;
+    public function __construct(
+        private UserRepository $userRepository,
+    ) {
     }
 
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('username', EmailType::class, [
-                'label'    => 'Email',
-                'required' => true,
+            ->add('token', TextType::class, [
+                'constraints' => [
+                    new NotBlank(),
+                ]
             ])
             ->add('password', RepeatedType::class, [
                 'type'            => PasswordType::class,
@@ -54,20 +54,20 @@ class FormRegisterType extends AbstractType
                 ],
             ])
             ->add('submit', SubmitType::class, [
-                'label' => 'Create Account',
+                'label' => 'Change password',
             ]);
 
         $builder->addEventListener(FormEvents::POST_SUBMIT, function (FormEvent $event) {
-            /** @var RegisterModel $data */
+            /** @var PasswordResetModel $data */
             $data = $event->getData();
-            $existingUser = $this->userRepository->findOneByEmail($data->getUsername());
+            $existingUser = $this->userRepository->getUserByPasswordResetToken($data->getToken());
 
-            if ($existingUser) {
+            if (!$existingUser) {
                 $event
                     ->getForm()
-                    ->get('username')
+                    ->get('token')
                     ->addError(
-                        new FormError('Cet e‑mail est déjà utilisé')
+                        new FormError('Invalid token')
                     );
             }
         });
@@ -76,7 +76,7 @@ class FormRegisterType extends AbstractType
     public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
-            'data_class'      => RegisterModel::class,
+            'data_class'      => PasswordResetModel::class,
             'csrf_protection' => false,
         ]);
     }

@@ -1,10 +1,8 @@
 <?php
-
 declare(strict_types=1);
 
-namespace App\Controller\Authentication;
+namespace App\Controller\Api;
 
-use App\Controller\AbstractApiController;
 use App\Entity\User;
 use App\Enum\RoleEnum;
 use App\Form\Account\ApiRegisterType;
@@ -14,41 +12,47 @@ use App\Repository\UserRepository;
 use App\Service\UserService;
 use Doctrine\ORM\EntityManagerInterface;
 use Nelmio\ApiDocBundle\Attribute\Security;
-use OpenApi\Annotations as OA;
+use OpenApi\Attributes as OA;
 use OpenApi\Attributes\Tag;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[
-    Security(name: null),
-    Tag(name: 'Authentification'),
-]
+#[Security(name: null)]
+#[Tag(name: 'Authentification')]
 class RegisterController extends AbstractApiController
 {
     /**
-     * Create a new account
-     * @OA\RequestBody(
-     *     @OA\JsonContent(
-     *         type="object",
-     *         @OA\Property(property="username", type="string", example="john.doe@mail.fr")
-     *     )
-     * )
-     * @OA\Response(response=200, description="Email can be used")
-     * @OA\Response(response="406", description="Email already used")
+     * Check whether an e‑mail address is available for registration.
      */
     #[Route(
-        path: '/api/auth/register/available',
+        path: '/auth/register/available',
         name: 'api_register_available',
-        methods: ['post']
+        methods: ['POST']
+    )]
+    #[OA\RequestBody(
+        content: new OA\JsonContent(
+            properties: [
+                new OA\Property(property: 'username', type: 'string', example: 'john.doe@mail.fr')
+            ],
+            type: 'object'
+        )
+    )]
+    #[OA\Response(
+        response: Response::HTTP_OK,
+        description: 'Email can be used'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_NOT_ACCEPTABLE,
+        description: 'Email already used'
     )]
     final public function registerAvailable(
         Request $request,
         UserRepository $userRepository,
     ): JsonResponse {
-        $email = $request->request->get('username');
-        $user = $userRepository->findOneByEmail($email);
+        $email   = $request->request->get('username');
+        $user    = $userRepository->findOneByEmail($email);
 
         if ($user instanceof User) {
             return $this->messageResponse('Email already used', Response::HTTP_NOT_ACCEPTABLE);
@@ -58,19 +62,33 @@ class RegisterController extends AbstractApiController
     }
 
     /**
-     * Create a new account
-     * @OA\RequestBody(@Model(type=RegisterModel::class))
-     * @OA\Response(response=201, description="User created")
-     * @OA\Response(
-     *     response="400",
-     *     description="Bad request",
-     *     @Model(type=FormErrorModel::class)
-     * )
+     * Create a new user account.
      */
     #[Route(
-        path: '/api/auth/register',
+        path: '/auth/register',
         name: 'api_register_user',
-        methods: ['post']
+        methods: ['POST']
+    )]
+    #[OA\RequestBody(
+        content: new OA\JsonContent(
+            required: ['username', 'password'],
+            properties: [
+                new OA\Property(property: 'username', type: 'string', example: 'john.doe@mail.fr'),
+                new OA\Property(property: 'password', type: 'string', format: 'password')
+            ],
+            type: 'object'
+        )
+    )]
+    #[OA\Response(
+        response: Response::HTTP_CREATED,
+        description: 'User created'
+    )]
+    #[OA\Response(
+        response: Response::HTTP_BAD_REQUEST,
+        description: 'Bad request',
+        content: new OA\JsonContent(
+            ref: FormErrorModel::class
+        )
     )]
     final public function registerUser(
         Request $request,
@@ -79,7 +97,6 @@ class RegisterController extends AbstractApiController
         UserService $userService
     ): JsonResponse {
         $data = new RegisterModel();
-
         $form = $this->handleJsonFormRequest(
             $request,
             ApiRegisterType::class,
@@ -100,7 +117,6 @@ class RegisterController extends AbstractApiController
             $data->getUsername(),
             $data->getPassword()
         );
-
         $user->setRoles([RoleEnum::USER]);
 
         $entityManager->persist($user);

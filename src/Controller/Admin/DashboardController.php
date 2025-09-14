@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\UX\Chartjs\Builder\ChartBuilderInterface;
 use Symfony\UX\Chartjs\Model\Chart;
 
-#[AdminDashboard(routePath: '/admin', routeName: 'admin')]
+#[AdminDashboard(routePath: '/', routeName: 'admin_dashboard')]
 class DashboardController extends AdminPageController
 {
     public final const CHART_DAYS = 15;

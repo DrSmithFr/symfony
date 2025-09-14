@@ -19,6 +19,7 @@ use Gedmo\Timestampable\Traits\TimestampableEntity;
 use InvalidArgumentException;
 use JMS\Serializer\Annotation as JMS;
 use OpenApi\Attributes as OA;
+use Scheb\TwoFactorBundle\Model\Email\TwoFactorInterface;
 use Symfony\Component\PasswordHasher\Hasher\PasswordHasherAwareInterface;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
@@ -31,6 +32,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 #[JMS\ExclusionPolicy('all')]
 class User implements
     UserInterface,
+    TwoFactorInterface,
     PasswordAuthenticatedUserInterface,
     PasswordHasherAwareInterface,
     Serializable
@@ -68,6 +70,9 @@ class User implements
         example: '["ROLE_USER", "ROLE_ADMIN"]',
     )]
     private array $roles = [];
+
+    #[ORM\Column(type: 'string', nullable: true)]
+    private ?string $authCode = null;
 
     #[ORM\Column(nullable: true)]
     private ?string $passwordResetToken = null;
@@ -260,5 +265,25 @@ class User implements
     public function __toString(): string
     {
         return $this->getEmail();
+    }
+
+    public function isEmailAuthEnabled(): bool
+    {
+        return true;
+    }
+
+    public function getEmailAuthRecipient(): string
+    {
+        return $this->getEmail();
+    }
+
+    public function getEmailAuthCode(): string | null
+    {
+        return $this->authCode;
+    }
+
+    public function setEmailAuthCode(string $authCode): void
+    {
+        $this->authCode = $authCode;
     }
 }

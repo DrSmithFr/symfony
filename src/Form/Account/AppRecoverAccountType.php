@@ -16,7 +16,7 @@ use Symfony\Component\Form\FormEvent;
 use Symfony\Component\Form\FormEvents;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class RecoverAccountType extends AbstractType
+class AppRecoverAccountType extends AbstractType
 {
     private UserRepository $userRepository;
 
