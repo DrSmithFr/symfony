@@ -1,0 +1,44 @@
+{# @var series App\Entity\Series #}
+{% set movies = movies|default([]) %}
+{% set isTop10 = isTop10|default(false) %}
+{% set sectionTitle = sectionTitle|default(isTop10 ? 'Top 10' : 'Nouveautés sur YTseries') %}
+
+<section class="movies{% if isTop10 %} top10{% endif %}">
+    <div class="movies-container">
+        <h1 class="movies-title">{{ sectionTitle }}</h1>
+        <div class="movies-list">
+            {% for movie in movies %}
+                <div class="movie main">
+                    <div class="thumb">
+
+                        {% if isTop10 %}
+                            <picture class="vertical">
+                                <source srcset="{{ asset('movie/cover_vertical.jpg')| imagine_filter('movie_vertical_webp') }}" type="image/webp">
+                                <source srcset="{{ asset('movie/cover_vertical.jpg')| imagine_filter('movie_vertical_png') }}" type="image/png">
+                                <img src="{{ asset('movie/cover_vertical.jpg')| imagine_filter('movie_vertical_png') }}" alt="">
+                            </picture>
+                        {% else %}
+                            <picture class="horizontal">
+                                <source srcset="{{ asset('movie/cover_horizontal.jpg')| imagine_filter('movie_horizontal_webp') }}" type="image/webp">
+                                <source srcset="{{ asset('movie/cover_horizontal.jpg')| imagine_filter('movie_horizontal_png') }}" type="image/png">
+                                <img src="{{ asset('movie/cover_horizontal.jpg')| imagine_filter('movie_horizontal_png') }}" alt="">
+                            </picture>
+                        {% endif %}
+
+                        <div class="tags">
+                            <span class="important">Ajout récent</span>
+                            {% if not isTop10 %}
+                                <span>VOSTFR</span>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    {{ include('app/_movie_section_modal.html.twig') }}
+
+                </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+</section>

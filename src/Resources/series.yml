@@ -1,0 +1,3562 @@
+preview:
+  name: Preview
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/5bMOgK4SXH4/maxresdefault.jpg
+  description:
+    Arthur est un Youtubeur célèbre sous pression qui n'arrive plus à sortir de vidéo.
+    Preview, une étrange fonctionnalité de la plateforme de vidéo, se propose de le relancer.
+  categories:
+    - humour
+    - adventure
+  tags:
+    - preview
+    - youtube
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: '#React'
+          code: 5bMOgK4SXH4
+        - name: '#CopyCat'
+          code: qxsDbnB4k2Q
+        - name: '#DoItYourself'
+          code: BBxgMWHWYec
+        - name: '#LetsPlay'
+          code: EVtfD854SuY
+        - name: '#Challenge'
+          code: _PTOjCxN88w
+        - name: '#Prank'
+          code: XcnZr8_vLoU
+stranded_deep:
+  name: Stranded Deep - Joueur Du Grenier
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/00vLSHLXr1U/maxresdefault.jpg
+  description:
+    Let's play Narratif de Stranded Deep par Joueur Du Genier.
+    La plage le soleil et les crustacés !
+  categories:
+    - humour
+    - adventure
+    - drame
+  tags:
+    - let's play
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Belle île en mer
+          code: 00vLSHLXr1U
+        - name: Le mystère des caisses en bois
+          code: lsXqsYOJmDo
+        - name: Cargo de nuit
+          code: 3njPN68JP1E
+        - name: Les dents de la mer
+          code: 4jwStaniUes
+        - name: Seul au monde ?
+          code: V6viogmw39w
+        - name: Force de la nature
+          code: wiVSKB8Orzk
+        - name: Marin d'eau douce
+          code: EBuOSHQnRI4
+        - name: Le grand saut
+          code: nylHZLfH4jY
+les_breves_de_petard:
+  name: Brèves de Pétard
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/iYF7hj6YYxw/maxresdefault.jpg
+  description:
+    L'herbe ça fait réfléchir, mais tu choisis pas la réflexion.
+  categories:
+    - humour
+  tags:
+    - weed
+    - 420
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: '#1 feat Hakim Jemili'
+          code: iYF7hj6YYxw
+        - name: '#2 feat Charles Nouveau'
+          code: bO735GP3_R8
+        - name: '#3 feat Jhon Rachid'
+          code: eoeRpEUWI
+        - name: '#4 feat Lucien Maine'
+          code: l1A2iasInKY
+        - name: '#5 feat Sebastian Marx'
+          code: Qe3Fk8CtJy8
+        - name: '#6 feat Hugo Tout Seul'
+          code: ggQGBR5MD0o
+        - name: '#7 feat Tania Dutel'
+          code: PnVmB4l4ETk
+        - name: '#8 feat Hugo Gertner'
+          code: Hkb5PFuzeLo
+        - name: '#9 feat Kyan et Navo'
+          code: 60M-0waG_5w
+jai_jamais_su_dire_non:
+  name: J'ai jamais su dire non
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/aPmY05b_YYg/maxresdefault.jpg
+  description:
+    Dans la vie, ne pas savoir dire non peut entrainer beaucoup d'emmerdes.
+    Mais heureusement pour lui, Tom va tester une méthode expérimentale pour lui donner un peu de charisme.
+  categories:
+    - humour
+    - drame
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Non aux conséquences !
+          code: aPmY05b_YYg
+        - name: Non à l'incruste !
+          code: DrfvGa6a748
+        - name: Non aux sextoys !
+          code: Nd_zCJNx9A0
+        - name: Editor's cut 1
+          code: LmtFtZ4sP6Y
+        - name: Non à la générosité !
+          code: siF2nOWDOzE
+        - name: Non à la l'honnêteté !
+          code: 6mMtNwPPHU
+        - name: Non au couple !
+          code: N6Kcc13Fi9c
+        - name: Editor's cut 2
+          code: 2b2TqQmdGYY
+        - name: Oh yeah !
+          code: 9KHQU9jR3Y8
+        - name: Non à Einstein !
+          code: P-qHsMf3Gic
+        - name: Editor's cut 3
+          code: wNkdmulnqAQ
+        - name: Non à la rébellion !
+          code: lL0H74ZVt3k
+        - name: Non aux histoires !
+          code: Fq53v3PbDRM
+        - name: Editor's cut 4
+          code: 1gO3K2VH4gY
+        - name: Non aux chips !
+          code: x-aoHD7eMXY
+        - name: Non aux mesures !
+          code: wfPDKDWXpgY
+        - name: Editor's cut 5
+          code: E1SAG9ZYfV4
+        - name: Non aux révélations !
+          code: 8V-q7HFcNUA
+        - name: Non à la PBT !
+          code: S5sgQHJiRH0
+le_theorie_des_balls:
+  name: La théorie des Balls
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/7qvdWI3d10E/maxresdefault.jpg
+  description:
+    Dans la vie, ne pas savoir dire non peut entrainer beaucoup d'emmerdes.
+    Mais heureusement pour lui, Tom va tester méthode expérimentale pour lui donner un peu de charisme.
+  categories:
+    - humour
+    - romantic
+  seasons:
+    - name: La théorie des Balls
+      episodes:
+        - name: Atomes Crochus
+          code: 7qvdWI3d10E
+        - name: Vibrations de Balls
+          code: rWvDghRru3k
+        - name: Téléportation de Balls
+          code: 6DQAU2Ez4I4
+        - name: Bombe de Balls
+          code: df9OLxqIFng
+        - name: Résonance de Balls
+          code: yVey-VNnoNE
+        - name: Transfert de Balls
+          code: 3iBz2-sX9Dk
+        - name: Le sous-texte
+          code: 1kkyPc7spyo
+        - name: Contraction de Balls
+          code: wv0WaBFiKzg
+        - name: Faute de Ball
+          code: nGzdv6R4X1M
+        - name: Superballs
+          code: 0xdMya4HSKI
+    - name: Le secret des Balls
+      episodes:
+        - name: Le mystère
+          code: 4ltLp57P0uk
+        - name: La Mariée Sans Culotte
+          code: -FvvAwwlxTQ
+        - name: L’Agent du Gouvernement
+          code: oqxZuqZ54tU
+        - name: Grosse Teub
+          code: F5HHvduCyHo
+        - name: La Parano
+          code: IpnWIxZQhFk
+        - name: Les Raologues
+          code: O8DP2c-nfUQ
+        - name: L'Enlèvement
+          code: H1O258-V27k
+        - name: Géa
+          code: uhuHkihd1eo
+        - name: Mitch
+          code: U4jeahI4Ltk
+        - name: Le Mariage
+          code: kNessniQHcw
+relationship:
+  name: Relationship
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/5FrsDJXb9b8/maxresdefault.jpg
+  description:
+    la web-série Relationship raconte l'histoire d'amour entre Marc et Alice, deux jeunes d'une vingtaine d'années.
+  categories:
+    - romantic
+    - drame
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Episode 1
+          code: 5FrsDJXb9b8
+        - name: Episode 2
+          code: 8wAl4L-KwRE
+        - name: Episode 3
+          code: 2_-hupDeGl0
+        - name: Episode 4
+          code: aTMHaykQ5dg
+        - name: Episode 5
+          code: zG3t9fSDLdk
+        - name: Episode 6
+          code: IFg0MamzRMI
+        - name: Episode 7
+          code: nJhPYstkznI
+        - name: Episode 8
+          code: NccbGlw1mrM
+nightwing:
+  name: Nightwing
+  locale: us
+  type: series
+  image: https://img.youtube.com/vi/o297A1wmys0/maxresdefault.jpg
+  description:
+    Nightwing follows the story of Batman's former sidekick, Dick Grayson aka Robin.
+    After a falling out with his mentor, Dick abandons Gotham and everyone in it.
+  categories:
+    - action
+    - thriller
+    - scifi
+    - adventure
+  seasons:
+    - name: Season 1
+      episodes:
+        - name: Deathstroke
+          code: o297A1wmys0
+        - name: Origins
+          code: Adv8OASsZu0
+        - name: Descent
+          code: kfYoS0YkAtY
+        - name: Oracle
+          code: 43GNeN8qHwQ
+        - name: Legacy
+          code: DMUJTWrf8
+realer:
+  name: RealEr
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/dxg87ECe9qw/maxresdefault.jpg
+  description:
+    Un mystérieux personnage prend contact avec Koss...
+  categories:
+    - scifi
+    - adventure
+  seasons:
+    - name: Season 1
+      episodes:
+        - name: REveil
+          code: dxg87ECe9qw
+        - name: REférences
+          code: ek4kuLE1S0Q
+        - name: REalités
+          code: 2QIElnMDFPg
+        - name: QuatRE
+          code: 5xi40clbksQ
+        - name: REtard
+          code: GF8rbW97si8
+        - name: REtard
+          code: GF8rbW97si8
+        - name: Les autREs
+          code: P_UiPyTX16U
+        - name: REgles
+          code: nz8s02r1LZ0
+        - name: Nouvelle ER
+          code: 4chHv3sWUi0
+en_passant_pecho:
+  name: En Passant Pécho
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/YBcwG9G6oHU/maxresdefault.jpg
+  description:
+    Une serie déjenté sur la vie de cité
+  categories:
+    - humour
+    - adventure
+  tags:
+    - weed
+    - coke
+    - 420
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Le film de boule est-il une drogue?
+          code: YBcwG9G6oHU
+        - name: A propos de Mojo
+          code: oBTVou0P2D4
+        - name: Carotte cellule
+          code: wGHJ5bwa_Bo
+        - name: Bande de Bollos
+          code: ZH9Y3tr6d08
+        - name: Y'a les Keufs
+          code: jL81u734sWo
+        - name: Tape de Ouf
+          code: xwy4a9Stqzw
+        - name: Un Bête de Plan
+          code: JjkE91UHY1Q
+        - name: Qui veut épouser Cokeman ?
+          code: Ko_YL9jnRSc
+ulysse:
+  name: Ulysse
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/yQBKEwvsdtE/maxresdefault.jpg
+  description:
+    2038. 14 ans après la fin d'une guerre mondiale aussi dévastatrice que mystérieuse,
+    une jeune orpheline - Elena - reçoit un carnet qui pourrait bien tout expliquer.
+  categories:
+    - adventure
+    - scifi
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Un nouveau départ 1/3
+          code: yQBKEwvsdtE
+        - name: Un nouveau départ 2/3
+          code: Oi6TzHusYII
+        - name: Un nouveau départ 3/3
+          code: X6tAUbwbG5c
+        - name: La tarte au citron 1/2
+          code: NY6-GmBcGM0
+        - name: La tarte au citron 2/2
+          code: dJUzIfYDTzU
+        - name: Cette fille 1/3
+          code: TCfQnPRolwY
+        - name: Cette fille 2/3
+          code: LjmpRAy_OKc
+        - name: Cette fille 3/3
+          code: yCyp5ed_PAo
+        - name: L'envers du décor 1/2
+          code: puOY1kf8h7c
+        - name: L'envers du décor 2/2
+          code: 9Kpyp4Ljhqw
+    - name: Saison 2
+      episodes:
+        - name: MM's sacrifice 1/2
+          code: _aNuQaWdRCo
+        - name: MM's sacrifice 2/2
+          code: UpxnGa74KVM
+        - name: Retrouvailles 1/2
+          code: 6FS8jQUInRM
+        - name: Retrouvailles 2/2
+          code: ZaFK845GxMU
+        - name: Il y a 5 ans
+          code: OgCIYumWi6k
+        - name: Les âmes soeurs 1/3
+          code: eJ6I575Uw1Q
+        - name: Les âmes soeurs 2/3
+          code: hoq2fU-bh-g
+        - name: Les âmes soeurs 3/3
+          code: Di2w-0eI7sc
+        - name: Son choix 1/2
+          code: vx9L3Mvpxf0
+        - name: Son choix 2/2
+          code: s3kOlBPxivE
+donjon_legacy:
+  name: Donjon Legacy
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/Miaq_E5gmlk/maxresdefault.jpg
+  description:
+    Jon s'en vient découvrir dans des ruines l'héritage d'un père qu'il n'a pas connu.
+  categories:
+    - adventure
+    - scifi
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Episode 1
+          code: Miaq_E5gmlk
+        - name: Episode 2
+          code: wDuI-ayW3Cw
+        - name: Episode 3
+          code: n-9XF0bcgFw
+        - name: Episode 4
+          code: lvJym9dpBTg
+        - name: Episode 5
+          code: IWlq_RzzDhQ
+        - name: Episode 6
+          code: Mf2x2zzj-vg
+        - name: Episode 7
+          code: LyI6Pe6r0JI
+        - name: Episode 8
+          code: 1wJKAFemCVo
+        - name: Episode 9
+          code: Ez6b0CSeBa0
+    - name: Saison 2
+      episodes:
+        - name: Episode 1
+          code: rWhaQBglm4k
+la_web_series:
+  name: LA Web Series
+  locale: us
+  type: series
+  image: https://img.youtube.com/vi/SQzK9-39tWY/maxresdefault.jpg
+  description:
+    LA Web Series is a love story between two young women who start as strangers and
+    forge a lasting bond filled with past stories and future questions.
+  categories:
+    - drame
+    - romantic
+  seasons:
+    - name: Season 1
+      episodes:
+        - name: What if?
+          code: SQzK9-39tWY
+        - name: Where Are You Now?
+          code: eMoN-0C9AwE
+        - name: Who Are You?
+          code: p1sz6NjRSXU
+        - name: What's Your Name?
+          code: bLpyFnR3Xwk
+        - name: Why Not?
+          code: qsbhsAIx_RI
+        - name: Where Did You Come From?
+          code: pdEsW53WtFg
+        - name: Why Are You Here?
+          code: k_lmecGqnGM
+        - name: Why Don't We Stop?
+          code: _zopuTTjIZA
+        - name: Why'd You Tell Me?
+          code: uq_Rp9UnzLM
+        - name: Where's It Going?
+          code: Ym6MhaN5mUo
+        - name: Avery?
+          code: 7GuF3WxLCwU
+        - name: Landon?
+          code: 7d-6s1RHEbE
+        - name: Can I Listen?
+          code: TNUYwOcAgjk
+        - name: What'd You Say?
+          code: gq0H3CS6D78
+        - name: Where Are We Going Now?
+          code: XHot7AmmgAM
+        - name: How Did We Get Here?
+          code: X43zQPyZP5o
+        - name: What? Where? Who? When? Why?
+          code: hsUO3zCxyKc
+        - name: ?
+          code: jm7zPgX7KXk
+    - name: Season 1
+      episodes:
+        - name: Hello?
+          code: iMUY2Q7NlAU
+        - name: Who is This?
+          code: ex_hDwlxemA
+        - name: Megan?
+          code: 1M7ybXpjyPg
+        - name: Which Way?
+          code: pI2tThZwc7Y
+        - name: Isn't it Crazy?
+          code: 0G9pkKNHaIk
+        - name: Nervous?
+          code: 1RCsa3LfvNM
+        - name: How Come?
+          code: _U7meI2lHUA
+        - name: Stay?
+          code: RmEH2NW2tD8
+        - name: ?
+          code: W01P8G45iWk
+eden:
+  name: Eden
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/oED3bdk8vRw/maxresdefault.jpg
+  description:
+    Le conseil d'Eden condamne Nora à l'effacement de sa mémoire suit à la mort du jeune Data.
+  categories:
+    - adventure
+    - scifi
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Eden
+          code: oED3bdk8vRw
+        - name: Artemis, Gaya
+          code: Vh00eINo0Fs
+        - name: Anna, Alice
+          code: PmNGxXEwAVY
+        - name: Lucie, Nora
+          code: -lyMhW-KHTU
+        - name: Data
+          code: EbQk0lENfW4
+        - name: Caron
+          code: uhEowle1Q48
+        - name: Max
+          code: r-ttq9wOrxc
+        - name: Mateo, Pandora
+          code: qq7TzfMNjy8
+io:
+  name: IO
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/Gf4r8dTwEj8/maxresdefault.jpg
+  description:
+    MOI, un étudiant comme les autres, se réveille brutalement d'un cauchemar.
+    Il décide de tout avouer à sa copine SOPHIA...
+  categories:
+    - adventure
+    - scifi
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Changer le Monde 1/2
+          code: Gf4r8dTwEj8
+        - name: Changer le Monde 2/2
+          code: _4RvkkFYLf0
+        - name: Ubik et Moi
+          code: bIZL0MXsh5k
+        - name: La Fac
+          code: ZIdwBDLRTtg
+        - name: First Person Sleeper
+          code: jpwvlcwr_rI
+        - name: La Psy
+          code: GCYuZOvpn9g
+        - name: Free
+          code: r_aKWrA7E60
+        - name: Le Pirate
+          code: Q1tQx8ZyHo8
+        - name: Fedora
+          code: 69n2nV9z-0k
+        - name: L'amour donne des zèles
+          code: 4GzpSxQAfyM
+        - name: Dos au mur
+          code: lESa_6tqvy8
+        - name: De part et d'autre
+          code: ErNTdK-RgM0
+random:
+  name: Random
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/d5R-Wn2UHQs/maxresdefault.jpg
+  description:
+    Six amis confrontés à l’inexplicable dans un huis-clos infernal. Bloqués dans leur appartement,
+    face à un mystère qui bouleverse leur existence
+  categories:
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Enfermés
+          code: d5R-Wn2UHQs
+        - name: Le Phénomène
+          code: _x5_d-HPUOA
+        - name: Garder espoir
+          code: 6ooc3XAQwAE
+        - name: Une bouteille à la mer
+          code: 82L5CCfuLAc
+        - name: Etat de choc
+          code: G8qB4HJXanU
+        - name: Révélations
+          code: GnUeStqv188
+        - name: Elle(s)
+          code: ejCJ4P_zrHQ
+        - name: Confrontation
+          code: RZYUn2ab04s
+        - name: Les hommes en blanc
+          code: FqpxJ-I2FTc
+        - name: Condamnés
+          code: xCobu0DP97E
+        - name: Divisions
+          code: 2wY8r4xqMDk
+        - name: Effondrement
+          code: -AYG3Vbh2h0
+    - name: Saison 2
+      episodes:
+        - name: Résumé de la Saison 1
+          code: CneMh2BC5wQ
+        - name: Chez eux.
+          code: dT3TpawRyIw
+        - name: Aller de l'avant.
+          code: NGwPKXDVgS0
+        - name: Retour à l’anormal
+          code: EU2oagei3dg
+        - name: Réalité(s)
+          code: SHr2s9kNhV4
+        - name: Seule
+          code: i0OUbxirgg4
+        - name: Promesse
+          code: 0qX7_yxp0Cc
+        - name: Anomalie Z7-22
+          code: lNsRCwzaw24
+        - name: Appels à l'aide
+          code: tJ3pd5XGzWE
+        - name: Le Néant
+          code: SU0q1FZags8
+        - name: La balle
+          code: CKB4ko4px7s
+        - name: Choix et conséquences
+          code: -2Ur53L7t8s
+        - name: Réunis.
+          code: ldejQqdsLW4
+supa_supa:
+  name: Supa Supa
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/JjZA57fodWI/maxresdefault.jpg
+  description:
+    Supa Supa et son pote sont posés chez eux et jouent aux jeux vidéos,
+    lorsque Supa détecte la présence d'une Fille, ce qui ne le laisse pas insensible.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Girl
+          code: JjZA57fodWI
+        - name: Powers
+          code: tFn_evs_I_g
+        - name: Mega Mega
+          code: SQBdImuiVRw
+        - name: Bogoss
+          code: rYz0ysCbuZ4
+        - name: Uninvited
+          code: e2YrNgdY1jI
+        - name: Bullshit
+          code: LguDlce3LL4
+        - name: Frozen
+          code: QMpN_yXWr4k
+        - name: Speed
+          code: xDj-VWEWVAU
+        - name: Fight
+          code: ag9bvnmCJWE
+        - name: She said Yes
+          code: SrXS6Fwfnqw
+        - name: Rendez-vous
+          code: KmP1PVQLyHA
+        - name: Sin
+          code: xC0E4vh-sJg
+le_departement:
+  name: Le Département
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/3b_vTuxEL-I/maxresdefault.jpg
+  description:
+    Le Département décline toute responsabilité en cas de digestion douloureuse lors du visionnage.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Se présenter
+          code: 3b_vTuxEL-I
+        - name: Faire des cafés
+          code: BwTFGgHI0tw
+        - name: Aider un collègue
+          code: KqkuOqRQ-4g
+        - name: Créer sa boîte mail
+          code: vAoybmNG9vI
+        - name: Faire signer un papier
+          code: MXYBYciizHA
+        - name: Savoir s'habiller
+          code: 7rjvQaMARzU
+        - name: Se faire contrôler
+          code: afjJt2E5u94
+        - name: Boucler un dossier
+          code: UGZZI8XOy4c
+        - name: Prendre des notes
+          code: Rz3-EFXBd7M
+        - name: Faire des réunions
+          code: ChKiOHe_zec
+        - name: Partager un bon moment
+          code: 21XVNunpWYM
+        - name: Avoir l'esprit d'équipe
+          code: ipKVq7sW4TY
+        - name: Perdre une collègue
+          code: Veigf5F1wqQ
+        - name: Se faire entendre
+          code: CdaK1kZsKL8
+        - name: Toucher sa prime de Noël
+          code: vmWJRFwZhtg
+    - name: Saison 2
+      episodes:
+        - name: La Fin
+          code: km6bTUQccTY
+        - name: La Chef
+          code: KCIlUWTxTjw
+        - name: Le piège
+          code: TKdbLFw2VAY
+        - name: La joute
+          code: GqG6AwGcsdg
+        - name: La lutte
+          code: wzRBLZhoUNs
+        - name: L’urgence
+          code: Cm93sGDNhwc
+        - name: La nuit
+          code: TcH_6tvpsS8
+        - name: Le début
+          code: p8Z-AyQrUyk
+hello_geekette:
+  name: Hello Geekette
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/WQM6bwyuq-s/maxresdefault.jpg
+  description:
+    Valérie est une geekette qui vit dans son univers imaginaire. Alors que Greg est un garçon pas du tout geek et
+    plutôt dragueur. Colocataires, c’est dans leur appartement que vont s’affronter leurs amis respectifs
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: Fantasmes
+          code: WQM6bwyuq-s
+        - name: Le gentil Robert De Niro
+          code: VhG4F-4O92M
+        - name: World of Warcraft vs Second Life
+          code: prKiM2_4uC8
+        - name: Drague Fatale
+          code: UCYuyF_gaNU
+        - name: Geeks vs Bobos
+          code: B19TV75Kk7Y
+        - name: Joyeux geek-anniversaire !
+          code: yGrGbRRqNRM
+        - name: Duel Manga
+          code: Dp0ESs9fiIs
+        - name: Deux créatures de rêve
+          code: hLeCprXAXuo
+        - name: Faites la guerre, pas l'amour !
+          code: XuvhoH9NgKQ
+        - name: 'Le fan film 1/3: Le Casting'
+          code: Dpc-5TXhjwc
+        - name: 'Le fan film 2/3: Making of !'
+          code: S-vbEuce2yg
+        - name: 'Le fan film 3/3: Far-Trek'
+          code: mZWRP1A07Og
+        - name: Un Noël Star Wars
+          code: ntqrBhLx7TY
+    - name: Saison 2
+      episodes:
+        - name: Jeux de rôles
+          code: OPNHVzg9Mow
+        - name: Beau Papa
+          code: niBOgpJSLmA
+        - name: Spider-Man est-il gay ?
+          code: PGWARMVWx7Y
+        - name: Catfight !
+          code: 0SyrTmF1u5M
+        - name: Et si ?
+          code: UT6jg0XVRYg
+        - name: Révélations
+          code: LY7uwfIkJ58
+        - name: Cedric in Love 1/4
+          code: 9VYbtG0LvI0
+        - name: Cedric in Love 2/4
+          code: WgF5ZtAWo70
+        - name: Cedric in Love 3/4
+          code: N0A8GSvztew
+        - name: Cedric in Love 4/4
+          code: FcvOKG5ufgM
+        - name: Super Mario Greg
+          code: CY4DXUUTmug
+        - name: Emmenagement
+          code: DjjbZnvTVlg
+        - name: Derrick à Twin Peaks
+          code: xyzBGlJzBbE
+        - name: Echangisme
+          code: TfHT6zaHfwA
+        - name: Marc Hunter
+          code: DDoJ5HgPmWo
+        - name: Valérie
+          code: os67i0NFVeo
+bloques:
+  name: Bloqués
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/WjsXFY_tGx4/maxresdefault.jpg
+  description:
+    En attendant qu’il se passe quelque chose, ils ont décidé de ne rien faire.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: '#1 - Si j''étais riche'
+          code: WjsXFY_tGx4
+        - name: '#2 - On fait du nettoyage'
+          code: qbGz82oosvI
+        - name: '#3 - C''était qui ?'
+          code: q9LCDKbduxI
+        - name: '#4 - Ca fait longtemps que j''ai pas baisé'
+          code: ieb4DP_Gl3g
+        - name: '#5 - Le jeu du Johnny Depp'
+          code: bAW4jV1T0nw
+        - name: '#6 - Pourquoi t''as démissionné ?'
+          code: NFSL_bygqlQ
+        - name: '#7 - Les meufs'
+          code: uRaf6DcfnYQ
+        - name: '#8 - Ni oui Ni non'
+          code: Yoemw9ao4WM
+        - name: '#9 - Les animaux'
+          code: GSijviowHvk
+        - name: '#10 - Comment tu sais que tu l''aimes ?'
+          code: Www-LxClEB8
+        - name: '#11 - Les jeux de mots'
+          code: sYXyW176gcU
+        - name: '#12 - Le cinéma'
+          code: MfS5yVAMs2Q
+        - name: '#13 - L''amitié'
+          code: kBMBNNuja9I
+        - name: '#14 - Le féminisme'
+          code: JgW-XRMOydc
+        - name: '#15 - Théories'
+          code: BhLL8C3OC5M
+        - name: '#16 -  Sex-tape'
+          code: l0mH_PcjQow
+        - name: '#17 - La gueule de bois'
+          code: 9dHhr_jiAd4
+        - name: '#18 -  Le placard'
+          code: 2juR1F58Hj8
+        - name: '#19 - Marty'
+          code: bHvdhiwerAw
+        - name: '#20  -  La meuf de l''anniv à Bruno'
+          code: NhBbjdfaXgk
+        - name: '#21 -  Pourquoi tu l''as quittée ?'
+          code: llWq6fjynTI
+        - name: '#22 - Encore des animaux'
+          code: MHpPa5eCbIw
+        - name: '#23 - Les salons de massages'
+          code: jpkNqryTFCU
+        - name: '#24 - Si j etais riche 2'
+          code: hMmr4KsHsN0
+        - name: '#25 - Trois petits chats'
+          code: 9ONw28hWmOs
+        - name: '#26 - Les aventures de Serge le mytho en Thaïlande'
+          code: 6mQUFVrie5E
+        - name: '#27 - Les parents'
+          code: qE5VfGMrDx8
+        - name: '#28 - Les contraires'
+          code: gBr6Oddtgiw
+        - name: '#29 - Le petit chat'
+          code: IUfmbMDRyk0
+        - name: '#30 - Gringe est véner'''
+          code: TkSYcYZaYTg
+        - name: '#31 - Je vais monter ma boite'
+          code: hY9oMz9J2Fw
+        - name: '#32 - Encore des théories'
+          code: a7JeBxlEKW4
+        - name: '#33 - L''écologie'
+          code: dhWvNnngQIU
+        - name: '#34 - La tour de Mamy Belle'
+          code: 3_PTOOCICrA
+        - name: '#35 - Le pire truc que t''aies fait à ton ex'
+          code: XUuSMWV-IaY
+        - name: '#36 - Le toupisme'
+          code: 4vJC7h5vqu4
+        - name: '#37 - Le saviez vous ?'
+          code: lWyaU1Gn7T0
+        - name: '#38 -  Cool / pas cool'
+          code: Nm_bgQX43TE
+        - name: '#39 - Être fragile'
+          code: K23ZXGZr4s4
+        - name: '#40 -  Comment tu sais que tu l''aimes ? 2'
+          code: fj2qinUN6ko
+        - name: '#41 - Ma grand mère, à 20 ans'
+          code: OnD-CsC8uf4
+        - name: '#42 - Questions'
+          code: 0eurT_rqdrE
+        - name: '#43 -  Projet Chaos'
+          code: 8fBNggJYNjU
+        - name: '#44 - Encore des parents'
+          code: BkTM0hPZlLk
+        - name: '#45 -  La soirée de la voisine bonne'
+          code: U6hSL14gyuk
+        - name: '#46 - Le jour de la Marmotte'
+          code: 7n2qZFq7hSI
+        - name: '#47 - Le canapé'
+          code: KIKawRB0RdU
+        - name: '#48 - Tu préfères ?'
+          code: eJZY1gDI7es
+        - name: '#49 - Aller plus haut'
+          code: 5PgaCCIp7nc
+        - name: '#50 - Se reproduire'
+          code: NGwJ94wn8Z8
+        - name: '#51 - L''école'
+          code: LuH49n54udc
+        - name: '#52 - Un seul truc'
+          code: YLgxBZGYiw0
+        - name: '#53 - Les aventures de Serge le mytho à Saint-Tropez'
+          code: j6AGiNk-Ihk
+        - name: '#54 - Galère de thunes'
+          code: 5DNQ2i8DYn4
+        - name: '#55 - Make a wish'
+          code: oNeSzuIMcJs
+        - name: '#56 - L''embrouille'
+          code: YdJU8oChC1E
+        - name: '#57 - La marinière'
+          code: Tri7RyGoEYw
+        - name: 'Bloqué #58 - La fidelité'
+          code: ghqrcL5SPd0
+        - name: '#59 - Le téléporteur'
+          code: QVODBGqrm5c
+        - name: '#60 -  Baise de ta conception'
+          code: uGtFHrw4haE
+        - name: '#61 - Tuer Hitler'
+          code: '-Vxog8ikmJk'
+        - name: '#62 - L''oeil de Sauron'
+          code: B9F0e5gUmxY
+        - name: '#63 - La Liste de Schindler'
+          code: JcA8I6QiaZk
+        - name: '#64 - Les aventures de Serge le mytho et l''eau du robinet'
+          code: qdXSzp2-lhM
+        - name: '#65 - Gratter un loyer'
+          code: 8OVNMypCXlY
+        - name: '#66 - Le générique'
+          code: yVcCV7Rc6p4
+        - name: '#67 - La voix off'
+          code: 8DGHdnCgrtc
+        - name: '#68 - Hey salut...'
+          code: 3H5XeGOC2wU
+        - name: '#69 - Comme tu veux'
+          code: WA06tstaL_E
+        - name: '#70 - Le dopage'
+          code: ngAU10NQouc
+        - name: '#71 - Les aventures de Serge le Mytho et Steve Jobs'
+          code: eYhWcDdI3rM
+        - name: '#72 - La théorie de Denver'
+          code: ipBtsIDPX20
+        - name: '#73 - Le porno'
+          code: OpHQhAEK7vQ
+        - name: '#74 - L''enfer'
+          code: p_hfx0uosyM
+        - name: '#75 - Devine à quoi je pense'
+          code: LsLvVjhVaZo
+        - name: '#76 - Gringe est seul'
+          code: b6uK05zf-kw
+        - name: '#77 - Mister Jingles'
+          code: 8c7qn6clyno
+        - name: '#78 - Le puits'
+          code: IaBgasSC8n0
+        - name: '#79 - Le courrier'
+          code: O1Xu7jsZskc
+        - name: '#80 - Bouh !'
+          code: 8klJj91MtVI
+        - name: '#81 - Les objets'
+          code: 8C6HwCo0qMo
+        - name: '#82 - Les aventures de Serge le Mytho à la prison de Crenshaw'
+          code: JLYWyped4nM
+        - name: '#83 - Médiamétrie'
+          code: LC-W96FYUvM
+        - name: '#84 - La télékinésie'
+          code: CeW0lSIjldA
+        - name: '#85 - Les Puma Air Jordan'
+          code: TqdynycW_Hk
+        - name: '#86 - Le truc le plus triste qu''on t''ait dit'
+          code: _EUD3head80
+        - name: '#87 - Le secret des pyramides'
+          code: dmYtr8HdOq8
+        - name: '#88 - Orel fait son foufou'
+          code: DKcfWGpuhWM
+        - name: '#89 - Les aventures de Serge le Mytho enfant'
+          code: rVzeL56yPSo
+        - name: '#90 - Des grosses barres de rire'
+          code: YeXLvZNt82o
+        - name: '#91 - Gringe est encore véner'''
+          code: uW5zXHU7czQ
+        - name: '#92 - C''est raciste à cause des racistes'
+          code: 6EqN00uvXAU
+        - name: '#93 - Perdre du poids'
+          code: tyiKg2IpwCE
+        - name: '#94 - La vie serait mieux si'
+          code: ANUzTSsVa9I
+        - name: '#95 - Mon grand-père est mort'
+          code: ph5ZLnPoFZs
+        - name: '#96 - Orel a un synthé'
+          code: 3BjehXST8xY
+        - name: '#97 - Le dernier jour de ta vie'
+          code: BqTwbPKr8AI
+        - name: '#98 - Claude le plombier gênant'
+          code: HeMajDDaupw
+        - name: '#99 - Le tour des ex'
+          code: Y0i258NHrxM
+        - name: '#100 - Les histoires qui font peur'
+          code: 8pCHARVoC0E
+        - name: '#101 - Enfermés dehors'
+          code: 24Jacut3FuI
+        - name: '#102 - Le darknet'
+          code: WOi7g7_ZOpI
+        - name: '#103 - La moitié'
+          code: zm8JrjHxVSQ
+        - name: '#104 - Les jours fériés'
+          code: jqDXkAyuMMg
+        - name: '#105 - Les aventures de Serge le mytho et la petite amie secrète'
+          code: J-LyL1bXoyQ
+        - name: '#106 - Naruto VS Balzac'
+          code: LHhmq3LzHBM
+        - name: '#107 - Les pièces'
+          code: sG_pPu8yIKA
+        - name: '#108 - On est les vieux des jeunes'
+          code: LZLFTbBDnoM
+        - name: '#109 - Le plan cul'
+          code: f8vlQEO5UIo
+        - name: '#110 - Les sports'
+          code: 1mIU0wmFbos
+        - name: '#111 - Les aventures de Sergi Sergio Le Mytho'
+          code: I4kBn_O2U1M
+        - name: '#112 – La sève du mâle'
+          code: DUerTzAxyiA
+        - name: '#113 – Putaaain !'
+          code: sH1PWf_jUws
+        - name: '#114 - Manger un humain'
+          code: Qst855ihS7o
+        - name: '#115 - Les passions d''Orel'
+          code: 0cn3YzOWJqs
+        - name: '#116 - Le mensongeur'
+          code: mty6_9SEIEo
+        - name: '#117 - La tolérance pour tous'
+          code: pZpyMBKq5VM
+        - name: '#118 - Les aventures de Serge le mytho au Mexique'
+          code: LdxHY9V1GtE
+        - name: '#119 - La clégi de mes amis'
+          code: Xa1iH5o3i1A
+        - name: '#120 - Dernier épisode : On perd notre temps'
+          code: DnZwByFtuZw
+bref:
+  name: Bref
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/UO8tcf3U0dY/maxresdefault.jpg
+  description:
+    Les chroniques extraordinaires d’un homme ordinaire. Dans la vie, au début on naît, à la fin on meurt,
+    pendant ce temps là, il se passe des trucs. Bref, c'est la vie d'un mec pendant ce temps là.
+  categories:
+    - humour
+    - romantic
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: '01 - J''ai dragué cette fille.'
+          code: UO8tcf3U0dY
+        - name: '02 - Je remets tout à demain.'
+          code: JmghDKkeiik
+        - name: '03 - Je me suis préparé pour un rendez-vous.'
+          code: 1x3P61ck0QI
+        - name: '04 - J''ai passé un entretien d''embauche.'
+          code: 7_VQCD863CU
+        - name: '05 - J''ai fait un repas de famille.'
+          code: yC7LPgNlD9M
+        - name: '06 - J''ai traîné sur internet.'
+          code: br82-adJ0FU
+        - name: '07 - Je joue de la guitare.'
+          code: QJEyHT7IU5M
+        - name: '08 - J''ai vu un psy.'
+          code: xHTx3mYfGUQ
+        - name: '09 - J''ai recroisé cette fille.'
+          code: r7LVaWeM_bg
+        - name: '10 - J''ai un plan cul régulier.'
+          code: 9zk0TrOU_cI
+        - name: '11 - Je suis comme tout le monde.'
+          code: tkMoSaUMsiM
+        - name: '12 - J''ai eu un job.'
+          code: DUDE5JWW-q8
+        - name: '13 - J''étais coincé dans l''ascenseur.'
+          code: l4Dz4EKZExI
+        - name: '14 - Mes parents divorcent.'
+          code: cDWcCpqFh_M
+        - name: '15 - J''ai fait les courses avec mon frère.'
+          code: Htm39YuNOog
+        - name: '16 - Je me suis bourré la gueule.'
+          code: 4tdCI0GUy7w
+        - name: '17 - Je suis allé à ce mariage.'
+          code: gx9ph_0tzRw
+        - name: '18 - J''ai couché avec une flic.'
+          code: if3EipAM2WQ
+        - name: '19 - Mon pote s''est fait larguer.'
+          code: J9EL_bGpdP4
+        - name: '20 - J''ai eu 47 minutes de retard.'
+          code: K0XI5d8080Q
+        - name: '21 - Je suis allé au supermarché.'
+          code: onb8vNaHYB4
+        - name: '22 - On a enterré croquette.'
+          code: LRzOCN7zths
+        - name: '23 - Mon coloc'' a fait l''amour.'
+          code: 2u0BYLUyyBI
+        - name: '24 - J''ai fait un rêve.'
+          code: gYSzEUcLIZ4
+        - name: '25 - J''ai fait un dépistage.'
+          code: 41X9gwbeMxQ
+        - name: '26 - J''ai un pote à conditions générales.'
+          code: Z_Iqj4P90Qg
+        - name: '27 - J''ai recouché avec mon ex.'
+          code: KtLp-gLL0Aw
+        - name: '28 - J''aime bien cette photo.'
+          code: 00r3RKxAExo
+        - name: '29 - Je suis hypocondriaque.'
+          code: _AH6uf2dTLg
+        - name: '30 - J''ai pas réussi à dormir.'
+          code: vxJ3BL7-IhM
+        - name: '31 - Je suis allé au cinéma avec cette fille.'
+          code: r-cbMtBLY0g
+        - name: '32 - Je sais pas dire non.'
+          code: OmEx0mpHFG4
+        - name: '33 - J''ai couché avec Émilie.'
+          code: mEu0q3Slzj0
+        - name: '34 - J''ai fait un concert.'
+          code: 04gASg8-J3Y
+        - name: '35 - J''ai monté un meuble.'
+          code: 46O65gqs03c
+        - name: '36 - J''ai dîné avec cette fille.'
+          code: 6dyIHnUE5FY
+        - name: '37 - J''y pense et je souris.'
+          code: O1BZzYB3X6U
+        - name: '38 - J''ai voulu partir en vacances.'
+          code: FThJiyU25jc
+        - name: '39 - J''ai déménagé.'
+          code: YFLtnewtqAE
+        - name: '40 - J''étais à côté de cette fille.'
+          code: DOMouPqhIus
+        - name: '41 - J''ai pris le métro.'
+          code: aqrab4lKVm0
+        - name: '42 - J''ai un nouvel appart.'
+          code: c-51sCEAiCg
+        - name: '43 - Je suis allé aux urgences.'
+          code: 1tZiw9KR6Jk
+        - name: '44 - Je me suis fait agresser.'
+          code: yQbvhuSlOt8
+        - name: '45 - J''ai eu une panne.'
+          code: BJoEGR47rk0
+        - name: '46 - J''ai eu 30 ans.'
+          code: Xi-oROsTsG8
+        - name: '47 - Je suis vieille.'
+          code: 5pr4Q09-16k
+        - name: '48 - Ma copine travaille dans un sex-shop.'
+          code: vrbqkwd6Zi8
+        - name: '49 - Baptiste est Super Flippant.'
+          code: lrWa9VYEb78
+        - name: '50 - J''ai fêté le nouvel an.'
+          code: '-KG96E4nu-s'
+        - name: '51 - Mon frère a quelqu''un.'
+          code: m5Ezt99WggY
+        - name: '52 - Je suis en couple.'
+          code: 1m-zfWkcgrg
+        - name: '53 - Il y a des gens qui m''énervent.'
+          code: tjRXxJaupoc
+        - name: '54 - J''ai aucune mémoire.'
+          code: elOH0CasAPw
+        - name: '55 - Je m''appelle Eric Dampierre.'
+          code: tkOuQiO-Vzg
+        - name: '56 - J''ai grandi dans les années 90.'
+          code: HO2SLJQShJ8
+        - name: '57 - On était des gamins.'
+          code: LI0mfa3sqWY
+        - name: '58 - C''était sa chanson préférée.'
+          code: UURXmjwlcDI
+        - name: '59 - Mon père veut être jeune.'
+          code: 7Ry1eljBOvM
+        - name: '60 - Je suis un plan cul régulier.'
+          code: 5rKgC34qhFI
+        - name: '61 - J''étais dans la merde.'
+          code: I4-bhdkKSfU
+        - name: '62 - J''étais toujours dans la merde.'
+          code: KM1Rsc4JyxA
+        - name: '63 - J''ai fait un choix.'
+          code: UNbu1DM-jk0
+        - name: '64 - J''ai fait un dessin.'
+          code: LZQUFY0W_lY
+        - name: '65 - J''ai un nouveau pote.'
+          code: ZbGrzgcO68A
+        - name: '66 - Mon frère est gay.'
+          code: '-tInLKCRUrs'
+        - name: '67 - J''ai perdu mes cheveux.'
+          code: akriQ9yTodk
+        - name: '68 - J''ai passé un coup de fil.'
+          code: 8matlnmBY98
+        - name: '69 - C''est la merde.'
+          code: 5U0CfNpXdEc
+        - name: '70 - J''ai fait une connerie.'
+          code: hpCO1AIWo60
+        - name: '71 - J''ai fait une soirée déguisée (Partie 1).'
+          code: rOI3TXz-igs
+        - name: '72 - J''ai fait une soirée déguisée (partie 2)'
+          code: m7Y624w6MFU
+        - name: '73 - J''ai fait une soirée déguisée (partie 3).'
+          code: WRXsFwhVzTs
+        - name: '74 - J''ai fait une soirée déguisée (partie 4).'
+          code: UDko2X994U4
+        - name: '75 - J''ai tout cassé.'
+          code: 9u9X-FzVWZ0
+        - name: '76 - Je suis en mode survie.'
+          code: ZQHDDjV-KgQ
+        - name: '77 - J''ai envoyé un texto.'
+          code: 94NzqAY2Yhk
+        - name: '78 - Je me suis réveillé à côté d''une fille.'
+          code: 9UEJzfo0_m4
+        - name: '79 - Je suis né.'
+          code: lGBPAoLUn-0
+        - name: '80 - J''ai fait une dépression.'
+          code: DwfwmxOF_3E
+        - name: '81 - Lui c''est Kheiron.'
+          code: z5tHQfjXtwc
+        - name: '82 - Dernier épisode.'
+          code: 1cZ_H0rgwCU
+serge_le_mytho:
+  name: Serge Le Mytho
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/lIkYYGwp1y4/maxresdefault.jpg
+  description:
+    L'histoire d'un mec qui raconte des histoires.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: '#01 - Pourquoi Serge a arrêté l''école ?'
+          code: lIkYYGwp1y4
+        - name: '#02 - Serge, bientôt sur Playstation ?'
+          code: Akr43ItM-lo
+        - name: '#03 - Comment Serge a rencontré JoeyStarr ?'
+          code: yYYzqjc6Ua4
+        - name: '#04 - Serge et l''instrument sublime de Mariah Carey'
+          code: Fi-qfC59Tbs
+        - name: '#05 - Ingrid est revenue'
+          code: Oq40L30uXCs
+        - name: '#06 - Serge balance ses lyrics'
+          code: V4BZ_MRnywg
+        - name: '#07 - Ce que Serge a vu dans le futur'
+          code: WsRrCCjsDew
+        - name: '#08 - Serge dit la vérité sur Jay-Z'
+          code: 4Gs7i7T1m-0
+        - name: '#09 - Ingrid et la pakenka à crête'
+          code: ju2UsEl2XhE
+        - name: '#10 - Serge vient en aide à un ami'
+          code: Rh5Yo7MF_J0
+        - name: '#11 - Serge, descendant de Louis XVI'
+          code: pAkOQf14bo4
+        - name: '#12 - Comment Serge a fait atterrir un avion'
+          code: zETAZ4Iv-Lw
+        - name: '#13 - Serge raconte sa plus belle enquête'
+          code: XSTK1qYQEk4
+        - name: '#14 - Serge a une nouvelle recrue'
+          code: AOCQSrXhW24
+        - name: '#15 - Prehistoric Park'
+          code: wsJufI_5W1k
+        - name: '#15 – Prehistoric Park'
+          code: Kd2uG5AuNnw
+        - name: '#16 - La malédiction des 1500 meufs'
+          code: v8D_SB2UC7Q
+        - name: '#17 - La vie secrète d’Huguette'
+          code: tr7_AZZFkts
+        - name: '#20 - Serge se lance dans le cinéma avec Luc Besson'
+          code: GnVKi9jvXcI
+        - name: '#21 - Serge va-t-il pécho Ingrid ?'
+          code: 8XOVANd71qk
+        - name: '#22 - La mémoire sexuelle de Serge'
+          code: cq3RjwfF2LY
+        - name: '#23 - Comment Serge gagnait de l''oseille à l''école'
+          code: 09BnuW07FOY
+        - name: '#24 - Nina VS Catherine Deneuve'
+          code: MPnALcg-XpU
+        - name: '#25 - Serge, avocat commis d''office, Jenifer, Garou et tonton Mardou'
+          code: HoktmAZlimQ
+        - name: '#26 - Le Jour où Serge a inventé une drogue'
+          code: kNWNIX2u2j0
+        - name: '#27 - Serge cherche un investisseur'
+          code: nxIE5yIzvUs
+        - name: '#28 - Les amis de Serge'
+          code: zgS8reVwN9Q
+        - name: '#29 - Vous m''appelez Serge le mytho ?'
+          code: MhU_V7Ql-XM
+        - name: '#30 FIN - Le dernier mensonge de Serge'
+          code: oicbi8iVaVo
+visiteur_du_future:
+  name: Le Visiteur du Futur
+  locale: fr
+  type: series
+  image: http://idata.over-blog.com/2/43/97/50/New2/Affiches/VDF-Saison3-Action-pour-Web.jpg
+  description:
+    Il vient du futur pour nous rendre visite, c'est le Visiteur du Futur.
+  categories:
+    - scifi
+    - adventure
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Episode 01'
+          code: 1wtGLc_Fvf0
+        - name: 'Episode 02'
+          code: IHA0P_QRHJo
+        - name: 'Episode 03'
+          code: XmTVJaik91o
+        - name: 'Episode 04'
+          code: MOa4EURDSd8
+        - name: 'Episode 05'
+          code: 4xN6UFn1FZ0
+        - name: 'Episode 06'
+          code: CdJn6tgvDGc
+        - name: 'Episode 07'
+          code: jFqtrD5FwBs
+        - name: 'Episode 08'
+          code: HTAuJC3uV7o
+        - name: 'Episode 09'
+          code: PKTLQeUj9Ls
+        - name: 'Episode 10'
+          code: kL26nXle1KU
+        - name: 'Episode 11'
+          code: HfcDNShkbcM
+        - name: 'Episode 12'
+          code: oC4SyCA_x6A
+        - name: 'Episode 13'
+          code: ZCZpzcuR6J8
+        - name: 'Episode 14'
+          code: XcoaFruzNCo
+        - name: 'Episode 15'
+          code: RS4schYbUus
+        - name: 'Episode 16'
+          code: qCtnFnNwwiE
+        - name: 'Episode 17'
+          code: g1Nyw2-s5Ls
+        - name: 'Episode 18'
+          code: bxI4DvqqAiA
+        - name: 'Episode 19'
+          code: _o0Mrnpn-90
+        - name: 'Episode 20'
+          code: aVliiK83x_0
+        - name: 'Episode 21'
+          code: h1UNLPpjg-8
+        - name: 'Episode 22'
+          code: xwifp7Zpkuo
+    - name: Saison 2
+      episodes:
+        - name: 'Episode 01'
+          code: akRGciMZaDs
+        - name: 'Episode 02'
+          code: YuDdR79QP78
+        - name: 'Episode 03'
+          code: P7utpBdUf18
+        - name: 'Episode 04'
+          code: BWq-vttAOzs
+        - name: 'Episode 05'
+          code: '-xkfFbtdbRw'
+        - name: 'Episode 06'
+          code: w3erZF6P54g
+        - name: 'Episode 07'
+          code: oNKaNUIpR1A
+        - name: 'Episode 08'
+          code: GMG8vDA3DXk
+        - name: 'Episode 09'
+          code: FpkNacYZ4Qs
+        - name: 'Episode 10'
+          code: p1zbzRoaG4g
+        - name: 'Episode 11'
+          code: ij5aRSEHM-k
+        - name: 'Episode 12'
+          code: MVoK8ZvpvPk
+        - name: 'Episode 13'
+          code: zLkyz4rrsuU
+        - name: 'Episode 14'
+          code: ql31hSnJFv4
+        - name: 'Episode 15'
+          code: z2jBnrMDxCo
+    - name: Saison 3 - Les Missionnaires
+      episodes:
+        - name: 'Episode 01'
+          code: x2H8TBqMWBI
+        - name: 'Episode 02'
+          code: MfSjJuFF15M
+        - name: 'Episode 03'
+          code: O5hxYvC3658
+        - name: 'Episode 04'
+          code: rOaMqvZPSnc
+        - name: 'Episode 05'
+          code: f1xMHzf_QkI
+        - name: 'Episode 06'
+          code: UOxaNcY3gQQ
+        - name: 'Episode 07'
+          code: vGddoolwaoc
+        - name: 'Episode 08'
+          code: hLdxTH1s7q8
+        - name: 'Episode 09'
+          code: zqr2_rrEIBI
+        - name: 'Episode 10'
+          code: WaQE66zJ4aY
+    - name: Saison 4 - Neo-Versailles
+      episodes:
+        - name: 'Episode 1 - La Balade de Raph et Stella'
+          code: oLwly4iwkFg
+        - name: 'Episode 3 - Le Sauveur malgré lui'
+          code: 9ECZLRyMm80
+        - name: 'Episode 2 - La Cour Royale'
+          code: 93zcOAbWsp8
+        - name: 'Episode 4 - Un Nouvel Espoir'
+          code: sLfRBSw3JqM
+        - name: 'Episode 5 - le Bal'
+          code: EaoVPHcV0lo
+        - name: 'Episode 6 - Le Réveil'
+          code: T1Toha5ubTY
+        - name: 'Episode 7- Coup de Théâtre'
+          code: 4juTeGhn-Ns
+        - name: 'Episode 8 - Les Ficelles'
+          code: PL51e_5kwrU
+        - name: 'Episode 9 - La Révolution'
+          code: Clumuvqj7c8
+        - name: 'Episode 10 - Le Clou du Spectacle'
+          code: rNveF_z9lTw
+les_parasites:
+  name: Les Parasites
+  locale: fr
+  type: series
+  image: https://en.tipeee.com/api/v1.0/images/1063091?width=1200&height=630
+  description:
+    Les Parasites vous racontent des histoires...
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Lanceur d''Alerte'
+          code: ruooxBTydtE
+        - name: 'Jeu de Société'
+          code: EwK9glIxIoo
+        - name: 'M. Carotte - Lucie et le Périscope'
+          code: sfmG04ov6Vg
+        - name: 'Faux Contact'
+          code: 3Vi0b_S0lUE
+        - name: 'Crise d''Empathie'
+          code: mPZBTfX3vqU
+        - name: 'Vertige (48HFP Paris 2015)'
+          code: 86JIMIqxiKk
+        - name: 'Symptômes d''Amour'
+          code: cki1P3wsJ4A
+        - name: 'Eva D.'
+          code: sStaSlGFDBw
+        - name: 'Le Figurant'
+          code: XtA_qh91Do8
+        - name: 'La Légende du Vieux Jacques'
+          code: UvhlHateb0Y
+        - name: 'Amour Artificiel'
+          code: iXkwVkvNBAo
+        - name: 'Bienvenue Chez Vous'
+          code: Lnk7C7HrLuU
+        - name: 'La Pièce'
+          code: B5dN2JLQaeY
+        - name: 'Tentative 49'
+          code: WDOsoarED6I
+        - name: 'Kung Fou'
+          code: hSKpxrNEjx4
+noob:
+  name: NOOB
+  locale: fr
+  type: series
+  image: https://levarois.com/wp-content/uploads/2016/07/noob-couverture.jpg
+  description:
+    NOOB est la première web-série sur le thème des mmorpg ! Elle est numéro 1 au box office français depuis 2009
+    et présente les aventures déjantées de la pire guilde de tous les temps !
+  categories:
+    - adventure
+    - scifi
+    - action
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Gaea l''invocatrice'
+          code: mXab7PegMCM
+        - name: 'La guilde noob'
+          code: oWVOPqAsL-g
+        - name: 'Fausse route'
+          code: 6zb48QQ5FWc
+        - name: 'Dark avenger le pk'
+          code: l9qaSvjRx4w
+        - name: 'La coalition'
+          code: mOp3XzS8XHs
+        - name: 'Jack Ceparou'
+          code: 99ylKO1S3F8
+        - name: 'La pierre de substitution'
+          code: ZmkXER_4SF0
+        - name: 'Une lueur d''espoir'
+          code: dUP2iozPL2s
+        - name: 'La tour Galamadriabuyak'
+          code: X2QvKp30G64
+        - name: 'L''etrange noËl de dark avenger'
+          code: nxeK4iPV8Vo
+        - name: 'La boutique'
+          code: 8juSAQY1r7Y
+        - name: 'Donjon de Mortegarde part 1/2'
+          code: yO7AIkEyO18
+        - name: 'Donjon de Mortegarde part 2/2'
+          code: G8Z2Eq6HeE8
+        - name: 'Tenshirock le hacker part 1/2'
+          code: MprZ8WcAMbs
+        - name: 'Tenshirock le hacker part 2/2'
+          code: 233Z1VKIgWU
+        - name: 'La guilde Justice'
+          code: okNoZPif9YM
+        - name: 'Joueur contre Joueur'
+          code: c6u86fpexzI
+        - name: 'Capture d''ecran'
+          code: ZeiGzHwMIk4
+        - name: 'La taverne'
+          code: 0iVHuixUNyY
+        - name: 'Faux depart'
+          code: 2rtklRY6wSQ
+        - name: 'Le premier étage'
+          code: nJnSwPNn_bc
+    - name: Saison 2
+      episodes:
+        - name: 'Mise a jour'
+          code: GmhBULeLZaA
+        - name: 'La communaute du bâton'
+          code: d9NciMcybgI
+        - name: 'SOS soigneur'
+          code: tEr4wpD1ACo
+        - name: 'Pick up'
+          code: 2BNyo3RCN3Q
+        - name: 'Restons zen'
+          code: c373CCr_wKE
+        - name: 'Retrouvailles'
+          code: IylPK1xBbnw
+        - name: 'Redemption '
+          code: ISC9oQEdOMI
+        - name: 'Impression de deja vu '
+          code: R5-5Gjw709A
+        - name: 'Curriculum Vitae '
+          code: 7KnBSn5tB1c
+        - name: 'Complots (partie 1/2) '
+          code: kRAZh2om0W4
+        - name: 'Complots (partie 2/2) '
+          code: 3bOXjwkxtKQ
+        - name: 'Le maitre des competences '
+          code: 3Tb-ye1EJtM
+        - name: 'Retour dans la tour '
+          code: H88fOM7qPDI
+        - name: 'Le PK contre-attaque'
+          code: Rzb3KoKIiRk
+        - name: 'La grande bataille'
+          code: KbDbnSRJqwQ
+        - name: 'Le choc des extremes'
+          code: e26f00GM5Zo
+    - name: Saison 3
+      episodes:
+        - name: 'Horizon 2.0'
+          code: KgBX0R4fk68
+        - name: 'Reroll'
+          code: hHWLjQNgChU
+        - name: 'Hacker'
+          code: hlDKjL6GljY
+        - name: 'Recrutement'
+          code: aNX5mG7IApU
+        - name: 'Reportage'
+          code: ImbQK6wDuqE
+        - name: 'Conspiration'
+          code: w5YGav7BpbE
+        - name: 'Trahison'
+          code: 1lL6EsV4qcY
+        - name: 'De pire en pire'
+          code: PvzsuisJLac
+        - name: 'Centralis'
+          code: bIOyZ3TMfhY
+        - name: 'Rencontre irl'
+          code: Q2lluhPdD38
+        - name: 'Niveau 1 (partie 1/2)'
+          code: R5t3G8AHL4I
+        - name: 'Niveau 1 (partie 2/2)'
+          code: Zpu9wlgQHbc
+        - name: 'Persona non grata'
+          code: EtCBupeEhnw
+        - name: 'Orgueil et prejuges'
+          code: oqmYzsEO0aI
+        - name: 'Buyabuyak (partie 1/2)'
+          code: Q_ELwkWwg1g
+        - name: 'Buyabuyak (partie 2/2)'
+          code: _WfS5g5WOG0
+        - name: 'Furie'
+          code: rVCX5Kl9uS0
+        - name: 'Rosaphir'
+          code: 5OqtNUFHQpg
+    - name: Saison 4
+      episodes:
+        - name: 'Prologue'
+          code: k20lB3c5Ik4
+        - name: 'Pk-Dilles'
+          code: h8zaY5FeFWQ
+        - name: 'Conflit d''interet'
+          code: YhM9P8kOooM
+        - name: 'Sourcelame'
+          code: zVBkoZMoUus
+        - name: 'Dramegatique'
+          code: K8ol4sw9SNA
+        - name: 'Bad reputation'
+          code: 2wxm7-C4Np4
+        - name: 'Reconnaissance'
+          code: 3iDfZixpdRo
+        - name: 'Meme pas en rêve'
+          code: AjkpC6mZ8vU
+        - name: 'Le donjon du chaos 1/3'
+          code: 89xlQFcYwuo
+        - name: 'Le donjon du chaos 2/3'
+          code: xGRYYfU8bgA
+        - name: 'Le donjon du chaos 3/3'
+          code: R2ESTIEZtEE
+        - name: 'Incompatibilite'
+          code: UnSntLWJV9U
+        - name: 'Apocalypse 1/3'
+          code: rQhze1-uzvw
+        - name: 'Apocalypse 2/3'
+          code: 8I17TldlU8k
+        - name: 'Apocalypse 3/3'
+          code: 8CysIpEB-Xo
+    - name: Saison 5
+      episodes:
+        - name: 'Prologue'
+          code: Mvxj1Y9GnQA
+        - name: 'La partie continue'
+          code: y0IpZG-4yyo
+        - name: 'Nouvelles ambitions'
+          code: yaf6NFmorQ8
+        - name: 'World boss'
+          code: kUuUdRn__M0
+        - name: 'Historique perdu'
+          code: r9zya6btKzA
+        - name: 'Reunion de famille'
+          code: C4OODrx2t5s
+        - name: 'Eliminatoires'
+          code: 7UseqFBJ9M0
+        - name: 'Phases finales'
+          code: DbGSQALdED0
+        - name: 'Le secret de tenshirock'
+          code: wWFA9VXf3mY
+        - name: 'Magouilles et gaeabouilles'
+          code: LLdaZhjMbso
+        - name: 'Crepuscule 2.0 1/2'
+          code: nBNFMF5WboU
+        - name: 'Crepuscule 2.0 2/2'
+          code: 8Y7Ee2Zb7eE
+    - name: Saison 6
+      episodes:
+        - name: 'La source du chaos'
+          code: -xxH4WIQNWI
+        - name: 'L''objet unique'
+          code: aSfrmevDFgQ
+        - name: 'Accomplissement'
+          code: BtVYpKb55Ig
+        - name: 'Dead & Rock'
+          code: Gxqyzdg0ngY
+        - name: 'La prophetie'
+          code: EaXTW4h2BjA
+        - name: 'Quête d''enquête'
+          code: bmDCLj4tHpc
+        - name: 'Echantillons'
+          code: nKiQrEvDVjs
+        - name: 'Le conseil des trois factions'
+          code: -gE8rNjoYGA
+        - name: 'Les sept géneraux'
+          code: K2goPnzoqow
+    - name: Saison 7
+      episodes:
+        - name: 'Complot megalo'
+          code: FldgNd3zsdU
+        - name: '/quit ou double'
+          code: dXSACK1YRJI
+        - name: 'Case prison'
+          code: 8cKuT4vzTDQ
+        - name: 'Renfort inattendu'
+          code: IPLNL7pqbx8
+        - name: 'Premieres epreuves'
+          code: VaQX1nIsyf8
+        - name: 'Chacun sa route'
+          code: 8AC1a-rY9P0
+        - name: 'Deconcertant'
+          code: a6D0PivCF-8
+        - name: 'L''heure du duel'
+          code: 0gUQmDx7HrU
+        - name: 'Les mines damnees'
+          code: sA_ZpFKXxVw
+        - name: 'La source du neant'
+          code: SgiUGdTzfjw
+        - name: 'Partage de quête'
+          code: V9nB7yw6i9g
+        - name: 'Histoire de troll'
+          code: GgFvdFcnXzE
+        - name: 'La revanche'
+          code: NtuWhGLbHwI
+        - name: 'Contre toute attente (bonus)'
+          code: O2tczMg92FM
+    - name: Saison 8
+      episodes:
+        - name: 'Le conseil de Glacesang'
+          code: A6yDzDeWewI
+        - name: 'Quêtes et enquêtes'
+          code: '-w7_WC0oEMc'
+        - name: 'La forge'
+          code: Eq_QMWK3vlU
+        - name: 'Le bâton legendaire'
+          code: f0rYGRFzZks
+        - name: 'Freres ennemis'
+          code: WMes_36h09w
+        - name: 'Chaos en olydri'
+          code: Pa9euKS07lw
+        - name: 'Epilogue'
+          code: kVGSgarJylw
+    - name: Saison 9
+      episodes:
+        - name: 'Battleground'
+          code: Qp1SAioaxYM
+        - name: 'Rafale le tank'
+          code: CdmRMjd024k
+        - name: 'Besoin d''un break'
+          code: 0oyP5mKfMog
+        - name: 'Un peu rouillé'
+          code: 8qNwo-76PVE
+        - name: 'Pro game master'
+          code: uRdI9sgCcdk
+        - name: 'Reunion du roster un'
+          code: AqCGA8iBaIU
+        - name: 'L''event d''halloween'
+          code: kLGH5bKlnB8
+        - name: 'Gigazertek'
+          code: cKaKfQCd-3E
+        - name: 'L''event de pâques'
+          code: 5vZ3tyOZe8k
+        - name: 'Démonstration'
+          code: XAiXIM_91OA
+        - name: 'Responsabilités'
+          code: i9bWbbG7pH0
+        - name: 'Mise au point'
+          code: BjMSA7WElRY
+        - name: 'Arme secrete'
+          code: gtSjW8_Epbg
+        - name: 'Gaming house'
+          code: rYy4NPJQjYE
+        - name: 'Les pionniers'
+          code: r29rXNIO_qc
+        - name: 'Spécial noël'
+          code: -eWXzbmuB3o
+damned:
+  name: Damned
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/vtUyBDpplh0/maxresdefault.jpg
+  description:
+    Sinji Sam et Johan sont exorcistes à Grenoble.
+    Leur petite entreprise ne connait pas la crise mais leur position de  monopole va être quelque peu malmenée...
+  categories:
+    - thriller
+    - action
+  seasons:
+    - name: Damned 2
+      episodes:
+        - name: Again
+          code: X1kEHFmeKz4
+    - name: Damned Next
+      episodes:
+        - name: 'Damned 5.1 - come back 1/2'
+          code: Flev4c28qBU
+        - name: 'Damned 5.1 - come back 2/2'
+          code: KCeXctJ7D6s
+        - name: 'Damned 5.2 - blow out 1/3'
+          code: 2b44LhIk-zs
+        - name: 'Damned 5.2 - blow out 2/3'
+          code: xLMUZfQNldU
+        - name: 'Damned 5.2 - blow out 3/3'
+          code: dq_FmkwRXCE
+        - name: 'Damned 6.2 - conspiracy'
+          code: hMuGR3mvmxg
+        - name: 'Damned 6.3 - 1/2'
+          code: nBWqWW7GRnE
+        - name: 'Damned 6.3 - 2/2'
+          code: VUM8vZo4MyQ
+    - name: Damned 7 - Awakening
+      episodes:
+        - name: 'Episode 1'
+          code: bxPZvbJNczg
+        - name: 'Episode 2'
+          code: Ht6QZ_btVKE
+        - name: 'Episode 3'
+          code: 9JXCqj9H7G4
+        - name: 'Episode 4'
+          code: TQPe-LMEcwY
+        - name: 'Episode 5'
+          code: oj4lqFofVYQ
+        - name: 'Episode 6'
+          code: hdYjexzo664
+        - name: 'Episode 7 : The Holy Ones'
+          code: TdiilsCUclo
+        - name: 'Episode 8 : Blank Hour'
+          code: cU15X4Nbsjg
+        - name: 'Episode 9 : Royal Rumble'
+          code: RT-ZTEmACEc
+        - name: 'Episode 10 : Transcendance'
+          code: ptrhs8hRsNY
+derriere_youtube:
+  name: Derrière Youtube
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/9kQ__KUK2bw/maxresdefault.jpg
+  description:
+    Un aperçu de la vie difficile des youtubers
+  categories:
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Avoir un concept'
+          code: 9kQ__KUK2bw
+        - name: 'L''argent sur youtube'
+          code: nzzx14dEHvA
+        - name: 'Le metier d''acteur'
+          code: uXV5qfNCs78
+        - name: 'Connu sur youtube, ça vaut quoi ?'
+          code: gP_-kAHcnnE
+        - name: 'Faisons un film !'
+          code: 5o8n7v1Kz5M
+        - name: 'J''aurais voulu être un acteur'
+          code: c67mwIOw0s4
+    - name: Saison 2
+      episodes:
+        - name: 'Populaire'
+          code: szS2VCAQFBc
+        - name: 'Qui perd, perd'
+          code: zchM3R89IpA
+        - name: 'La roue tourne'
+          code: vupxuYL2FWk
+        - name: 'Quelle connerie !'
+          code: 3QSXaCbBd1c
+        - name: 'J''aurais voulu être'
+          code: Ju1I_615iLc
+        - name: 'Copinage'
+          code: xsVG8ZWKgLI
+        - name: 'Qui perd gagne'
+          code: 126L3ByHwA8
+    - name: Saison 3
+      episodes:
+        - name: 'Lâche l''affaire'
+          code: vaEOWAuuCAQ
+        - name: 'Retour aux sources'
+          code: SsL9N9ynEcA
+        - name: 'Youtuber n''est pas un métier'
+          code: MAenZaIw-go
+        - name: 'J''vais m''refaire'
+          code: 7O_UAeFpO2w
+        - name: 'Cercle vicieux'
+          code: A2XrDuvOleI
+        - name: 'Fin du game'
+          code: dTbHOXT6xhE
+crash_zoom:
+  name: CRASH ZOOM
+  locale: us
+  type: series
+  image: https://img.youtube.com/vi/Ii4Rbbk8zAs/maxresdefault.jpg
+  description:
+    "CONTENT WARNINGS: Demons, explosions, violence... Honestly it's got everything but swearing and blasphemy."
+  categories:
+    - action
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Firing squad'
+          code: Ii4Rbbk8zAs
+        - name: 'Sky scam'
+          code: 8imiDETu2uw
+        - name: 'Grave mistake'
+          code: TDBeXJXYS4U
+        - name: 'Orcs & dorks'
+          code: ulcidTB4P1U
+        - name: 'Fingered'
+          code: t7t8fales4w
+        - name: 'Movie massacre'
+          code: TnyBXvB3_ho
+asdf:
+  name: ASDF Movie
+  locale: us
+  type: series
+  image: https://img.youtube.com/vi/IYnsfV5N2n8/maxresdefault.jpg
+  description:
+    "nothing more than internet."
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: asdfmovie1
+          code: IYnsfV5N2n8
+        - name: asdfmovie2
+          code: tKB4h9gvmm0
+        - name: asdfmovie3
+          code: oY6tCnu-1Do
+        - name: asdfmovie4
+          code: cYNdUM2gRsg
+        - name: asdfmovie5
+          code: tCnj-uiRCn8
+        - name: asdfmovie6
+          code: hrzIykdka4s
+        - name: asdfmovie7
+          code: 5xniR1GN69U
+        - name: asdfmovie8
+          code: olit-B5Yldc
+        - name: asdfmovie9
+          code: 8l6T3fwxAyw
+        - name: asdfmovie10
+          code: foFKXS6Nyho
+        - name: asdfmovie11
+          code: LJnpwL-2Drc
+histoire_chausette:
+  name: L'Histoire racontée par des Chaussettes
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/8JedMH7URdM/maxresdefault.jpg
+  description:
+    Les découvertes étranges d'après des chaussettes. Par Yacine et Dedo.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'La Découverte Mystérieuse'
+          code: 8JedMH7URdM
+        - name: 'Le truc de Troie (Part 2)'
+          code: qUKtJwLROpI
+        - name: 'Le truc de Troie'
+          code: A1Kx5wa3NjE
+        - name: 'Jeanne d''Arc'
+          code: lUuncjDTSKI
+        - name: 'Le casting de Star Wars'
+          code: 1TT56NMKXwU
+        - name: 'L''invention de la télécommande'
+          code: p-WljKMGMLw
+        - name: 'Jésus & Judas'
+          code: E2ZqkRSzpeQ
+        - name: 'Les Pyramides'
+          code: zJ5LupvEkag
+        - name: 'L''invention des Pokemon'
+          code: Ks5l0zFgne4
+        - name: 'L''histoire racontée par des chaussettes - Louis XVI'
+          code: KiQUhxWtdBc
+        - name: 'L''invention des toilettes'
+          code: 48NMAs1mka0
+ferdinand:
+  name: Ferdinand
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/jJy3abklXeQ/maxresdefault.jpg
+  description:
+    Ferdinand n'avait pas d'amis... Mais Ferdinand avait un plan !
+  categories:
+    - humour
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Ferdinand achète un Ami'
+          code: jJy3abklXeQ
+        - name: 'Ferdinand cherche l''Amour'
+          code: 92P2n0n8r84
+        - name: 'Ferdinand fait la Vélorution'
+          code: 2HFmSoFYG_g
+croc_love:
+  name: CROC LOVE
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/pjYl1TQbj1c/maxresdefault.jpg
+  description:
+    'Hector et Héléna assiste ébahis à une révolution technologique majeure : une journaliste annonce l’invention
+    d’un Test de l’Amour, permettant de mesurer vos sentiments.'
+  categories:
+    - drame
+    - romantic
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Un petit pas pour l’humanité'
+          code: pjYl1TQbj1c
+        - name: 'A la folie... pas du tout'
+          code: iH2b_NRPyQ8
+        - name: 'Cobaye myself'
+          code: pw_aeZYEjiE
+        - name: 'Love Célébration'
+          code: M7ygjof88V8
+        - name: 'Poison Mortel'
+          code: mW7NMUT8a-U
+        - name: 'Le Trip'
+          code: VKxLfr1ayns
+        - name: 'Le Temps des regrets'
+          code: sTT3fNSd00k
+        - name: 'Mauvaise piste'
+          code: zg2HOg6ED5s
+        - name: 'Les épreuves d’amour'
+          code: Ie4XU_VD9wg
+        - name: 'La rééducation'
+          code: Mlg6PU-_HKU
+terreur_404:
+  name: TERREUR 404
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/JtJ4OJImJ5Q/maxresdefault.jpg
+  description:
+    La soirée s’annonçait parfaite, jusqu’à ce que Maxime accepte, sans réfléchir sur Facebook,
+    une demande d’amis envoyée par… lui-même.
+  categories:
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Demande d''amitié'
+          code: JtJ4OJImJ5Q
+        - name: 'Ma première morte'
+          code: 6iJCd0XyUkk
+        - name: 'Monsieur Parfait'
+          code: g1rWo0Pi5Dg
+        - name: 'Course de nuit'
+          code: ye5t5IqtwXM
+        - name: 'La maison des amants'
+          code: lw29pawqyWU
+        - name: 'Maman, j''ai peur'
+          code: l0Vr2ZKHZ-w
+        - name: 'Chirurgie d''un jour'
+          code: OTSUQR2TdLU
+        - name: 'Le virus'
+          code: AjmZSxde5QE
+bitmuch:
+  name: BITMUCH
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/V6DCYtAKL1s/maxresdefault.jpg
+  description:
+    Multinationale gigantesque, la société Bitmuch est dirigée par des hommes d’affaires
+    extrêmement ambitieux mais complètement incompétents.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Adopte un stagiaire'
+          code: V6DCYtAKL1s
+        - name: 'Exormcisme social'
+          code: QNLUiMn3VpU
+        - name: 'Licenciement à sec'
+          code: rqxMuV7gZcU
+        - name: 'Meeting 2 merde'
+          code: NOK-Hh_3I8k
+        - name: 'La rilaxitude'
+          code: m1T4LpJMKXw
+monsieur_flap:
+  name: Monsieur Flap
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/GHR21HB4cZ8/maxresdefault.jpg
+  description:
+    C’est l’histoire d’un homme avec une tête de cul qui tombe amoureux.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'LA COIFFEUSE'
+          code: GHR21HB4cZ8
+        - name: 'LE TRAVAIL'
+          code: 1-4FTV4Dwq0
+        - name: 'LA PLAGE'
+          code: UtQ_mteeNl4
+        - name: 'LE STYLE'
+          code: FryrbMjOFuA
+        - name: 'LA CÉRAMIQUE'
+          code: pVRjn4bT5Dw
+        - name: 'LE KARAOKÉ'
+          code: AUPL4sXAIzM
+        - name: 'RIO'
+          code: Kv4zWimUjlg
+        - name: 'LE BUZZ'
+          code: ywVkeIA9z2Q
+        - name: 'LE DOCTEUR'
+          code: wbeJNjv8UBM
+        - name: 'LA GROSSE SOIRÉE'
+          code: R_htGfy2KM4
+        - name: 'LE MARIAGE'
+          code: WsZcpr5PfmM
+la_petite_mort:
+  name: La Petite Mort
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/XiY0AdNd79s/maxresdefault.jpg
+  description:
+    Déménager quand on est gosse ce n'est jamais facile, mais quand en plus il faut faucher le voisinage...
+  categories:
+    - humour
+    - drame
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Une nouvelle vie'
+          code: XiY0AdNd79s
+        - name: 'Une nouvelle classe'
+          code: zh9tSYWpMqI
+        - name: 'Un nouvel Halloween'
+          code: IUtMi8q9-pU
+        - name: 'Une nouvelle lune'
+          code: ZTTpRHC5ZH4
+        - name: 'De nouvelles fêtes'
+          code: y63SpxPPFQY
+        - name: 'Un nouvel espoir'
+          code: BCz3f3JbD4k
+        - name: 'Une nouvelle question'
+          code: 6xMYzZ10Vr8
+        - name: 'Une nouvelle merveille du monde'
+          code: R7un4yvOIEY
+        - name: 'Une terrible nouvelle'
+          code: ic-J_ilYuKA
+        - name: 'Une nouvelle mort'
+          code: U-PqgL8Xxyo
+the_cell:
+  name: The Cell
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/B-HEy0JloAs/maxresdefault.jpg
+  description:
+    Gaspard, il est comme toi et moi, une petite vie tranquille mais un peu chiante quand même...
+    jusqu'à ... la journée de merde de trop.
+  categories:
+    - thriller
+    - action
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'En Taule'
+          code: B-HEy0JloAs
+        - name: 'I Know Kung Fu'
+          code: Xae0AGXiYSE
+        - name: 'Total Eclipse (Of The Heart?)'
+          code: paSRsok3V-s
+        - name: 'Aspirator 2 : le jugement dernier'
+          code: QLDtCX05DNc
+        - name: 'Jurassic Squat'
+          code: t2BLsxJPjYU
+        - name: 'Vers L''infini ! et ...'
+          code: ITHUC0dsoEk
+        - name: 'Le Highlander'
+          code: wSEypP18utE
+        - name: 'Un Plan Simple ?'
+          code: qLOe6GdDARQ
+        - name: 'Cube'
+          code: sAE4myjrgAw
+        - name: 'Alien vs Aspirator'
+          code: 44ZVZblsDZ8
+monsieur_carton:
+  name: Monsieur Carton
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/PGazJej-QK8/maxresdefault.jpg
+  description:
+    La candeur et la douce folie de Mr. Carton, son inconscience aussi parfois,
+    fédèrent le spectateur à sa cause, aussi futile soit-elle.
+  categories:
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Direction'
+          code: PGazJej-QK8
+        - name: 'Collision'
+          code: AnXXGz3LBm4
+        - name: 'Décision'
+          code: lkqdXTOPtP0
+        - name: 'Inattention'
+          code: 8C7iAlEYkTE
+        - name: 'Distraction'
+          code: fwvcKQoBdao
+        - name: 'Vibration'
+          code: CT1lcDCat6Q
+        - name: 'Destination'
+          code: CQSbogqNXxU
+        - name: 'Apparition'
+          code: 6szEKihRbPg
+        - name: 'Complication'
+          code: dUWMGhTCJoc
+        - name: 'Distanciation'
+          code: Fx_a-DDJb5k
+        - name: 'Élévation'
+          code: 2YxI-GFZXoY
+        - name: 'Aspiration'
+          code: ZJKMqS1XRFM
+        - name: 'Illusion'
+          code: cKzD9nZ42H0
+reboot:
+  name: Reboot
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/kouJTXPp5U4/maxresdefault.jpg
+  description:
+    'Oscar a tout pour être heureux : une femme enceinte, une maison en banlieue et un Kangoo.
+    Tout est parfait… sauf lorsqu’il se rend compte que tous ses collègues de travail sont des robots.'
+  categories:
+    - thriller
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Oscar'
+          code: kouJTXPp5U4
+        - name: 'Le Majordome'
+          code: UMoLmMuiRJs
+        - name: 'Agatha'
+          code: bK-LsTZDQDw
+        - name: 'Virginia'
+          code: Qj4UNwhoa58
+        - name: 'Virgile'
+          code: K2B_KWULYXY
+        - name: 'Patrick'
+          code: Gefpi2evtD4
+    - name: Saison 2
+      episodes:
+        - name: 'Francine'
+          code: DW9jNJBi14w
+        - name: 'Victor Hugo'
+          code: 2ALn0bgiVrs
+        - name: 'Johanna'
+          code: anlCRfxjpDE
+        - name: 'Rimbaud'
+          code: dcD0gHbAs88
+        - name: 'Gerard'
+          code: feFe_SgBg5I
+        - name: 'Quoi'
+          code: XRaBZ47wxjw
+        - name: 'Yannick'
+          code: RjpNXIY8INY
+        - name: 'Mix Chel'
+          code: qryFVk3uPUU
+tout_le_monde_sen_fou:
+  name: Et tout le monde s'en fout
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/EDDxAIhHt08/maxresdefault.jpg
+  description:
+    Notre monde est stupéfiant. Et si on arrêtait de s’en foutre ?
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Les femmes'
+          code: EDDxAIhHt08
+        - name: 'L''argent'
+          code: 3s8-GtFt6f4
+        - name: 'Les émotions'
+          code: _DakEvdZWLk
+        - name: 'L''eau'
+          code: MWwJGhtsH54
+        - name: 'Le désir sexuel'
+          code: YhJ4BwKdkOA
+        - name: 'Le vote blanc'
+          code: Kxkvba3GH3g
+        - name: 'Le bonheur'
+          code: mym9UzxOs5g
+        - name: 'Le racisme'
+          code: YzyOGhWO3Gk
+        - name: 'La salope'
+          code: mriGX5DutlM
+        - name: 'La guerre'
+          code: _QMpyljfBAE
+        - name: 'L''estime de soi'
+          code: a82VN1RZI-k
+        - name: 'Le sable'
+          code: Tnfk44DzBEs
+        - name: 'Le clitoris'
+          code: N67C7G5y9Dk
+        - name: 'La viande'
+          code: Qcd4VIkCI3k
+        - name: 'La culture du viol'
+          code: pPH2GEB7-X0
+        - name: 'La vérité'
+          code: VD4ne7VuFVs
+        - name: 'Les hommes'
+          code: ByqBT1loIFI
+        - name: 'Le pouvoir'
+          code: kF1_qecmP4Y
+        - name: 'Les déchets'
+          code: BqyUne1vSSs
+        - name: 'La bienveillance'
+          code: pCBcuVitjKo
+        - name: 'La révolte'
+          code: FNKm3GV1r_k
+    - name: Saison 2
+      episodes:
+        - name: 'La violence'
+          code: wvvuVrt_XuE
+        - name: 'Les arbres'
+          code: VzaOlaYyCmw
+        - name: 'Les valeurs'
+          code: OqInPOy50p4
+        - name: 'Le temps'
+          code: ZbWTEbEx9D4
+        - name: 'L''échec'
+          code: c0IsvrSpcx4
+        - name: 'La vie'
+          code: wtKUCezgVFM
+        - name: 'Je t''aime'
+          code: qG_dmDEw50w
+        - name: 'La religion'
+          code: tKSaZrw7HxU
+        - name: 'Le couple'
+          code: 6S9saPTnNcQ
+        - name: 'Les vêtements'
+          code: UU7w1D2PKr4
+        - name: 'La perfection'
+          code: 9qltmpDNX7Q
+        - name: 'Le féminisme'
+          code: qmCd2HF_zZM
+        - name: 'La mort'
+          code: qWkPTPVMIQw
+        - name: 'Le handicap'
+          code: 7ET8zD0xbDw
+        - name: 'Les règles'
+          code: bOd_xIdQ1LA
+        - name: 'Noël'
+          code: qfUOEJXmeZg
+durty_biologie:
+  name: DirtyBiology
+  locale: fr
+  type: documentary
+  image: https://img.youtube.com/vi/JyQqFZHJWTA/maxresdefault.jpg
+  description:
+    Des vidéos de science sur des sujets mindfuck, crades, ou juste rigolos. Parfois on parle de biologie aussi.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'GAME OF THRONES VS SCIENCE : Des dragons volants ?'
+          code: fmByrcEhj-Y
+        - name: 'La guerre du sperme'
+          code: IlyLAuvtIjo
+        - name: 'La science des GIFs'
+          code: OD1nwi4kvXM
+        - name: 'La pandémie de World of Warcraft'
+          code: 2Yq-I4JRH7s
+        - name: 'Les bourrelets de l''évolution : être gros est-il un avantage ?'
+          code: vrRUZAewUXM
+        - name: 'La science du Ice Bucket Challenge'
+          code: 18-VT9wwEyU
+        - name: 'Darwin chez les Pokémons'
+          code: OcKfWW7sAMk
+        - name: 'Les animaux à roues du futur'
+          code: LUWkaZkosY0
+        - name: 'Des histoires pour l''humanité'
+          code: Gkc7euz7Y74
+        - name: 'Tuto Création Zombie : La chirurgie'
+          code: cbZ7SWYCBSY
+        - name: 'Les fruits sont des ovaires dégueulasses'
+          code: bovZt3bHcmg
+        - name: 'À quoi sert un pénis ?'
+          code: lcD3e7fhwZE
+        - name: 'Les enfers artificiels'
+          code: JdxfhMbSwL0
+        - name: 'Faites des enfants avec vos cousins'
+          code: onbPjqSOAPE
+        - name: 'La science inutile des rayures de zèbres'
+          code: R4wJb2O0dWw
+        - name: 'Le deuil numérique'
+          code: IgsTTcUCETU
+        - name: 'Prédire l''Histoire pt.1 - Les émeutes aux USA, feat. Histoire Brève'
+          code: vKRkba_hTKU
+        - name: 'Tuto Création Zombie pt.2 : L''électronique'
+          code: g9Is8gOuRpw
+        - name: 'La sagesse de YouTube'
+          code: xtuh5zTa7mQ
+        - name: 'Sommes-nous humains ?'
+          code: 940mJse7H5Q
+        - name: '5 choses qui font de vous une CHIMÈRE'
+          code: lqWvZSZBTy8
+        - name: 'Personnalité animale'
+          code: sVTiRBfZiI4
+        - name: 'Les origines de la richesse'
+          code: zb98HSJVHWk
+        - name: 'Des races dans l''humanité ?'
+          code: 7NxgBPoBMT0
+        - name: 'L''amnésie écologique'
+          code: KWWoDoMKiuY
+        - name: 'La biologie du porno'
+          code: 3MGzSlcLmoc
+        - name: 'Les OGMs sont-ils nocifs ? (non)'
+          code: lGG6s5x9FQs
+        - name: 'Pokémon Go et la science'
+          code: hEBZ0chwtAk
+        - name: 'Résoudre la surpopulation'
+          code: QbZXSpt0kOM
+        - name: 'Combien vaut la Nature ?'
+          code: '-IJnr0nUpVo'
+        - name: 'La beauté cachée de la Science'
+          code: yGL_LJosToY
+        - name: 'L''archéologie autrement'
+          code: '-MoN1sHzfxg'
+        - name: 'Pourquoi l''humanité a-t-elle failli disparaître ?'
+          code: wZyx5EEfUSE
+        - name: 'La science des révisions !'
+          code: Sxy6ye_QzPg
+        - name: 'À quoi sert un vagin ?'
+          code: jfxla6Ze5ww
+        - name: 'Faut-il tout tuer ?'
+          code: w3hTp7v2rqc
+        - name: 'D''où viennent les chemins ?'
+          code: cRpkOq1F_5E
+        - name: 'Existe-t-il une beauté absolue ?  au Louvre'
+          code: puPFb3nuooo
+        - name: 'Le paradoxe des drogues agréables'
+          code: ORzkjXg6M4k
+        - name: 'Cette ville agit comme un labyrinthe. Voici pourquoi.'
+          code: jAvI9DWDhKs
+        - name: 'L''erreur du biomimétisme'
+          code: 1qvJDQTqSHY
+        - name: 'Ces peuples prouvent la théorie de l''évolution'
+          code: R7Y9WHaJO-A
+        - name: 'Vous êtes de sang royal'
+          code: wXAydbyKD_4
+        - name: 'Une science pour protéger la Nature - Documentaire'
+          code: cdwfBSl12dg
+        - name: 'Êtes-vous sûr d''être vivant ?'
+          code: d6u6Xhsg-qk
+        - name: 'Les Youtubeurs et leurs problèmes psychologiques'
+          code: 6k1J_h4OxQg
+        - name: 'Un os dans le pénis'
+          code: 5OqQymAnA-M
+        - name: 'Superstimulus'
+          code: H5LpKMAzFL4
+        - name: 'La Terre pourrait-elle être un DONUT ?'
+          code: eZU9qsugcBY
+        - name: 'Comment cette capitale s''est évaporée'
+          code: nEx2lQyfSlc
+        - name: 'Ce que vous savez sur cette tribu est faux'
+          code: JyQqFZHJWTA
+jaime_mon_job:
+  name: J'aime mon Job
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/cqhA5hpu2KE/maxresdefault.jpg
+  description:
+    A chaque épisode un personnage nous fait découvrir avec sérieux son métier nous présentant ses avantages et
+    ses inconvénients, avec mise en situation, la caméra le suivant sur ses lieux d'exercic
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Loueur d''épaule réconfortante'
+          code: cqhA5hpu2KE
+        - name: 'Annonceuse de mauvaises nouvelles'
+          code: MBX-9wtSPjM
+        - name: 'L''attendrisseuse'
+          code: JUogOCKigyI
+        - name: 'Procréateur professionnel'
+          code: 4gCMan7CUr0
+        - name: 'La rabibocheuse'
+          code: AaH01Zn2xnE
+        - name: 'Plombeuse d''ambiance'
+          code: w4_aNiThEIM
+        - name: 'Anti bad trip'
+          code: GcQm_VbK6Q4
+        - name: 'Gardeuse de secrets'
+          code: JM5gv-UwnpQ
+        - name: 'Traductrice de SDF'
+          code: JTDG7fF1yeE
+        - name: 'Fils d''appoint'
+          code: EdmGxf3gzsU
+        - name: 'Dealer de mots'
+          code: RCqNB1VPiq4
+        - name: 'Décoratrice de tout petit intérieur'
+          code: nuu2baFIt1I
+        - name: 'Accordeur de Air guitare'
+          code: qcFiDCMJQjY
+        - name: 'Conseillère d''orientation sexuelle'
+          code: 0akv1v-bu5Y
+        - name: 'Sportif de bas niveau'
+          code: I-0C2XNyU0Q
+        - name: 'Punching ball humain'
+          code: 9jFD-GcmNaU
+        - name: 'Extincteur de torche humaine'
+          code: ufFEdJNybYk
+the_system:
+  name: The System
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/OOwFCinUA9s/maxresdefault.jpg
+  description:
+    La terreur s’intensifie en France depuis l’arrivée au pouvoir du nouveau président.
+    En cette année 2032, le pays se détruit, et l’état met tout en place pour éviter toute rébellion.
+  categories:
+    - drame
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Épisode 1'
+          code: OOwFCinUA9s
+        - name: 'Épisode 2'
+          code: ui80mugdPbs
+        - name: 'Épisode 3'
+          code: fL_eKWtuy-Y
+        - name: 'Épisode 4'
+          code: fWf8sc1nx6o
+        - name: 'Épisode 5'
+          code: nT6loYcCeMs
+        - name: 'Épisode Final'
+          code: Nkg_yoCaAJs
+seltsam:
+  name: SELTSAM
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/QhoCszDhOuM/maxresdefault.jpg
+  description:
+    Par une belle nuit, Emilien s’endormit de nouveau dans son canapé devant son téléviseur.
+    Mais cette fois une mystérieuse dame a frappé à sa porte ...
+  categories:
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Le fantome amoureux'
+          code: QhoCszDhOuM
+        - name: 'Le sommeil'
+          code: WWU_7OwZXYA
+        - name: 'Mere et fille'
+          code: rd6sKkuSCo4
+        - name: 'Le rendez-vous'
+          code: nvOQuakd8NU
+    - name: Saison 1
+      episodes:
+        - name: 'Première nuit'
+          code: Hyz7uaL34ks
+        - name: 'L''homme en rouge'
+          code: oLwk8_c-Ooo
+        - name: 'Le labyrinthe'
+          code: J23OZTd2N1A
+        - name: 'Le reflet du coiffeur'
+          code: G2IrZkkcfKU
+        - name: 'Dangerous woman'
+          code: CZj4hKkrPMQ
+        - name: 'P.A.N'
+          code: neqAE6v9g_g
+        - name: 'Le bataillon perdu'
+          code: WV1DhwUFfpA
+        - name: 'Delivre-vous du Mal'
+          code: DGRl_pGJ39w
+machine_et_machinette:
+  name: Machine & Machinette
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/zt091zLYYLk/maxresdefault.jpg
+  description:
+    Ce jour où, bien pépère au taf, on t’apprend que ton nouvel adjoint n’est autre qu’un robot.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Boule & boulet'
+          code: zt091zLYYLk
+        - name: 'Silicon valley & procrastination'
+          code: RxRcezkikTk
+        - name: 'Préférences Système & booooya'
+          code: JGsZVfD0UYk
+        - name: 'Ex & esc '
+          code: '-QN8ZeS4Q9E'
+        - name: 'Algorithmes & faux flemmards'
+          code: BwEyFIpkS4I
+        - name: 'Reset & vuvuzela'
+          code: pJyObAr6Pyc
+        - name: 'Erreur 404 & sweats du dimanche'
+          code: HuD-BOxlcjE
+        - name: 'Carte-mère & perche du siècle'
+          code: aqPq7lFHTo0
+        - name: 'Fails & trous de boulette'
+          code: lX48TwZP4DI
+        - name: 'Reboot & mc turbin'
+          code: whiDNPLAqP4
+        - name: 'Obsolescence programmée & option chiale'
+          code: 7dbk8dKAQpY
+        - name: 'Hologramme & big bisous'
+          code: '-vXfBz7SsTo'
+face_au_diable:
+  name: Face au Diable
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/6M1OAbeefp4/maxresdefault.jpg
+  description:
+    En plein bras de fer avec la direction de son usine, Hugo Bernal est lâché par la CFT, son syndicat.
+    C’est la chute libre. Heureusement son ami Stan l’emmène en boite, où il va faire une rencontre.
+  categories:
+    - drame
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Tout perdre'
+          code: 6M1OAbeefp4
+        - name: 'Derrière les apparences'
+          code: EVLOgYDUBss
+        - name: 'L’intensité de la relation'
+          code: KZlNZ6TDe7c
+        - name: 'En délicieuse compagnie'
+          code: xwT2AZPD1oc
+        - name: 'C’est l’intention qui compte'
+          code: Z-0CW5kMh8o
+        - name: 'À bout touchant'
+          code: zqOkdZN5ysE
+        - name: 'Retour au bercail'
+          code: v_2KEks3nmg
+        - name: 'La solution de facilité'
+          code: UbzvN5GiNrk
+        - name: 'Dans les pas de mon père'
+          code: o0Jhsdnv4Kk
+        - name: 'Le grand bain'
+          code: CT26CPyxrYo
+hashtag_32:
+  name: '#32'
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/OwocNb-UftA/maxresdefault.jpg
+  description:
+    Dans le Gers, cinq amis inséparables découvrent les résultats du bac. Si certains l’ont, et vont partir poursuivre
+    leurs études hors du département, d’autres ont échoué, et vont devoir rester une année de plus au lycée.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Chloé'
+          code: wprEYHlTbMs
+        - name: 'Camille'
+          code: S8wQVpeF4Ho
+        - name: 'Sonia'
+          code: 89qAKo1iCKI
+        - name: 'Anthony'
+          code: ftPk8m3Tr0I
+        - name: 'Samuel'
+          code: 5zTusSpT4BE
+        - name: 'Final'
+          code: QHU8nxVerPo
+la_theorie_du_y:
+  name: La théorie du Y
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/GBWfB_lgZT4/mqdefault.jpg
+  description:
+    Anna s’ennuie dans son couple. Sur un coup de tête, elle plante Matteo, son copain.
+    Elle se retrouve dans un bar où elle fait la connaissance de Malik et de Claire...
+  categories:
+    - drame
+    - romantic
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Gratin à la Matteo'
+          code: GBWfB_lgZT4
+        - name: 'Claire'
+          code: 09uGcEobHXM
+        - name: 'Petite conversation entre adultes'
+          code: bqhsevpUoH0
+        - name: 'Le problème'
+          code: d9vY33Xir9o
+        - name: 'Une vraie lesbienne'
+          code: I76ing9MUDU
+        - name: 'Papa, Maman, les amis'
+          code: 73ZDAInINTo
+        - name: 'Un peu de folie'
+          code: f8lePuK1EW8
+        - name: 'Malik'
+          code: jGwfWn8msaM
+        - name: 'Cent pour cent'
+          code: Up23HemIsJQ
+        - name: 'Une question de sexe'
+          code: 18fh-5Sty8k
+        - name: 'La bonne personne'
+          code: GB1YO8uqUg4
+osef:
+  name: OSEF
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/lNdsEaCwttI/maxresdefault.jpg
+  description:
+    Dans cette web série, vous suivrez 7 adolescents aux personnalités différentes au cours d'une année scolaire.
+    Des professeurs complétement déjantés viendront également mettre leurs grain de sel.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Retour au Bahut'
+          code: lNdsEaCwttI
+        - name: 'Premières Tensions'
+          code: bu1glp2XdA8
+        - name: 'Problèmes d''Ados'
+          code: oB0OkGu_myk
+        - name: 'Trop d''Emotion'
+          code: z7YBdETYw74
+        - name: 'Noël au Collège'
+          code: '-926M70Uh9o'
+        - name: 'Donnons d''la Voix'
+          code: bLsRNWJDOZU
+        - name: 'Quand l''orage passe'
+          code: 9zsCSYFRPTo
+        - name: 'Déjà en Vacances'
+          code: hkUSlZtG_4U
+    - name: Saison 2
+      episodes:
+        - name: 'Vive la rentrée !'
+          code: jbCSwGRMkUo
+        - name: 'Le changement c''est maintenant !'
+          code: y11DUMXYiDw
+        - name: 'Attrapez les tous!'
+          code: LrppRKDaToo
+        - name: 'Triches et Manigances'
+          code: CPVZWpwyTVw
+        - name: 'A l''abordage !'
+          code: 1M-HN719QSE
+tu_mourras_moins_bete:
+  name: Tu mourras moins bête
+  locale: fr
+  type: documentary
+  image: https://img.youtube.com/vi/GYjiQYkFG-A/maxresdefault.jpg
+  description:
+    Le Professeur Moustache et son assistant Nathanaël expliquent les phénomènes scientifiques du quotidien.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'A quand le sabre laser ?'
+          code: GYjiQYkFG-A
+        - name: 'La peur en avion'
+          code: LpOrmysNDdE
+        - name: 'Chérie, j''veux rétrécir les gosses !'
+          code: BmqycyV-y4Q
+        - name: 'Immunologie'
+          code: vfHMGPbbxvs
+        - name: 'Avaler une araignée en dormant'
+          code: EHTwxD6tkJY
+        - name: 'Ma copine veut épouser un poney'
+          code: Rfnlu2rSI94
+        - name: 'Le boson de Higgs, quèsaco ?'
+          code: y3YsHsWXAI0
+        - name: 'La cryogénisation, c''est pour quand ? '
+          code: XzPs7se7gSM
+        - name: 'Petite leçon d''hobbitologie'
+          code: 6OcbZcXH1iU
+        - name: 'L''ophtalmologie chez les animaux'
+          code: jlczq3-BoWY
+        - name: 'L''ascenseur spatial, c''est pour quand ?'
+          code: JljZAugkm3o
+        - name: 'L''alcool c''est bon, mais pas pour la santé'
+          code: 76QirJsMiDs
+        - name: 'Etudes scientifiques improbables'
+          code: lQc8_JsR_sA
+        - name: 'Aux armes etc.'
+          code: GwZnbUeeBlo
+        - name: 'Comment ça marche une centrale nucléaire ?'
+          code: PpJ2RcBUv2o
+        - name: 'Quand pourrons-nous voyager comme dans Alien?'
+          code: uQ9PesXcVtI
+        - name: 'Blessures par balles, ça fait mal?'
+          code: fC_GeI1Urf0
+        - name: 'A quoi servent les rêves ?'
+          code: lQYeUf_EIOU
+        - name: 'Pourquoi les ados sont-ils si mous ?'
+          code: Nayz46CPw64
+        - name: 'Jamais sans mes acariens'
+          code: hOblI8F6DQo
+        - name: 'Perdre son gras, pas une mince affaire'
+          code: mwvww0L1Zmk
+        - name: 'Les animaux s''aiment comme des bêtes'
+          code: 5TS5UvTt_sU
+        - name: 'Pâtée pour chien'
+          code: iv3YjScjwBE
+        - name: 'Les chercheurs surmenés'
+          code: 73jvsaE0vV8
+        - name: 'Les dinosaures avaient-ils des plumes ?'
+          code: '-2jL0a_wTuY'
+        - name: 'L''évolution sexuelle chez l''homme'
+          code: GKY4Z3ZK49Q
+    - name: Saison 2
+      episodes:
+        - name: 'Animaux gays'
+          code: SNJdvTHBOE4
+        - name: 'Tous dopés'
+          code: eStStwLJhBA
+        - name: 'Expression des animaux'
+          code: EFNJ9LoIVvc
+        - name: 'Respirer sous l''eau'
+          code: SBwmLvb54qI
+        - name: 'Comment devenir un beau fossile ?'
+          code: D4o1YN5HMH4
+        - name: 'La Bave de bébé'
+          code: JQywqj1BD0k
+        - name: 'Que faire d''un cadavre spatial ?'
+          code: bdSgnYSWeHc
+        - name: 'Greffe de visages'
+          code: BvwvWQOvx14
+        - name: 'Voyage au centre de la Terre'
+          code: ipRbm6zEKi4
+        - name: 'Astrophysicien, c''est bien'
+          code: rSC-PyyLY6E
+        - name: 'Les Turbulences'
+          code: LjxKjzSBzcI
+        - name: 'Entomologie forensique'
+          code: h-r_K2e1Ju4
+        - name: 'Briller en société avec le plexus cœliaque'
+          code: lW4unL5Mb1I
+        - name: 'S''irradier au ciné'
+          code: 7XJfp_oo52U
+        - name: 'Voyage dans le temps'
+          code: KIHFauQFCTw
+        - name: 'Les Scientifiques malchanceux'
+          code: 8wrK5UG2N4E
+        - name: 'Des urinoirs et des hommes'
+          code: bpbBILyfNbo
+        - name: 'L''Amour Jurassique'
+          code: jtG8oszjfEY
+        - name: 'Placentophagie'
+          code: S2O4UVBoRRg
+        - name: 'La Biomécanique'
+          code: 4Js8JjBR3zs
+        - name: 'Vaccinologie'
+          code: CjaP_yMSkuE
+        - name: 'Darwin'
+          code: X91tEaZgnwU
+        - name: 'La cosmétique'
+          code: lE5vqrluHdM
+        - name: 'Les séries médicales à la télé'
+          code: QQoYlkE0AvI
+        - name: 'Baumgartner franchit le mur du son'
+          code: RdS1DGqnumY
+        - name: 'La science Gandalphique'
+          code: qv87pEacza8
+        - name: 'Folie spatiale'
+          code: G3DSQIBuTIo
+        - name: 'La Foule : l''enfer c''est les autres'
+          code: icxxhZjWf9c
+        - name: 'Comment fonctionne la mémoire des visages ?'
+          code: ffUiTZLsy4o
+        - name: 'Dermatologie'
+          code: Jex0O2K_mhQ
+        - name: 'Stades Freudiens'
+          code: uBF2PRChnus
+        - name: 'Animaux dépravés'
+          code: xcQk001GaZY
+        - name: 'Les lunettes de la peur'
+          code: K_1Uzx1u308
+        - name: 'Peut-on être digéré vivant ?'
+          code: fCWsWSfGqTg
+        - name: 'La triste vie de Darth Vader'
+          code: NLfKbgxOX_s
+        - name: 'Autant en emporte le vent'
+          code: LGJNn_Sl1TU
+        - name: 'Les Stups dans les films'
+          code: j5aOQ7HAG4I
+        - name: 'Le cerveau de Lucy'
+          code: 3MQIVNuEGoE
+univers_aurelien_bareau:
+  name: L'Univers par Aurélien Barrau
+  locale: fr
+  type: documentary
+  image: https://img.youtube.com/vi/zjIC6jIQRKQ/maxresdefault.jpg
+  description:
+    L’enjeu de ce cours est à la fois de constituer une introduction élémentaire à la cosmologie
+    et de proposer un lieu d’échange et de réflexion sur la nature de la pensée scientifique.
+  seasons:
+    - name: Cours tout public
+      episodes:
+        - name: Partie 1
+          code: zjIC6jIQRKQ
+        - name: Partie 2
+          code: ityDFGkw3dI
+        - name: Partie 3
+          code: 8E6snYUdDt4
+        - name: Partie 4
+          code: 5-yodUsL2Wc
+        - name: Partie 5
+          code: 8foGd34PFiw
+        - name: Partie 6
+          code: TX1HxOF5evk
+        - name: Partie 7
+          code: FWjadYSATuM
+        - name: Partie 8
+          code: TeadUc-4-qE
+        - name: Partie 9
+          code: zEhuOz6W7IQ
+        - name: Partie 10
+          code: EGLn4dqUXrY
+        - name: Partie 11
+          code: C8dNVkBHeNc
+swerve:
+  name: Swerve
+  locale: us
+  type: series
+  image: https://img.youtube.com/vi/vnl93IPAZUc/maxresdefault.jpg
+  description:
+    Elise is a young woman who decides to leave her dead-end job and dead-end life behind and try to hitchhike
+    her way to something better. Along the way she meets two women who will leave a permanent mark on who she is.
+  categories:
+    - romantic
+    - drame
+  seasons:
+    - name: Season 1
+      episodes:
+        - name: 'No Small Talk'
+          code: zguGynJr5lE
+        - name: 'The Girl on the Deck'
+          code: y1ySmULhRcQ
+        - name: 'Mixed Signals'
+          code: ryz9ydAeH4M
+        - name: 'Girls'' Night Out'
+          code: wzb-c16k-Oc
+        - name: 'The Last Communion'
+          code: UAc1zq11W6c
+        - name: 'Addendum'
+          code: s3VdqZMghU4
+        - name: 'Going Home'
+          code: KtO4EKZ3Xd4
+        - name: 'Things We Hold Back'
+          code: FbF5hJY4LVI
+        - name: 'Hunger'
+          code: 0CysFEfu4gM
+        - name: 'Iris'
+          code: XlO_b4g-SH8
+        - name: 'Vinyl Destination'
+          code: MKnyLLCLGzA
+        - name: 'Therapy'
+          code: E27upwj1on0
+        - name: 'Exposure'
+          code: h9HFGTqxH8s
+        - name: 'Reunions'
+          code: oey9RunHrfE
+        - name: 'Just a Taste'
+          code: JhNoD7xvdH0
+        - name: 'The Ones You Love'
+          code: 16NhW6_jiAs
+        - name: 'Choices'
+          code: IYFeiQwlyXw
+        - name: 'Trauma'
+          code: mqQmSPp3cz8
+        - name: 'Broken & Loved'
+          code: LyLmCuEV23E
+        - name: 'Nobody'
+          code: 0fNyknGCvoc
+        - name: 'Goodbye, Again'
+          code: RCOGa3X9qrY
+olympe_project:
+  name: Olympe Project
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/EDEuETlJ8Jc/maxresdefault.jpg
+  description:
+    Web Série humoristique, portant sur la vie palpitante et rocambolesque des dieux de l'Olympe au 21éme siècle !
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Episode 1'
+          code: EDEuETlJ8Jc
+        - name: 'Episode 2'
+          code: awFrgUgOb90
+        - name: 'Episode 3'
+          code: cpJ3P9rJreg
+        - name: 'Episode 4'
+          code: T9rBrDCPt-I
+        - name: 'Episode 5'
+          code: acX-7PT70Ow
+        - name: 'Episode 6'
+          code: 9xZs5PSDTfw
+        - name: 'Episode 7'
+          code: rRgIcMTsGMM
+        - name: 'Episode 8'
+          code: 5Cb0o5jPilc
+        - name: 'Episode 9'
+          code: 6RgrgbpD3bQ
+        - name: 'Episode 10'
+          code: lBzeWANrE2Q
+        - name: 'Episode 11'
+          code: qguRNZ5Rcf0
+tea_time:
+  name: Tea Time
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/VXpY_LUfOTs/maxresdefault.jpg
+  description:
+    Au début du XXème siècle, cinq bourgeoises aiment se retrouver à l’heure du thé pour discuter
+    de faits divers meurtriers. Celles-ci vont un jour se mettre au défi de réaliser le meurtre parfait.
+  categories:
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Episode 1'
+          code: VXpY_LUfOTs
+        - name: 'Episode 2'
+          code: sKRZO5RnirQ
+        - name: 'Episode 3'
+          code: '-u7IQLxDAck'
+        - name: 'Episode 4'
+          code: dc_-Bv7xLqg
+        - name: 'Episode 5'
+          code: s1kxcfecky0
+        - name: 'Episode 6'
+          code: XEUqfBhulTA
+        - name: 'Episode 7'
+          code: wA7sRHUHCkw
+        - name: 'Episode 8'
+          code: chDxsJ17xeg
+la_muscule:
+  name: La Muscule
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/JIF5BKyMlac/maxresdefault.jpg
+  description:
+    Fitness , Lifestyle, Motivation, Défis, Challenge, vlogs... QUE DU SALE
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'LA MASSE GRASSE'
+          code: JIF5BKyMlac
+        - name: 'LES YOUTUBEURS FITNESS'
+          code: wEUw7QDqxvU
+        - name: 'LA PROTÉINE'
+          code: km-y1oBI8Wk
+        - name: 'LA SÈCHE'
+          code: _nz4cPrW_2I
+        - name: 'LES PRÉJUGÉS RACISTES'
+          code: 0UxrRrGlelU
+        - name: 'LA PRISE DE MASSE'
+          code: a6gH3tEM7Mk
+        - name: 'LE CARDIO'
+          code: N3scTa87UXc
+        - name: 'LA PREMIÈRE FOIS'
+          code: _BtiM3ByU9g
+        - name: 'ÉPISODE FINAL, L'' ESPOIR '
+          code: UgfseJq-SD0
+        - name: 'LE PATRON'
+          code: redJOfQQlhg
+survie:
+  name: Survie
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/HF6mbxYu3k4/maxresdefault.jpg
+  description:
+    Survie est une websérie post-apocalyptique qui met en scène un groupe de survivants dans leur vie quotidienne,
+    sur fond d'attaque d'infectés.
+  categories:
+    - thriller
+    - drame
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Pilote'
+          code: HF6mbxYu3k4
+        - name: 'Vivre en communauté'
+          code: PhrUZAuWX4c
+        - name: 'Se soigner'
+          code: udjn4RNUj94
+        - name: 'Explorer et échanger'
+          code: Y4UpZi-dBYY
+        - name: 'Se défendre'
+          code: p1EXFo_jj30
+        - name: 'Gérer les conflits'
+          code: CVMzlzi21TQ
+        - name: 'Se nourrir'
+          code: 5AiOkyDOl4s
+racines:
+  name: Racines
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/6XqMDBWFCxU/mqdefault.jpg
+  description:
+    Série ou le G.I.R.P ( groupe d'intervention et de recherche du paranormal ),
+    enquête sur les menaces humaines et non humaines.
+  categories:
+    - thriller
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'La rencontre'
+          code: 6XqMDBWFCxU
+        - name: 'Praeteritum Praesens Futurum'
+          code: eiOyaSKRSoM
+        - name: 'Le rite'
+          code: DEErrGapR8c
+        - name: 'PERDITION'
+          code: eNBnQXU4Rvg
+        - name: 'Mirage'
+          code: DhKsXwvVddM
+        - name: 'La Traque'
+          code: DIZYkXmZSJI
+        - name: 'La Menace'
+          code: O_wlXPfxo3E
+        - name: 'Praeteritum'
+          code: qjmOacHumsI
+        - name: 'La Confrontation'
+          code: x1ZLAGgW7fA
+        - name: 'La Sanction'
+          code: sVDt9hGANxk
+        - name: 'Les Immortels'
+          code: zxqWfS2rQ1g
+        - name: 'TOC TOC'
+          code: jmP9z24Jhqg
+        - name: 'La transaction'
+          code: Z_whv7lhH5I
+        - name: 'Versus'
+          code: Oshsx3yUYr4
+    - name: Saison 2
+      episodes:
+        - name: 'Les Sentinelles'
+          code: _iaQZeg4apI
+        - name: 'La livraison'
+          code: NUBXiH8slnc
+        - name: 'Verneuil'
+          code: NCDeK3Z_fbk
+        - name: 'Froissac'
+          code: t4GUYzsqP3A
+        - name: 'Yuzel'
+          code: FXnMy8hrIDQ
+        - name: 'Fugitifs'
+          code: qoNNLluHY_Q
+        - name: 'Montfroid'
+          code: 5BfRqbqi8aU
+        - name: 'Alliances'
+          code: J57XO48bw1Q
+        - name: 'Destin'
+          code: 7-_FTg0K-MM
+        - name: 'En vie'
+          code: 9NeMpi77xEM
+        - name: 'Blackstorm'
+          code: gjuceg08zmE
+steampirate_chronicles:
+  name:  Steampirate Chronicles
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/nzYl9NERsbw/maxresdefault.jpg
+  description:
+    'Nous suivons les aventures du Capitaine Nikolas et de son équipage, poursuivit par le Gouverneur et son fidèle et redouté Capitaine : Erick le Sanglant.'
+  categories:
+    - adventure
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Point de départ'
+          code: nzYl9NERsbw
+        - name: 'Capture'
+          code: VlN-CQtmH14
+        - name: 'Mecano'
+          code: Jm2mAOcc3mI
+        - name: 'Chroniques'
+          code: lTXujA_HMig
+        - name: 'Révélations'
+          code: bguZbECYTQM
+        - name: 'Romance'
+          code: aw4pWsNCp4I
+        - name: 'Affrontements'
+          code: peDUVC9O74g
+        - name: 'Bataille Finale'
+          code: Qa8XLLqv1jw
+kerith:
+  name:  KERITH
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/LKausHCyf1E/maxresdefault.jpg
+  description:
+    Un monastère éclairé à la bougie. Un moine et cinq moniales habillés d’une longue robe blanche déambulent.
+    Mara s’écroule, envahie par les larmes, accusant le moine Isidore.
+  categories:
+    - drame
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Episode 1'
+          code: LKausHCyf1E
+        - name: 'Episode 2'
+          code: aTOlDcic2RI
+        - name: 'Episode 3'
+          code: agUOuZSThNA
+        - name: 'Episode 4'
+          code: 100FwNsQdj0
+        - name: 'Episode 5'
+          code: uu5tqtd3GgE
+        - name: 'Episode 6'
+          code: vp_bOdrB15s
+        - name: 'Episode 7'
+          code: m90tEIYSktM
+        - name: 'Episode 8'
+          code: OkvBdTfyGNc
+        - name: 'Episode 9'
+          code: IJZ4F0ILi-c
+        - name: 'Episode 10'
+          code: 7Yvv8_5joZE
+thug_life:
+  name:  Thug Life
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/TixO9Opy6QY/maxresdefault.jpg
+  description:
+    Mickaël et Dylan, deux fausses racailles qui rêvent de devenir des rappeurs.
+  categories:
+    - adventure
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'EPISODE 1'
+          code: TixO9Opy6QY
+        - name: 'EPISODE 2'
+          code: nG5_F9OM72o
+        - name: 'EPISODE 3'
+          code: la48qvoztBM
+        - name: 'EPISODE 4'
+          code: RQn7ZeaClPc
+        - name: 'EPISODE 5'
+          code: QVO61olh9po
+        - name: 'EPISODE 6 (FINAL)'
+          code: NGzHJIJ1Tc0
+utk:
+  name:  UTK
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/u4ZIa5bIcN8/maxresdefault.jpg
+  description:
+    Dans un monde dévasté par un virus, des personnes tentent de survivre dans un quartier protégé.
+    Parmi ces rescapés, un scientifique brillant du nom de Ferdinand Houlache.
+  categories:
+    - thriller
+    - scifi
+    - drame
+    - adventure
+  tgas:
+    - zombie
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Un Nouveau Monde'
+          code: u4ZIa5bIcN8
+        - name: 'Le Bienfaiteur'
+          code: 776NZJ0zSnQ
+        - name: 'Le Sens du Sacrifice'
+          code: YZ1Tri9kPYk
+        - name: 'Dilemmes'
+          code: 6HdLXU0qS_g
+        - name: 'Le Soulèvement'
+          code: 6G2-MQ8PSYc
+        - name: 'La Fin du Quartier Sain'
+          code: KGEL_ilr1pM
+unthinkable:
+  name:  Unthinkable
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/ZUoONgPfrag/maxresdefault.jpg
+  description:
+    Dans un monde où certaines personnes sont dotées de capacités hors du commun,
+    une société secrète tente de les éliminer et de garder leurs existences cachées.
+  categories:
+    - thriller
+    - adventure
+    - scifi
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Au mauvais moment'
+          code: ZUoONgPfrag
+        - name: 'Au Mauvais Endroit'
+          code: k_eGGjrBNqs
+        - name: 'Choisir son camp'
+          code: QuzsvlqRwAM
+        - name: 'Ordre et Désordre'
+          code: 3rnJwshiFRo
+        - name: 'Le Plan A'
+          code: yNtxQNJZGtA
+        - name: 'La Dernière Etape'
+          code: 6vhCDzbD1KM
+real_cops:
+  name:  Real Cops
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/J9tAYZeKCRM/maxresdefault.jpg
+  description:
+    La vie de policier est parfois bien difficile !
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'a VHS'
+          code: J9tAYZeKCRM
+        - name: 'Le Gros Mangeur'
+          code: Qj5zyWk-e9w
+        - name: 'On va au Coco Club'
+          code: uIpBwzrKA20
+        - name: 'Méthode musclée'
+          code: arsL5VeNyZw
+        - name: 'Les Infiltrés'
+          code: BXgHGxgX_y4
+        - name: 'Two Cops One Girl'
+          code: '-swfp10-YGc'
+        - name: 'Maintenant ça va chier !'
+          code: LZpJBLEyId8
+dead_floor:
+  name:  DEAD FLOOR
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/j-4Cbv71nuw/maxresdefault.jpg
+  description:
+    Après une nuit de fête, c’est l’heure de l’after à l’Armagedance. Mais pour
+    les acharnés qui refusent de quitter le dance floor, le pire est à venir...
+  categories:
+    - drame
+    - thriller
+    - adventure
+    - action
+  tags:
+    - zombie
+    - musique
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'AFTER'
+          code: j-4Cbv71nuw
+        - name: 'FOG'
+          code: vHOHSlLhbqA
+        - name: 'BOX'
+          code: pPC24zuuqNQ
+        - name: 'LUST'
+          code: VuQ30nqpE1c
+        - name: 'EXECUTION'
+          code: M0Hyk4g7dnw
+dead_lands:
+  name:  Dead Landes
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/sWS5beMd18I/mqdefault.jpg
+  description:
+    C'est la fin de l'été à l'Escapade, dans un petit camping au bord de la faillite au cœur des Landes
+    de mystérieuses catastrophes surviennent...
+  categories:
+    - scifi
+    - drame
+    - adventure
+    - thriller
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'Et sa colère s''abattit'
+          code: sWS5beMd18I
+        - name: 'Et l''horizon s''enflamma'
+          code: LJ7MQHpox_Q
+        - name: 't les ténèbres s''épaissirent'
+          code: w4EveVgHThE
+        - name: 'Et un étranger apparut'
+          code: hoj6qBCpFgc
+        - name: 'Et les premiers nés moururent France 4'
+          code: rFrtGSxcfKk
+        - name: 'Et la fièvre les consuma'
+          code: h024CjrFJO0
+        - name: 'Et les voix se turent'
+          code: tG4yCIxIErw
+        - name: 'Et l''espoir s''éteignit'
+          code: 5Hmnc0Khp8w
+        - name: 'Et les morts se relevèrent'
+          code: mo0yhRXDnfQ
+        - name: 'Et la spirale se referma'
+          code: 5dYfla-vjoY
+what_the_cut:
+  name:  WHAT THE CUT
+  locale: fr
+  type: series
+  image: https://img.youtube.com/vi/OsAT9DPNC4Q/mqdefault.jpg
+  description:
+    L'emition d'antoine daniel,  Review de vidéos du net.
+  categories:
+    - humour
+  seasons:
+    - name: Saison 1
+      episodes:
+        - name: 'MENACES, SUBWOOFER ET CHEVAUX'
+          code: OsAT9DPNC4Q
+        - name: 'ANNIVERSAIRE, VIAGRA ET MORSAY PRÉSIDENT'
+          code: n2MCSxZh_9Y
+        - name: 'CHIEN, CANARDS ET TAPIS VOLANT'
+          code: ivxwp4pY3ZQ
+        - name: 'BELGE, SINGE ET BISOUS'
+          code: P-iq9GiyXg0
+        - name: 'E-UPLOAD) - SEDUCTEUR, CHANTEUR ET PUBLICITÉ'
+          code: R2e3hu282AI
+        - name: 'E-UPLOAD) - CRÉATURE, CHORÉGRAPHIE ET DES RUSSES'
+          code: 1Cd9DLNfTdw
+        - name: 'YOGA, SURPRISE ET DE L''ART'
+          code: md3gGDCj67c
+        - name: 'LARMES, AVENTURES ET LE JAPON'
+          code: VZDHesmcFiI
+        - name: 'AMOUR, JONGLEUR ET UN ÉMEU'
+          code: AyfOQG05G3Y
+        - name: 'CHÈVRE, UN CHIOT ET MA BITE'
+          code: pYcWWPj6lvg
+        - name: 'NICKI MINAJ, CANICHE ET COURSE-POURSUITE'
+          code: fn3VpMxMHQs
+        - name: 'DES BRIQUES, DU SEXE ET DU LOURD'
+          code: EerMCWNon34
+        - name: 'UNE PORTE, UN BATTEUR ET UN PIRATE'
+          code: FK6weJwIm8Y
+        - name: 'DE LA BOUE, UN TROMBONE ET DU RAP'
+          code: DIIW1-VBLDY
+        - name: 'DU MAÏS, DES CÉRÉALES ET MARC-EDOUARD'
+          code: 4zrY1L7ibqc
+        - name: 'UN INVITÉ, DE LA PEINTURE ET MA CHATTE'
+          code: jDWqyNjLd8Q
+        - name: 'DU VERRE, KEVIN PROTOTYPE ET UN COUSSIN'
+          code: UtvkKgH84vU
+        - name: 'DU PORC, UN PUCEAU ET DU CACA'
+          code: W7m8yDNNVo4
+        - name: 'UNE VOIX, LE BRÉSIL ET 2016'
+          code: bBcfOMqL844
+        - name: 'DU KUNG-FU, DES ARBRES ET DU PIPI'
+          code: EFhif72jZoA
+        - name: 'UNE DOUCHE, DU MANQUE ET UN CAHIER'
+          code: iOz0GkHYTeE
+        - name: 'NOURRITURE, ANNONCE ET DOCUMENTAIRE'
+          code: fw3yDPBLVmY
+        - name: 'CIGARETTE, UN SAVANT ET BONSOIR'
+          code: kqefNJ7qaOY
+        - name: 'METRO, AH-AH ET UNE SOIRÉE DE FOLIE'
+          code: GGtQJnlbpwo
+        - name: 'QUENOUILLES, ADIEU ET LA CHOSE'
+          code: 0jZf7jIjB5s
+        - name: 'PHOTOBOMB, UN GROUPE ET LA DÉVIANCE'
+          code: MEugteASSBw
+        - name: 'MICHEL, L''ALLEMAGNE ET DES MURS'
+          code: TKHPRKd1qaY
+        - name: 'BALLONS, TANGO ET UN CONCERT'
+          code: 5sZtTk0Y5QI
+        - name: 'POTEAU, PINCEAU ET L''AVENTURIER'
+          code: q4sojhUQV74
+        - name: 'PATATE, PELLE ET PIANO'
+          code: flBwfPNKNvE
+        - name: 'DENTS, BATEAU ET GÉNIE'
+          code: CjsPSeupj2w
+        - name: 'LIQUIDE, MAIRE ET PONEY'
+          code: JYVAGod7lxk
+        - name: 'ENFANCE, MASQUE ET CUISINE'
+          code: IB7Cg6BAdo0
+        - name: 'JESUS, HIVER ET PACIFIQUE'
+          code: F23568GDskw
+        - name: 'TEMPLE, CÉRÉMONIE ET COSMOS'
+          code: _ghgW_tSPAI
+identifier:
+  name: 'Ctrl alt del'
+  locale: us
+  type: series
+  image: 'https://i.ytimg.com/vi/RJEeTH3gQjU/maxresdefault.jpg'
+  description: "Time for a love story reset. The first episode from our first ever web series. Watch and Enjoy."
+  categories:
+    - romantic
+  seasons:
+    - name: 'Saison 1'
+      episodes:
+      -
+        name: 'Ctrl alt del: pilot episode'
+        code: RJEeTH3gQjU
+      -
+        name: 'I have an idea'
+        code: p47tmVoyMW8
+      -
+        name: 'I am waiting'
+        code: daxwt59KECU
+      -
+        name: 'A party to remember'
+        code: AtRBZcSzeug
+      -
+        name: 'Shifting gears'
+        code: IG4pjmzffTE
+      -
+        name: 'Back to square one'
+        code: ao9Ln3K50qA
+      -
+        name: 'New beginnings'
+        code: i4RIyoHnoM4
+      -
+        name: 'Reset'
+        code: iAvQv7Ew95A
+salade_fingers:
+    name: 'Salad fingers'
+    locale: us
+    type: series
+    image: 'https://i.ytimg.com/vi/OWBFKL6H7rI/sddefault.jpg'
+    description: "Salad Fingers goes on the lookout for the perfect spoon."
+    categories:
+        - humour
+        - horror
+    seasons:
+        - name: 'Saison 1'
+          episodes:
+            -
+                name: 'Spoons'
+                code: OWBFKL6H7rI
+            -
+                name: 'Friends'
+                code: cuCw5k-Lph0
+            -
+                name: 'Nettles'
+                code: ojoICRzSCOo
+            -
+                name: 'Cage'
+                code: tBNrtrntkJ4
+            -
+                name: 'Picnic'
+                code: P_zbGGNI7lo
+            -
+                name: 'Present'
+                code: rU2D0ncBFm0
+            -
+                name: 'Shore leave'
+                code: kQNRkdHeK1A
+            -
+                name: 'Cupboard'
+                code: oykmawhKWhc
+            -
+                name: 'Letter'
+                code: MSOnIS84x1k
+            -
+                name: 'Birthday'
+                code: fwFrIvkCux8
+            -
+                name: 'Glass brother'
+                code: qeE-J-GjAyQ
+eighty-sixed:
+    name: 'Eighty-sixed'
+    locale: us
+    type: series
+    image: 'https://i.ytimg.com/vi/2qNX97CtgSQ/maxresdefault.jpg'
+    description: 'Remi gets dumped and her friends attempts to console her only makes things worse.'
+    categories: {  }
+    seasons:
+        -
+            name: 'Saison 1'
+            episodes:
+                - { name: 'promise i''ll win', code: 2qNX97CtgSQ }
+                - { name: 'solidarity cones', code: 0J7V9uaYpIo }
+                - { name: 'tight vagina melissa', code: X-g6kHrR6rw }
+                - { name: 'remi v drone', code: IjIu482ZkQ8 }
+                - { name: 'new friend', code: 37iKWje1eaQ }
+                - { name: 'the birthday monster', code: 6EoB1EDoBzo }
+                - { name: 'cat scan', code: lD8Kfue3qgQ }
+                - { name: 'texting', code: iJgyg6TIxa4 }

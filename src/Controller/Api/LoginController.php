@@ -14,7 +14,7 @@ class LoginController extends AbstractApiController
     /**
      * Initialise sessions with encryption API (Token valid for 1 hour)
      */
-    #[Route(path: '/auth/login', name: 'app_login', methods: ['post'])]
+    #[Route(path: '/auth/login', name: 'api_login', methods: ['post'])]
     #[OA\RequestBody(
         content: new OA\JsonContent(
             properties: [
@@ -49,7 +49,7 @@ class LoginController extends AbstractApiController
     /**
      * Initialise sessions with encryption API (Token valid for 1 hour)
      */
-    #[Route(path: '/auth/refresh', name: 'app_login_refresh', methods: ['post'])]
+    #[Route(path: '/auth/refresh', name: 'api_login_refresh', methods: ['post'])]
     #[OA\RequestBody(
         content: new OA\JsonContent(
             properties: [

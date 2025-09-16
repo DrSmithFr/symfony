@@ -1,1 +1,50 @@
+@import "bootstrap/scss/bootstrap";
+@import "system/colors";
+@import "system/breakpoint";
 
+// Définition d'un thème clair
+:root {
+    --md-sys-color-primary: #6200ee;
+    --md-sys-color-on-primary: #ffffff;
+    --md-sys-color-secondary: #03dac6;
+    --md-sys-color-on-secondary: #000000;
+    --md-sys-color-background: #ffffff;
+    --md-sys-color-on-background: #000000;
+    --md-sys-color-surface: #ffffff;
+    --md-sys-color-on-surface: #000000;
+    --md-sys-color-error: #b00020;
+    --md-sys-color-on-error: #ffffff;
+}
+
+// Application du thème aux composants
+button {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+md-checkbox {
+    --md-checkbox-checked-color: var(--md-sys-color-primary);
+    --md-checkbox-unchecked-color: var(--md-sys-color-on-surface);
+}
+
+#main-menu .menu-item {
+    padding: 10px 15px;
+}
+
+//
+html, body {
+    background: $black;
+}
+
+// dirty fix
+body {
+    overflow-x: hidden;
+}
+
+@import "app/header-hero";
+@import "app/navigation";
+@import "app/movie-section";
+@import "app/movie-modal";
+@import "app/top-ten-section";
+@import "app/bg-neon";
+@import "app/footer";

@@ -1,0 +1,25 @@
+#app-navigation {
+    background-color: transparent;
+    background-image: linear-gradient(to top,rgba(0,0,0,0),#000);
+
+    color: #fff;
+    z-index: 100;
+
+    picture.app-logo {
+        padding: 0 14px;
+
+        @include mobile() {
+            height: 30px;
+        }
+    }
+
+    .nav-link {
+        font-size: 13px;
+        color: #9b9b9b;
+
+        &.active {
+            color: white;
+            font-weight: 600;
+        }
+    }
+}

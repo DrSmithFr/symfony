@@ -1,0 +1,32 @@
+<footer id="app-footer">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+        <div class="col mb-3 logo-col">
+            <a
+                href="/"
+                class="d-flex align-items-center link-body-emphasis text-decoration-none"
+                aria-label="Bootstrap"
+            >
+                <picture class="app-logo">
+                    <source srcset="{{ asset('images/logo.png')| imagine_filter('app_logo_webp') }}" type="image/webp">
+                    <source srcset="{{ asset('images/logo.png')| imagine_filter('app_logo_png') }}" type="image/png">
+                    <img src="{{ asset('images/logo.png')| imagine_filter('app_logo_png') }}" alt="YtSeries Logo">
+                </picture>
+            </a>
+            <p class="text-body-secondary copyright">© 2018 - {{ "now"|date('Y') }}</p></div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a href="{{ url('app_homepage') }}" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="{{ url('app_login') }}" class="nav-link p-0 text-body-secondary">Login</a></li>
+                <li class="nav-item"><a href="{{ url('app_register') }}" class="nav-link p-0 text-body-secondary">Register</a></li>
+            </ul>
+        </div>
+        <div class="col mb-3">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+        </div>
+        </div>
+</footer>

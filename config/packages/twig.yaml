@@ -3,6 +3,8 @@ twig:
     debug: '%kernel.debug%'
     globals:
         front_url: '%env(FRONT_URL)%'
+    form_themes:
+        - '_form_theme.html.twig'
 
 when@test:
     twig:

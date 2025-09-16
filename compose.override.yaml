@@ -16,3 +16,15 @@ services:
       MP_SMTP_AUTH_ACCEPT_ANY: 1
       MP_SMTP_AUTH_ALLOW_INSECURE: 1
 ###< symfony/mailer ###
+
+###> symfony/redis-bundle ###
+  redis:
+    ports:
+      - 6379:6379
+###< symfony/redis-bundle ###
+
+###> ruflin/elastica ###
+  elasticsearch:
+    ports:
+      - 9200:9200
+###< ruflin/elastica ###

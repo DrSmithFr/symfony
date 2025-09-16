@@ -1,0 +1,8 @@
+movie:
+  name: 'Film'
+short:
+  name: 'Court métrage'
+series:
+  name: 'Séries'
+documentary:
+  name: 'Documentaire'

@@ -18,6 +18,14 @@
     {{ encore_entry_link_tags('login') }}
 {% endblock %}
 
-{% block wrapper_wrapper %}
+{% block head_javascript %}
+    {{ encore_entry_script_tags('login') }}
+{% endblock %}
 
+{% block wrapper_wrapper %}
+<div class="wrapper_centred">
+    <div class="content">
+        {% block wrapper_content %}{% endblock %}
+    </div>
+</div>
 {% endblock %}

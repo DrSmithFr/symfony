@@ -1,0 +1,63 @@
+<!--
+CREDIT TO NETFLIX FOR THE DESIGN. I AM NOT AFFILIATED WITH NETFLIX.
+
+RECREATION OF THE NEW NETFLIX TOP 10 CAROUSEL. SEE THE CAROUSEL ON THE NETFLIX TOP 10 WEBSITE HERE:
+https://top10.netflix.com/
+
+FOLLOW MY CODEPEN TO SEE WHAT I'M WORKING ON:
+https://codepen.io/joshsalazar
+-->
+
+<section id="top10-carousel" {{ stimulus_controller('carousel') }}>
+    <div class="flex_container">
+        <div class="outer_container">
+            <div class="inner_container">
+                <ul
+                    class="ul_container"
+                    data-action="mouseenter->carousel#hoverContainer mouseleave->carousel#leaveContainer"
+                >
+                    {% for i in 1..10 %}
+                    <div
+                        id="item-{{ i }}"
+                        class="item_container{% if i == 1 %} expanded{% endif %}"
+                        data-carousel-target="item"
+                        data-action="click->carousel#clickItem"
+                        style="z-index: {{ 10 - i }}"
+                    >
+                        <div class="item_number">
+                            {{ i }}
+                        </div>
+                        <div class="image_info_container">
+                            <div class="info_container">
+                                <div class="info_container_inner">
+                                    <div class="info_number">
+                                        <img class="number_image" width="512" height="512" src="https://assets.codepen.io/1890963/{{ i }}.png?format=auto" alt="1">
+                                    </div>
+                                    <div class="info_bottom_container">
+                                        <div class="info_bottom_text">
+                                            Watched for <strong>148.72 million hours</strong> this week.
+                                            <a href="#">Watch now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <picture>
+                                    <source srcset="https://dnm.nflximg.net/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcZCcruNL4qg1uy7rbRagPLF2_kMt2hWh5utDUKt3DgYuhAE-Qrr1wA8b2W9vFu9ABPSY1cNzQPBoPpWSZVvaoQMZAEFXfsXrcmUNSO5YTdjIdKMDtjYbTYKRR9J.webp?r=5f1" type="image/webp" media="(max-width: 400px)">
+                                    <source srcset="https://assets.codepen.io/1890963/AAAABeyXW3mUTPqrK4NtKn2vJlcYmKVJU5XCn6Zeis_EdNEjMmhs5rRudqWRYo2Pj7R2_pYwHviXeOrP1GKgaC4flMu_QndVSRQ8Fk-B_al3ZGz5JOXyZ28ZK7I49UdxrQ.jpg?format=auto" type="image/jpeg" media="(max-width: 400px)">
+                                    <source srcset="https://assets.codepen.io/1890963/AAAABeyXW3mUTPqrK4NtKn2vJlcYmKVJU5XCn6Zeis_EdNEjMmhs5rRudqWRYo2Pj7R2_pYwHviXeOrP1GKgaC4flMu_QndVSRQ8Fk-B_al3ZGz5JOXyZ28ZK7I49UdxrQ.jpg?format=auto" type="image/jpeg">
+                                    <img class="" style="margin-left: 0px;" src="https://assets.codepen.io/1890963/AAAABeyXW3mUTPqrK4NtKn2vJlcYmKVJU5XCn6Zeis_EdNEjMmhs5rRudqWRYo2Pj7R2_pYwHviXeOrP1GKgaC4flMu_QndVSRQ8Fk-B_al3ZGz5JOXyZ28ZK7I49UdxrQ.jpg?format=auto" alt="The Guilty"></picture>
+                                <div class="bottom_title">
+                                    <div class="bottom_title_text">
+                                        Red notice
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

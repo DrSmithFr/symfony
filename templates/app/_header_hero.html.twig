@@ -1,0 +1,71 @@
+<section id="hero" {{ stimulus_controller('hero') }}>
+    <div class="video-wrapper">
+        <!-- Panneau 1 : image de fond -->
+        <img class="video-bg" src="https://www.radiofrance.fr/s3/cruiser-production/2022/08/4f863cbc-b6d9-4ae9-9867-799069cfa294/1200x680_visiteurdufutur.jpg" alt="Aperçu vidéo">
+
+        <!-- Panneau 2 : vidéo youtube -->
+        <div
+            class="video-frame"
+            data-hero-target="wrapper"
+        >
+            <div
+                id="hero-player"
+                data-hero-target="video"
+                data-video-id="6C8UWQB-Tak"
+            ></div>
+        </div>
+
+        <!-- Panneau 3 : overlay titre/desc/btn -->
+        <div class="video-overlay">
+
+            <div class="col-left">
+                <div class="swiper-content">
+                    <div class="title-area">
+                        <!-- title-area -->
+                        <p class="tag">Saison 4</p>
+                        <a href="#" class="title">Le Visiteur<br>Du Futur</a>
+                        <!-- title area -->
+                    </div>
+                    <p class="disc">
+                        Suite à la difficile confrontation avec Joseph et ses Missionnaires,
+                        le Visiteur s'est mis à l'écart de ses compagnons dans sa lointaine époque.
+                        Abandonné et en quête de réponses, Raph, quant à lui, se retrouve coincé avec Stella en 2550...<br>
+                        l'enfer postapocalyptique.
+                    </p>
+
+                    <div class="creative-btn--wrap">
+                        <a class="creative-slide--btn" role="button" href="javascript:void(0)" data-action="click->hero#startVideo">
+                            <div class="creative-btn--circle">
+                                <div class="circle">
+                                    <div class="circle-fill"></div>
+                                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"
+                                         class="circle-outline">
+                                        <circle cx="25" cy="25" r="23"></circle>
+                                    </svg>
+                                    <div class="circle-icon">
+                                        <svg viewBox="0 0 12 10" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                                            <path
+                                                d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-btn--label">
+                                <div class="creative-btn__text">Watch now</div>
+                                <div class="creative-btn__border"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-right">
+
+            </div>
+
+        </div>
+    </div>
+
+</section>

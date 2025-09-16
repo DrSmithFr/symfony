@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+section.movies {
+    width: 100%;
+
+    .movies-container {
+        padding: 25px 60px;
+        margin: 0 auto;
+
+        .movies-title {
+            color: #e5e5e5;
+            font-size: 18px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .movies-list {
+            display: flex;
+            justify-content: flex-start;
+
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            align-items: center;
+            align-content: center;
+
+            .movie {
+                margin: 0 10px;
+                position: relative;
+
+                .thumb {
+                    height: 120px;
+                    width: 212px;
+
+                    overflow: hidden;
+                    border-radius: 3px;
+
+                    position: relative;
+
+                    .tags {
+                        position: absolute;
+
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+
+                        display: flex;
+                        justify-content: center;
+
+                        text-align: center;
+                        width: 100%;
+
+                        span {
+                            background: #fff;
+                            color: #000000;
+
+                            font-size: 11px;
+                            font-weight: 500;
+
+                            padding: 2px 5px;
+                            border-radius: 3px;
+
+                            &:first-child {
+                                border-radius: 5px 0 0 0; /* arrondi gauche */
+                            }
+
+                            &:last-child {
+                                border-radius: 0 5px 0 0; /* arrondi droit */
+                            }
+
+                            &.important {
+                                background: red;
+                                color: #fff;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+
+                    picture.vertical {
+                        display: none;
+                    }
+
+                    picture.horizontal {
+                        display: block;
+                        height: 120px;
+                        width: 212px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.movies.top10 {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, #141414);
+    }
+
+    .movies-list {
+        .movie {
+            width: 212px;
+            margin: 0 10px;
+
+            display: flex;
+            justify-content: flex-start;
+
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            align-items: center;
+            align-content: center;
+
+            cursor: pointer;
+            counter-increment: indexs;
+
+            &:before {
+                content: counter(indexs);
+                width: 102px;
+                height: 160px;
+                line-height: 147px;
+                color: #000;
+                font-size: 213px;
+                font-weight: 900;
+                -webkit-text-stroke: 5px #595959;
+            }
+
+            .thumb {
+                width: 110px;
+                height: 160px;
+
+                picture.horizontal {
+                    display: none;
+                }
+
+                picture.vertical {
+                    display: block;
+                    width: 110px;
+                    height: 160px;
+                }
+
+                .tags {
+                    span {
+                        border-radius: 5px;
+                    }
+
+                    span:not(.important) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    section.movies {
+        &.top10 {
+            .movies-list {
+                overflow-x: scroll;
+                overflow-y: hidden;
+
+                &::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                }
+            }
+        }
+    }
+}

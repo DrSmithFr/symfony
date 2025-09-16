@@ -20,8 +20,8 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
-    .addEntry('app', './assets/app.js')
-    .addEntry('login', './assets/login.js')
+    .addEntry('app', './assets/app.ts')
+    .addEntry('login', './assets/login.ts')
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
@@ -43,8 +43,7 @@ Encore
     .cleanupOutputBeforeBuild()
     .enableBuildNotifications()
     .enableSourceMaps(!Encore.isProduction())
-    // enables hashed filenames (e.g. app.abc123.css)
-    .enableVersioning(Encore.isProduction())
+    .enableVersioning(Encore.isProduction()) // enables hashed filenames (e.g. app.abc123.css)
 
     // configure Babel
     // .configureBabel((config) => {
@@ -58,20 +57,26 @@ Encore
     })
 
     // enables Sass/SCSS support
-    .enableSassLoader()
+    .enableSassLoader(function (options) {
+        options.sassOptions = {
+            includePaths: ['node_modules']
+        };
+    })
 
     // uncomment if you use TypeScript
-    .enableTypeScriptLoader()
+    .enableTypeScriptLoader(function (tsConfig) {
+        tsConfig.transpileOnly = true;
+    })
 
     // uncomment if you use React
-    //.enableReactPreset()
+    .enableReactPreset()
 
     // uncomment to get integrity="..." attributes on your script & link tags
     // requires WebpackEncoreBundle 1.4 or higher
     .enableIntegrityHashes(Encore.isProduction())
 
-    // uncomment if you're having problems with a jQuery plugin
-    //.autoProvidejQuery()
+// uncomment if you're having problems with a jQuery plugin
+//.autoProvidejQuery()
 ;
 
 module.exports = Encore.getWebpackConfig();

@@ -1,0 +1,112 @@
+les_dissocies:
+  name: Les Dissociés
+  code: 5lUBlW72qBQ
+  locale: fr
+  type: movie
+  image: https://img.youtube.com/vi/5lUBlW72qBQ/maxresdefault.jpg
+  description:
+    Après s’être fait voler leur corps, Lily et Ben vont explorer un monde
+    où le corps ne compte plus et dans lequel leur âme sera mise à l’épreuve.
+  categories:
+    - humour
+    - adventure
+    - thriller
+  tags:
+    - preview
+    - youtube
+lunar:
+  name: Lunar
+  code: 9qvNtzr0nqU
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/9qvNtzr0nqU/maxresdefault.jpg
+  description:
+    Un homme braque la mauvaise famille...
+  categories:
+    - thriller
+respire:
+  name: Respire
+  code: Rwvmimo2z-s
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/Rwvmimo2z-s/maxresdefault.jpg
+  description:
+    Antoine aime courir, mais il souffre de fibrose kystique. À l'hôpital,
+    il fait la connaissance de Juliette, une vieille dame cinglée.
+  categories:
+    - adventure
+    - humour
+dessine_moi_un_alien:
+  name: Dessine-moi un Alien
+  code: SU_2bRmIswc
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/SU_2bRmIswc/maxresdefault.jpg
+  description:
+    Un court métrage sur le dessin et les extraterrestres.
+  categories:
+    - thriller
+    - adventure
+la_science_de_lamour:
+  name: La science de l'amour
+  code: pmqvuh87WTo
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/pmqvuh87WTo/maxresdefault.jpg
+  description:
+    Du jour au lendemain, l’amour devient quantifiable grâce à une révolution scientifique appelée Lovecount.
+  categories:
+    - drame
+    - romantic
+destiny:
+  name: Les Minions - La Compétition
+  code: E-znxPIeTOE
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/E-znxPIeTOE/maxresdefault.jpg
+  description:
+    Un match de boxe au sommet, une compétition ENRAGÉE ! Les Minions vont, encore, trop loin !
+  categories:
+    - action
+    - adventure
+sweet_cocoon:
+  name: Sweet Cocoon
+  code: VMyQkfHr9a0
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/VMyQkfHr9a0/maxresdefault.jpg
+  description:
+    Deux insectes aident une chenille dans sa métamorphose...
+somnambule:
+  name: Somnambule
+  code: aSy03qaL99U
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/aSy03qaL99U/mqdefault.jpg
+  description:
+    Quand vous dormez, vous ne contrôlez plus rien ... Découvrez "Somnambule", le nouveau court-métrage de Studio Movie. Inspiré de faits réels
+  categories:
+    - thriller
+la_boucherie_ethique:
+  name: La Boucherie Éthique
+  code: vwZee0r_ICs
+  locale: fr
+  type: movie
+  image: https://img.youtube.com/vi/vwZee0r_ICs/maxresdefault.jpg
+  description:
+    La Boucherie éthique est une avancée pour la cause animale et une révolution alimentaire qui nous a posé
+    beaucoup de questions et auxquelles nous avons essayé de répondre à travers ce documentaire.
+  categories:
+    - humour
+petit_monstre:
+  name: Le petit Monstre
+  code: HwmAt01cjMU
+  locale: fr
+  type: short
+  image: https://img.youtube.com/vi/HwmAt01cjMU/maxresdefault.jpg
+  description:
+    Un jeune livreur tombe sous le charme d’une mystérieuse jeune femme qui vit cloîtrée dans son appartement.
+    Lorsqu’il réussit enfin à avoir un rendez-vous chez elle, celle-ci lui révèle son secret…
+  categories:
+    - romantic
+    - adventure

@@ -1,0 +1,16 @@
+thriller:
+  name: 'Thriller'
+scifi:
+  name: 'Science fiction'
+romantic:
+  name: 'Romantique'
+drame:
+  name: 'Drame'
+action:
+  name: 'Action'
+adventure:
+  name: 'Aventure'
+humour:
+  name: 'Humour'
+horror:
+  name: 'Horreur'

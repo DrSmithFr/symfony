@@ -37,10 +37,12 @@ class AppPasswordResetType extends AbstractType
             ->add('password', RepeatedType::class, [
                 'type'            => PasswordType::class,
                 'first_options'   => [
+                    'toggle' => true,
                     'label' => 'Mot de passe',
                     'attr'  => ['placeholder' => '********'],
                 ],
                 'second_options'  => [
+                    'toggle' => true,
                     'label' => 'Répéter le mot de passe',
                     'attr'  => ['placeholder' => '********'],
                 ],

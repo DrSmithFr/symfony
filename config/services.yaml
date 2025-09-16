@@ -28,3 +28,10 @@ services:
         tags:
             - { name: jms_serializer.subscribing_handler }
 
+    App\Service\SearchService:
+        arguments:
+            $elasticSearchIndexName: '%env(ELASTIC_SEARCH_INDEX)%'
+
+    App\Service\YoutubeService:
+        arguments:
+            $apiKey: '%env(YOUTUBE_API)%'

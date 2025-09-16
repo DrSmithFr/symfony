@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\UX\Chartjs\Builder\ChartBuilderInterface;
 use Symfony\UX\Chartjs\Model\Chart;
 
-#[AdminDashboard(routePath: '/', routeName: 'admin_dashboard')]
+#[AdminDashboard(routePath: '/admin', routeName: 'admin_dashboard')]
 class DashboardController extends AdminPageController
 {
     public final const CHART_DAYS = 15;
@@ -22,7 +22,6 @@ class DashboardController extends AdminPageController
     ) {
     }
 
-    #[Route(path: '/admin', name: 'admin_dashboard', methods: ['GET'])]
     public function index(): Response
     {
         $users = $this
@@ -44,7 +43,7 @@ class DashboardController extends AdminPageController
             // the name visible to end users
             ->setTitle('Skeleton')
             ->setFaviconPath('favicon.ico')
-            ->setTitle('<img src="images/logo.svg" height="40">Skeleton')
+            ->setTitle('<img src="/images/logo.svg" height="40">Skeleton')
 
             // set this option if you prefer the page content to span the entire
             // browser width, instead of the default design which sets a max width

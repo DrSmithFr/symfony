@@ -1,0 +1,92 @@
+/* - The wrapper that contains layered gradients */
+.blob-container {
+    position: relative;
+    display: block;
+    background: #050609;
+}
+
+.content {
+    position: relative;
+    z-index: 2; /* au-dessus des blobs */
+    color: white;
+
+    &.first-row {
+        top: -100px;
+        margin-bottom: -100px;
+    }
+}
+
+.blob-wrapper {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    overflow: hidden;
+}
+
+.blob {
+    position: absolute;
+    width: 60vmax;
+    height: 60vmax;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+/* boule en haut gauche */
+.blob.bottom {
+    bottom: -25vmax;
+}
+
+.blob.top {
+    top: -25vmax;
+}
+
+.blob.right {
+    left: -25vmax;
+}
+
+/* boule en bas droite */
+.blob.left {
+    right: -25vmax;
+}
+
+$opacity: 0.3;
+$transparence: 5%;
+
+.blob.pink {
+    background: radial-gradient(circle, rgba(193,75,255,$opacity) $transparence, transparent 70%);
+}
+
+.blob.blue {
+    background: radial-gradient(circle, rgba(23,136,255,$opacity) $transparence, transparent 70%);
+}
+
+.blob.cyan {
+    background: radial-gradient(circle, rgba(0,255,224,$opacity) $transparence, transparent 70%);
+}
+
+.blob.green {
+    background: radial-gradient(circle, rgba(0,255,153,$opacity) $transparence, transparent 70%);
+}
+
+.blob.yellow {
+    background: radial-gradient(circle, rgba(255,235,59,$opacity) $transparence, transparent 70%);
+}
+
+.blob.orange {
+    background: radial-gradient(circle, rgba(255,111,60,$opacity) $transparence, transparent 70%);
+}
+
+.blob.red {
+    background: radial-gradient(circle, rgba(255,60,60,$opacity) $transparence, transparent 70%);
+}
+
+.blob.purple {
+    background: radial-gradient(circle, rgba(165,0,255,$opacity) $transparence, transparent 70%);
+}
+

@@ -1,0 +1,20 @@
+<div class="movie-modal-container">
+    <div class="movieModal">
+        <div class="movie-picture">
+            <picture>
+                <source srcset="{{ asset('movie/cover_horizontal.jpg')| imagine_filter('movie_modal_webp') }}" type="image/webp">
+                <source srcset="{{ asset('movie/cover_horizontal.jpg')| imagine_filter('movie_modal_png') }}" type="image/png">
+                <img src="{{ asset('movie/cover_horizontal.jpg')| imagine_filter('movie_modal_png') }}" alt="">
+            </picture>
+        </div>
+        <div class="info">
+            <div class="botones"><div class="boton play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M6 2l52 30L6 62V2z"></path></svg></div><div class="boton plus" data-tooltip="Agregar a mi lista"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32 16v32m16-16H16"></path></svg></div><div class="boton like" data-tooltip="Me gusta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M54 35h2a4 4 0 1 0 0-8H34a81 81 0 0 0 2-18 4 4 0 0 0-8 0s-4 22-18 22H4v24h10c4 0 12 4 16 4h20a4 4 0 0 0 0-8h2a4 4 0 0 0 0-8h2a4 4 0 0 0 0-8"></path></svg></div><div class="boton dislike" data-tooltip="No es para mí"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M10 29H8a4 4 0 0 0 0 8h22a81 81 0 0 0-2 18 4 4 0 0 0 8 0s4-22 18-22h6V9H50c-4 0-12-4-16-4H14a4 4 0 0 0 0 8h-2a4 4 0 0 0 0 8h-2a4 4 0 0 0 0 8"></path></svg></div><div class="boton arrow" data-tooltip="Más información"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M20 26l11.994 14L44 26"></path></svg></div></div>
+            <div class="datos">
+                <div class="match">Nuevo</div>
+                <div class="clasificacion">TV-MA</div>
+                <div class="duracion">1 h 38 min</div>
+            </div>
+            <div class="tags"><div class="tag">Psicológico</div><div class="tag">Siniestro</div><div class="tag">De suspenso</div></div>
+        </div>
+    </div>
+</div>

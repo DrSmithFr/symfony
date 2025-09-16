@@ -2,11 +2,10 @@
 
 namespace App\Controller\App;
 
-use App\Controller\Admin\AdminPageController;
 use App\Enum\RoleEnum;
 use App\Form\Account\AppPasswordResetType;
-use App\Form\Account\AppRegisterType;
 use App\Form\Account\AppRecoverAccountType;
+use App\Form\Account\AppRegisterType;
 use App\Model\Password\PasswordResetModel;
 use App\Model\User\RecoverAccountModel;
 use App\Model\User\RegisterModel;
@@ -15,15 +14,16 @@ use App\Service\MailerService;
 use App\Service\UserService;
 use Doctrine\ORM\EntityManagerInterface;
 use RuntimeException;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Bundle\SecurityBundle\Security;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
-class AccountController extends AdminPageController
+class AccountController extends AbstractController
 {
-    #[Route('/account/login', name: 'app_account_login')]
+    #[Route('/account/login', name: 'app_login')]
     public function loginAction(
         AuthenticationUtils $authenticationUtils,
     ): Response {
@@ -48,7 +48,7 @@ class AccountController extends AdminPageController
         ]);
     }
 
-    #[Route('/account/register', name: 'app_account_register')]
+    #[Route('/account/register', name: 'app_register')]
     public function registerAction(
         Request $request,
         UserService $userService,
@@ -89,7 +89,7 @@ class AccountController extends AdminPageController
         ]);
     }
 
-    #[Route('/account/recover', name: 'app_account_recover')]
+    #[Route('/account/recover', name: 'app_recover')]
     public function recoverAction(
         Request $request,
         AuthenticationUtils $authenticationUtils,
@@ -121,7 +121,7 @@ class AccountController extends AdminPageController
 
             $this->addFlash('info', 'Mail sent');
 
-            return $this->redirectToRoute('app_account_reset_password');
+            return $this->redirectToRoute('app_reset_password');
         }
 
         return $this->render('account/recover.html.twig', [
@@ -135,7 +135,7 @@ class AccountController extends AdminPageController
         ]);
     }
 
-    #[Route('/account/reset_password', name: 'app_account_reset_password')]
+    #[Route('/account/reset_password', name: 'app_reset_password')]
     public function resetPasswordAction(
         Request $request,
         AuthenticationUtils $authenticationUtils,
@@ -182,7 +182,7 @@ class AccountController extends AdminPageController
         ]);
     }
 
-    #[Route('/account/logout', name: 'account_logout')]
+    #[Route('/account/logout', name: 'app_logout')]
     public function logoutAction(): Response
     {
         throw new RuntimeException('This should never be called directly.');

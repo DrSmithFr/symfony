@@ -1,0 +1,112 @@
+@import "breakpoint";
+
+// Personal grid system
+// grid mixin
+$gridNumberOfColumns: 12;
+
+// container related
+.container {
+  max-width: $desktop-break * 1px;
+  margin: 10px auto;
+
+  &.fluid {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+// row related
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+// get back extra small autocomplete
+.xsmall-1 {}
+.xsmall-2 {}
+.xsmall-3 {}
+.xsmall-4 {}
+.xsmall-5 {}
+.xsmall-6 {}
+.xsmall-7 {}
+.xsmall-8 {}
+.xsmall-9 {}
+.xsmall-10 {}
+.xsmall-11 {}
+.xsmall-12 {}
+
+// get back small autocomplete
+.small-1 {}
+.small-2 {}
+.small-3 {}
+.small-4 {}
+.small-5 {}
+.small-6 {}
+.small-7 {}
+.small-8 {}
+.small-9 {}
+.small-10 {}
+.small-11 {}
+.small-12 {}
+
+// get back medium autocomplete
+.medium-1 {}
+.medium-2 {}
+.medium-3 {}
+.medium-4 {}
+.medium-5 {}
+.medium-6 {}
+.medium-7 {}
+.medium-8 {}
+.medium-9 {}
+.medium-10 {}
+.medium-11 {}
+.medium-12 {}
+
+// get back large autocomplete
+.large-1 {}
+.large-2 {}
+.large-3 {}
+.large-4 {}
+.large-5 {}
+.large-6 {}
+.large-7 {}
+.large-8 {}
+.large-9 {}
+.large-10 {}
+.large-11 {}
+.large-12 {}
+
+// column related
+@mixin create-mq($breakpoint) {
+  @if($breakpoint == 0) {
+    @content;
+  } @else {
+    @media screen and (min-width: $breakpoint *1px) {
+      @content;
+    }
+  }
+}
+
+@mixin create-col-classes($name, $grid__cols, $breakpoint) {
+  @include create-mq($breakpoint) {
+    @for $i from 1 through $grid__cols {
+      .#{$name}-#{$i} {
+        flex-basis: (100 / ($grid__cols / $i) ) * 1%;
+        width: (100 / ($grid__cols / $i) ) * 1%;
+      }
+    }
+  }
+}
+
+$map-grid-props: (
+  'xsmall': 0,
+  'small': $mobile-break,
+  'medium': $tablet-break,
+  'large': $desktop-break
+);
+
+@each $modifier , $breakpoint in $map-grid-props {
+  @include create-col-classes($modifier, $gridNumberOfColumns, $breakpoint);
+}

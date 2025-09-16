@@ -1,0 +1,81 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil - YtSeries{% endblock %}
+
+{% block stylesheets %}
+{{ parent() }}
+{% endblock %}
+
+{% block body %}
+    {{ include('_navigation.twig') }}
+
+    <header>
+        {{ include('app/_header_hero.html.twig') }}
+    </header>
+
+    <div class="blob-container">
+        <div class="content first-row">
+            {{
+                include('app/_movie_section.html.twig', {
+                    isTop10: false,
+                    sectionTitle: 'Nouveautés sur YTSeries',
+                    movies: movies
+                })
+            }}
+
+            {{
+                include('app/_movie_section.html.twig', {
+                    isTop10: true,
+                    sectionTitle: '10 más populares en México hoy',
+                })
+            }}
+
+            {{
+                include('app/_movie_section.html.twig', {
+                    isTop10: false,
+                    sectionTitle: '10 más populares en México hoy',
+                })
+            }}
+        </div>
+
+        <div class="blob-wrapper">
+            <div class="blob bottom right pink"></div>
+            <div class="blob top left blue"></div>
+        </div>
+    </div>
+
+    {{ include('app/_top_ten_section.html.twig') }}
+
+    <div class="blob-container">
+        <div class="content">
+            {{
+            include('app/_movie_section.html.twig', {
+                isTop10: false,
+                sectionTitle: 'Nouveautés sur YTSeries',
+                movies: movies
+            })
+            }}
+
+            {{
+            include('app/_movie_section.html.twig', {
+                isTop10: false,
+                sectionTitle: '10 más populares en México hoy',
+            })
+            }}
+
+            {{
+            include('app/_movie_section.html.twig', {
+                isTop10: false,
+                sectionTitle: '10 más populares en México hoy',
+            })
+            }}
+        </div>
+
+        <div class="blob-wrapper">
+            <div class="blob bottom left green"></div>
+            <div class="blob top right yellow"></div>
+        </div>
+    </div>
+
+    {{ include('_footer.twig') }}
+{% endblock %}

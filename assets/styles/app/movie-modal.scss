@@ -1,0 +1,191 @@
+@mixin imagen($url: '', $size: cover, $posicion: center, $repeat: no-repeat, $parallax: false) {
+    @if $url != '' {
+        background-image: url($url);
+    }
+    background-size: $size;
+    background-position: $posicion;
+    background-repeat: $repeat;
+    @if $parallax == true {
+        background-attachment: fixed;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.movie:hover {
+    .movie-modal-container {
+        display: block !important;
+    }
+}
+
+.movie-modal-container {
+    display: none;
+    z-index: 50;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    top: 50%;
+    left: 50%;
+
+    padding: 30px;
+
+    &.centered {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.movieModal {
+    cursor: default;
+    width: 350px;
+
+    background-color: #141414;
+    color: #9b9b9b;
+
+    box-shadow: 0 2px 10px 0 #000;
+    transition: ease all .3s;
+
+    .movie-picture {
+        width: 100%;
+        height: 200px;
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+        overflow: hidden;
+    }
+
+    .info {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .botones, .datos, .tags {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            align-content: center;
+        }
+
+        .botones {
+            font-size: 12px;
+
+
+            .boton {
+                width: 40px;
+                height: 40px;
+
+                padding: 8px;
+                border-radius: 50%;
+                border: 2px solid #595959;
+
+                background-color: rgba(#fff, .05);
+                box-sizing: border-box;
+
+                position: relative;
+                text-align: center;
+
+                cursor: pointer;
+
+                &:not(.play) {
+                    &:hover {
+                        &:before {
+                            content: attr(data-tooltip);
+                            position: absolute;
+                            bottom: 100%;
+                            left: 50%;
+                            width: max-content;
+                            padding: 10px 20px;
+                            border-radius: 3px;
+                            color: #000;
+                            font-size: 14px;
+                            font-weight: 600;
+                            background-color: #fff;
+                            transform: translate(-50%, -18px);
+                            box-shadow: 0 2px 10px 0 #000;
+                        }
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            top: -1px;
+                            transform: translateY(-18px);
+                            border-top: 10px solid #fff;
+                            border-left: 10px solid transparent;
+                            border-right: 10px solid transparent;
+                        }
+                    }
+                }
+
+                &:not(.arrow) {
+                    margin-right: 10px;
+                }
+
+                &.arrow {
+                    margin-left: auto;
+                }
+
+                &.play {
+                    border-color: #fff;
+                    background-color: #fff;
+
+                    svg {
+                        path {
+                            fill: #000;
+                            stroke-width: 0;
+                        }
+                    }
+                }
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+
+                    path {
+                        fill: none;
+                        stroke: #fff;
+                        stroke-width: 2;
+                        stroke-miterlimit: 10;
+                    }
+                }
+            }
+        }
+
+        .datos {
+            margin: 20px 0;
+            font-weight: 600;
+
+            .match {
+                color: #46d369;
+            }
+
+            .clasificacion {
+                margin: 0 10px;
+                padding: 4px 8px;
+                font-size: 14px;
+                border: 1px solid #fff;
+            }
+        }
+
+        .tags {
+            flex-wrap: wrap;
+            font-weight: 600;
+
+            .tag {
+                margin: 5px 5px 5px 0;
+
+                &:not(:first-child) {
+                    &:before {
+                        content: "\2022";
+                        margin-right: 5px;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}

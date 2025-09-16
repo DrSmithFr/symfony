@@ -5,7 +5,7 @@ install: env hooks dependencies assets nvm start build start database
 reload: kill start
 
 env:
-	sudo apt install php8.4-cli php8.4-fpm php8.4-common php8.4-curl php8.4-pgsql php8.4-xml php8.4-mbstring php8.4-intl php8.4-zip php8.4-redis php-sqlite3 php-xdebug
+	sudo apt install php8.4-cli php8.4-fpm php8.4-common php8.4-curl php8.4-pgsql php8.4-xml php8.4-mbstring php8.4-intl php8.4-zip php8.4-redis php8.4-gd php-sqlite3 php-xdebug
 	sudo apt install nginx
 
 dependencies:
@@ -21,9 +21,10 @@ assets:
 
 
 start:
-	docker compose -f compose.yaml -f compose.override.yaml up -d
+	symfony local:server:start
 
 kill:
+	symfony local:server:stop
 	docker compose kill
 	docker compose rm -f
 
@@ -51,3 +52,7 @@ hooks:
 
 jwt:
 	symfony console lexik:jwt:generate-keypair
+
+series:
+	symfony console app:series:import
+	symfony console app:series:indexation

@@ -1,6 +1,6 @@
-{% extends 'account/base.html.twig' %}
+{% extends '_base_login.html.twig' %}
 
-{% block wrapper_wrapper %}
+{% block wrapper_content %}
     {% set page_title = block('page_title') %}
     {% set _username_label = username_label is defined ? username_label|trans : 'login_page.username'|trans({}, 'EasyAdminBundle') %}
     {% set _password_label = password_label is defined ? password_label|trans : 'login_page.password'|trans({}, 'EasyAdminBundle') %}
@@ -10,16 +10,9 @@
 
     {% include '@EasyAdmin/flash_messages.html.twig' %}
 
-<div class="wrapper">
-        <div class="form-cell">
+    <div class="sign-up-form active">
+        <h1>{{ page_title|capitalize }}</h1>
 
-            <div class="sign-up-form active">
-                <h1>{{ page_title|capitalize }}</h1>
-
-
-            </div>
-
-        </div>
     </div>
 
 {% endblock %}

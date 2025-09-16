@@ -28,7 +28,7 @@ class PasswordController extends AbstractApiController
      * @throws NonUniqueResultException
      * @throws TransportExceptionInterface
      */
-    #[Route(path: '/auth/recover', name: 'reset_password_recover', methods: ['post'])]
+    #[Route(path: '/auth/recover', name: 'api_reset_password_recover', methods: ['post'])]
     #[OA\RequestBody(
         content: new OA\MediaType(
             mediaType: 'application/json',
