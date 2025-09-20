@@ -1,28 +1,28 @@
 import { Controller } from '@hotwired/stimulus';
 import YouTubePlayer from 'youtube-player';
-import { YouTubePlayer as Player } from 'youtube-player/dist/types';
 import PlayerStates from 'youtube-player/dist/constants/PlayerStates';
+import { YouTubePlayer as Player } from 'youtube-player/dist/types';
 
 export default class extends Controller {
-    static targets: string[]   = ['wrapper', 'video']
+    static targets: string[] = ['video']
+
     player: Player | undefined = undefined;
 
-    connect() {
-        const playerWrapper = this.targets.find('wrapper') as HTMLElement;
-        const playerElement = this.targets.find('video') as HTMLElement;
+    declare videoTarget: HTMLElement
 
-        if (!playerWrapper || !playerElement) {
-            throw new Error('YouTubePlayer: Player Wrapper must be defined');
+    connect() {
+        if (!this.videoTarget) {
+            throw new Error('PopOverTrailer: video target must be defined');
         }
 
-        const videoId = playerElement.dataset.videoId;
+        const videoId = this.videoTarget.dataset.videoId;
 
         if (videoId === undefined) {
-            throw new Error('YouTubePlayer: Video ID must be defined');
+            throw new Error('PopOverTrailer: Video ID must be defined');
         }
 
         this.player = YouTubePlayer(
-            playerElement,
+            this.videoTarget,
             {
                 videoId: videoId,
                 height: '100%',
@@ -46,12 +46,10 @@ export default class extends Controller {
             .player
             .on('ready', e => {
                 setTimeout(() => {
-                    console.log('HeroPlayer should start soon!');
                     this
                         .player
                         ?.playVideo()
                         .then(() => {
-                            console.log('HeroPlayer has been started!');
                         })
                 }, 100)
             });
@@ -62,19 +60,24 @@ export default class extends Controller {
                 switch (e.data) {
                     case PlayerStates.PLAYING: // playing
                         setTimeout(() => {
-                            playerWrapper.classList.add('displayed');
+                            this.videoTarget.classList.add('playing');
                         }, 1000)
                         break;
                     case PlayerStates.ENDED: // ended
-                        playerWrapper.classList.remove('displayed');
+                        this.videoTarget.classList.remove('playing');
                         break;
                 }
             });
     }
 
+    disconnect() {
+        this.player?.destroy();
+        super.disconnect();
+    }
+
     startVideo() {
         if (!this.player) {
-            throw new Error('YouTubePlayer: Player is not defined');
+            throw new Error('PopOverTrailer: Player is not defined');
         }
 
         this

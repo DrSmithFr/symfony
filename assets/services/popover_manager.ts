@@ -1,32 +1,41 @@
 // PopoverLayer.ts
-export class PopoverLayer {
-    private static layer: HTMLElement | null = null
+export class PopoverManager {
+
+    private static LAYER_ID = 'layer-container';
     private static activePopovers: HTMLElement[] = []
 
-    private static ensureLayer(): HTMLElement {
-        if (!this.layer) {
-            this.layer = document.createElement('div')
-            this.layer.id = 'popover-layer'
+    static getLayer(): HTMLElement {
+        let layer = document.getElementById(this.LAYER_ID);
 
-            Object.assign(this.layer.style, {
+        if (!layer) {
+            layer = document.createElement('div')
+            layer.id = this.LAYER_ID
+
+            Object.assign(layer.style, {
                 position: 'absolute',
+
                 top: '0',
                 bottom: '0',
                 left: '0',
                 right: '0',
+
                 zIndex: '100',
                 pointerEvents: 'none'
             })
 
-            document.body.appendChild(this.layer)
+            document.body.appendChild(layer)
+
+            // Allow to expand the node in debuggers
+            layer.innerHTML = '<br>'
         }
-        return this.layer
+
+        return layer
     }
 
     static open(popover: HTMLElement): void {
         this.clearAll();
 
-        const layer = this.ensureLayer()
+        const layer = this.getLayer()
 
         // pointer events sur le popover mais pas sur la couche
         popover.style.position = 'fixed'

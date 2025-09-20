@@ -31,8 +31,20 @@ section.movies {
             align-items: center;
             align-content: center;
 
+            position: relative;
+
+            &:after {
+                content: " ";
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                width: 10%;
+                background: linear-gradient(90deg, #00000000 0%, #000 100%);
+            }
+
             .movie {
-                margin: 0 10px;
+                margin: 0 2px;
                 position: relative;
 
                 .thumb {
@@ -47,7 +59,8 @@ section.movies {
                     .tags {
                         position: absolute;
 
-                        bottom: 0;
+                        bottom: 1px;
+
                         left: 0;
                         right: 0;
 
@@ -64,15 +77,16 @@ section.movies {
                             font-size: 11px;
                             font-weight: 500;
 
-                            padding: 2px 5px;
-                            border-radius: 3px;
+                            padding: 2px 5px 0;
 
                             &:first-child {
-                                border-radius: 5px 0 0 0; /* arrondi gauche */
+                                border-top-left-radius: 5px;
+                                border-bottom-left-radius: 5px;
                             }
 
                             &:last-child {
-                                border-radius: 0 5px 0 0; /* arrondi droit */
+                                border-top-right-radius: 5px;
+                                border-bottom-right-radius: 5px;
                             }
 
                             &.important {
@@ -101,9 +115,13 @@ section.movies {
         position: relative;
 
         .movies-list {
+            &:after {
+                display: none;
+            }
+
             .movie {
                 width: 212px;
-                margin: 0 10px;
+                margin: 0 2px;
 
                 display: flex;
                 justify-content: flex-start;
@@ -145,8 +163,8 @@ section.movies {
                     .tags {
                         span {
                             border-radius: 5px;
+                            padding-bottom: 2px;
                         }
-
                         span:not(.important) {
                             display: none;
                         }
