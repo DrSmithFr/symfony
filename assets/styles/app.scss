@@ -36,11 +36,6 @@ html, body {
     background: $black;
 }
 
-// dirty fix
-body {
-    overflow-x: hidden;
-}
-
 @import "app/header-hero";
 @import "app/navigation";
 @import "app/movie-section";

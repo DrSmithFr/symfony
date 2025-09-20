@@ -38,6 +38,7 @@
     },
     "dependencies": {
         "@material/web": "^2.4.0",
+        "@stimulus-components/popover": "^7.0.0",
         "bootstrap": "^5.3.8",
         "yarn": "^1.22.19",
         "youtube-player": "^5.6.0"
